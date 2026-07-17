@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Critical-Fact Omission
+
+A production brief omits an entitlement restriction and contributes to incorrect routing. Monitoring flags the omission; the reliability lead stops automated brief delivery and switches to manual preparation. Incident command preserves the prompt, model, retrieval index, sources, output, review actions, and affected cases. Support contacts affected customers under the communications plan. Investigation finds a stale retrieval filter plus weak reviewer highlighting. Remediation updates context expiry, the golden set, scorecard, interface, and rollback test; service resumes only after verification against affected and holdout cases.

@@ -36,3 +36,17 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-workflow-playbook-builder`](../skills/aipom-workflow-playbook-builder/SKILL.md) | Turn a tested human-AI workflow into an inspectable playbook with context, roles, decisions, examples, controls, measures, fallback, and improvement ownership. | active |
 | [`aipom-opportunity-framing`](../skills/aipom-opportunity-framing/SKILL.md) | Frame an AI product opportunity around an evidenced condition, affected actors, consequences, alternatives, and the uncertainty that should be tested next. | active |
 | [`aipom-outcome-value-map`](../skills/aipom-outcome-value-map/SKILL.md) | Map how AI behavior may change user behavior, product outcomes, economic value, and risk while exposing causal assumptions and countermeasures. | active |
+
+## Phase 3
+
+| Skill | Description | Status |
+|---|---|---|
+| [`aipom-context-lifecycle-designer`](../skills/aipom-context-lifecycle-designer/SKILL.md) | Design how AI context is created, retrieved, refreshed, versioned, reconciled, retained, expired, excluded, and retired for a recurring purpose. | active |
+| [`aipom-initiative-readiness-review`](../skills/aipom-initiative-readiness-review/SKILL.md) | Review one AI initiative across value, economics, dependencies, workflow, context, evaluation, governance, controls, capability, and recovery before a material decision. | active |
+| [`aipom-operating-model-design-sprint`](../skills/aipom-operating-model-design-sprint/SKILL.md) | Design and test a bounded AI product operating-model change across decisions, workflows, context, evidence, governance, capability, ownership, and adoption. | active |
+| [`aipom-eval-scorecard-builder`](../skills/aipom-eval-scorecard-builder/SKILL.md) | Define calibrated AI evaluation metrics, rubrics, judges, thresholds, sampling, uncertainty, ownership, and decision rules tied to behavior and consequences. | active |
+| [`aipom-golden-dataset-builder`](../skills/aipom-golden-dataset-builder/SKILL.md) | Build a governed, representative AI evaluation set with provenance, expected behavior, edge cases, affected groups, adjudication, versioning, and limits. | active |
+| [`aipom-risk-control-incident-playbook`](../skills/aipom-risk-control-incident-playbook/SKILL.md) | Design preventive controls, detection, triage, containment, rollback, communication, investigation, remediation, learning, and reporting for AI incidents. | active |
+| [`aipom-platform-dependency-audit`](../skills/aipom-platform-dependency-audit/SKILL.md) | Assess model, vendor, data, infrastructure, integration, talent, switching, and portability dependencies that can change an AI investment decision. | active |
+| [`aipom-decision-cycle-redesign`](../skills/aipom-decision-cycle-redesign/SKILL.md) | Redesign a recurring product decision cycle around evidence, context, human judgment, AI assistance, authority, feedback, and measurable learning. | active |
+| [`aipom-economic-case-builder`](../skills/aipom-economic-case-builder/SKILL.md) | Build an evidence-aware economic case for an AI investment across value, full lifecycle cost, uncertainty, alternatives, risk, and decision thresholds. | active |

@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Case-Brief Evaluation Set
+
+The set includes routine cases, conflicting severity, missing entitlement, restricted notes, long histories, reopened cases, and cases from differently represented account tiers. Each case records source permission, expected citations, acceptable summary variation, and prohibited inferred commitments. Two specialists label independently; disagreement about routing remains an ambiguity tag rather than forced truth. Development and protected holdout sets are separated, and production omissions trigger governed case proposals rather than silent additions.

@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Support Decision Cycle
+
+An assessment identifies weak workflow evidence, context ownership, and rollback despite strong AI enthusiasm. The sprint targets one escalation-routing decision. Practitioners map real work, assign authoritative sources, define a cited brief behavior, establish human authority and critical-failure thresholds, and run eight representative cases. Testing reveals that conflict escalation—not summarization—is the main constraint. The team revises the operating design, adopts a limited assisted workflow, assigns a context steward and reliability owner, and schedules 30/90-day evidence reviews before wider reuse.

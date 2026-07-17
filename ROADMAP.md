@@ -86,17 +86,19 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 
 | Category | Skill | Type | Status |
 |---|---|---|---|
-| Strategy | `aipom-economic-case-builder` | component | planned |
-| Portfolio | `aipom-platform-dependency-audit` | component | planned |
-| Workflows | `aipom-decision-cycle-redesign` | workflow | planned |
-| Context | `aipom-context-lifecycle-designer` | component | planned |
-| Evaluation | `aipom-golden-dataset-builder` | component | planned |
-| Evaluation | `aipom-eval-scorecard-builder` | component | planned |
-| Governance | `aipom-risk-control-incident-playbook` | component | planned |
-| Cross-category | `aipom-initiative-readiness-review` | workflow | planned |
-| Cross-category | `aipom-operating-model-design-sprint` | workflow | planned |
+| Strategy | `aipom-economic-case-builder` | component | active |
+| Portfolio | `aipom-platform-dependency-audit` | component | active |
+| Workflows | `aipom-decision-cycle-redesign` | workflow | active |
+| Context | `aipom-context-lifecycle-designer` | component | active |
+| Evaluation | `aipom-golden-dataset-builder` | component | active |
+| Evaluation | `aipom-eval-scorecard-builder` | component | active |
+| Governance | `aipom-risk-control-incident-playbook` | component | active |
+| Cross-category | `aipom-initiative-readiness-review` | workflow | active |
+| Cross-category | `aipom-operating-model-design-sprint` | workflow | active |
 
 **Total:** 9 skills.
+
+**Phase status: complete.** All 9 Phase 3 skills are active and validated as an integrated evidence, readiness, and control system.
 
 **Exit gate:** An organization can evaluate an AI initiative across economics, dependencies, behavior, context, controls, accountability, and readiness without averaging away a critical gap.
 

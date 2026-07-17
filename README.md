@@ -19,7 +19,7 @@ Repository-wide instructions for human and AI contributors live in [AGENTS.md](A
 
 ## Current State
 
-Phase 0, Phase 1, and Phase 2 are complete. The library now provides 25 active, validated skills spanning assessment, action, and repeatable practice:
+Phase 0 through Phase 3 are complete. The library now provides 34 active, validated skills spanning assessment, action, repeatable practice, evidence, readiness, and control:
 
 - Assess the operating model across 35 evidence-based questions
 - Diagnose the most consequential gap in each of seven categories
@@ -30,6 +30,10 @@ Phase 0, Phase 1, and Phase 2 are complete. The library now provides 25 active, 
 - Triage use cases and apply evidence-based investment gates
 - Map, assign, document, and measure repeatable human-AI workflows
 - Establish authoritative sources, data readiness, accountability, and role competencies
+- Build full-cost economic cases and expose platform dependency risk
+- Govern context lifecycles, evaluation sets, scorecards, and incident response
+- Review initiative readiness without averaging away critical gaps
+- Prototype and test bounded operating-model changes before scaling
 
 Canonical packages preserve the full AIPOM organizational metadata. The release build also generates Codex-compatible packages with platform-specific metadata and bundled references.
 

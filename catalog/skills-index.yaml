@@ -1366,3 +1366,539 @@ skills:
   - aipom-evaluation-strategy-advisor
   sources: []
   path: skills/aipom-outcome-value-map/SKILL.md
+- name: aipom-context-lifecycle-designer
+  description: Design how AI context is created, retrieved, refreshed, versioned,
+    reconciled, retained, expired, excluded, and retired for a recurring purpose.
+  type: component
+  category: context-knowledge-and-data
+  phase: 3
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  - initiative
+  audience:
+  - Product Operations
+  - Product Manager
+  - Engineering
+  - Data
+  - Knowledge Management
+  - Privacy
+  - Security
+  - AI Governance
+  best_for:
+  - Operating reusable context packages
+  - Preventing stale or conflicting context
+  - Defining retention correction and expiry behavior
+  evidence_required:
+  - Authoritative source map and context package
+  - Retrieval and failure evidence
+  - Permissions retention and correction rules
+  - Owners and change triggers
+  produces:
+  - Context lifecycle design
+  - State transition and conflict rules
+  - Ownership monitoring and test plan
+  assessment_questions:
+  - CTX-01
+  - CTX-02
+  - CTX-04
+  - CTX-05
+  maturity_move:
+    from: repeatable
+    to: operationalized
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - authoritative-source-map
+  - aipom-context-package-builder
+  combine_with:
+  - aipom-data-readiness-audit
+  - aipom-workflow-playbook-builder
+  - aipom-production-evidence-review
+  sources: []
+  path: skills/aipom-context-lifecycle-designer/SKILL.md
+- name: aipom-initiative-readiness-review
+  description: Review one AI initiative across value, economics, dependencies, workflow,
+    context, evaluation, governance, controls, capability, and recovery before a material
+    decision.
+  type: workflow
+  category: cross-category
+  phase: 3
+  status: active
+  operating_level:
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - CPO
+  - CTO
+  - Product Manager
+  - Engineering
+  - Finance
+  - Operations
+  - Legal
+  - Privacy
+  - Security
+  - Risk
+  - AI Governance
+  best_for:
+  - Launch or scale decisions
+  - Increasing autonomy or sensitive-data use
+  - Resolving conflicting readiness claims
+  evidence_required:
+  - Bet outcome and economic evidence
+  - Architecture context data and evaluation artifacts
+  - Accountability controls and incident readiness
+  - Adoption capability and operating evidence
+  produces:
+  - Initiative readiness profile
+  - Critical gaps and constrained decisions
+  - Proceed constrain remediate pause or stop recommendation
+  assessment_questions:
+  - STR-02
+  - STR-03
+  - STR-04
+  - POR-02
+  - POR-03
+  - POR-04
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  - CTX-01
+  - CTX-02
+  - CTX-03
+  - CTX-04
+  - CTX-05
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 2-4 hours across preparation and review
+  group_size: 5-14
+  depends_on:
+  - aipom-bet-charter
+  - aipom-economic-case-builder
+  - aipom-platform-dependency-audit
+  - aipom-evaluation-strategy-advisor
+  - aipom-accountability-charter
+  - aipom-risk-control-incident-playbook
+  combine_with:
+  - aipom-investment-stage-gates
+  - aipom-operating-model-design-sprint
+  - aipom-production-evidence-review
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+  path: skills/aipom-initiative-readiness-review/SKILL.md
+- name: aipom-operating-model-design-sprint
+  description: Design and test a bounded AI product operating-model change across
+    decisions, workflows, context, evidence, governance, capability, ownership, and
+    adoption.
+  type: workflow
+  category: cross-category
+  phase: 3
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - CTO
+  - Product Operations
+  - Product Manager
+  - Engineering
+  - Data
+  - Finance
+  - AI Governance
+  best_for:
+  - Turning assessment findings into an operating design
+  - Resolving cross-category dependencies
+  - Testing a repeatable practice before scaling
+  evidence_required:
+  - Operating-model assessment and roadmap
+  - Priority condition and affected decisions
+  - Existing artifacts workflows owners and measures
+  - Capacity constraints and change evidence
+  produces:
+  - Bounded operating-model design
+  - Integrated prototype and test
+  - Adoption decision and implementation handoff
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  - POR-01
+  - POR-02
+  - POR-03
+  - POR-04
+  - POR-05
+  - WFL-01
+  - WFL-02
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  - CTX-01
+  - CTX-02
+  - CTX-03
+  - CTX-04
+  - CTX-05
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  - CAP-04
+  - CAP-05
+  maturity_move:
+    from: repeatable
+    to: operationalized
+  estimated_time: 3-10 working days
+  group_size: 5-12 core team plus participants
+  depends_on:
+  - aipom-operating-model-assessment
+  - aipom-operating-model-roadmap
+  combine_with:
+  - aipom-decision-cycle-redesign
+  - aipom-initiative-readiness-review
+  - workflow-to-skill-converter
+  sources: []
+  path: skills/aipom-operating-model-design-sprint/SKILL.md
+- name: aipom-eval-scorecard-builder
+  description: Define calibrated AI evaluation metrics, rubrics, judges, thresholds,
+    sampling, uncertainty, ownership, and decision rules tied to behavior and consequences.
+  type: component
+  category: evaluation-and-evidence
+  phase: 3
+  status: active
+  operating_level:
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Research
+  - Data
+  - Engineering
+  - Domain Experts
+  - AI Governance
+  best_for:
+  - Turning a behavior contract into repeatable evaluation
+  - Calibrating human or automated judges
+  - Making launch and rollback thresholds explicit
+  evidence_required:
+  - Behavior contract and evaluation strategy
+  - Governed representative cases
+  - Failure consequences and baselines
+  - Judge calibration evidence
+  produces:
+  - Evaluation scorecard
+  - Calibration and sampling plan
+  - Decision threshold and exception rules
+  assessment_questions:
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - aipom-behavior-contract-builder
+  - aipom-golden-dataset-builder
+  combine_with:
+  - aipom-evaluation-strategy-advisor
+  - aipom-production-evidence-review
+  - aipom-risk-control-incident-playbook
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+  path: skills/aipom-eval-scorecard-builder/SKILL.md
+- name: aipom-golden-dataset-builder
+  description: Build a governed, representative AI evaluation set with provenance,
+    expected behavior, edge cases, affected groups, adjudication, versioning, and
+    limits.
+  type: component
+  category: evaluation-and-evidence
+  phase: 3
+  status: active
+  operating_level:
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Research
+  - Data
+  - Engineering
+  - Domain Experts
+  - Privacy
+  - AI Governance
+  best_for:
+  - Creating repeatable pre-release evaluation
+  - Improving unrepresentative test cases
+  - Governing expected answers and expert disagreement
+  evidence_required:
+  - Behavior contract and real-use evidence
+  - Data readiness and provenance
+  - Failure incidents and affected perspectives
+  - Expert adjudication capacity
+  produces:
+  - Versioned evaluation set
+  - Coverage and provenance record
+  - Adjudication and maintenance rules
+  assessment_questions:
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - CTX-03
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 90-180 min plus maintenance
+  group_size: 4-10
+  depends_on:
+  - aipom-behavior-contract-builder
+  - aipom-data-readiness-audit
+  combine_with:
+  - aipom-eval-scorecard-builder
+  - aipom-evaluation-strategy-advisor
+  - aipom-production-evidence-review
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+  path: skills/aipom-golden-dataset-builder/SKILL.md
+- name: aipom-risk-control-incident-playbook
+  description: Design preventive controls, detection, triage, containment, rollback,
+    communication, investigation, remediation, learning, and reporting for AI incidents.
+  type: component
+  category: governance-and-accountability
+  phase: 3
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Engineering
+  - Operations
+  - Security
+  - Privacy
+  - Legal
+  - Risk
+  - AI Governance
+  best_for:
+  - Preparing an AI product for operation
+  - Repairing weak rollback or escalation
+  - Coordinating product and governance incident duties
+  evidence_required:
+  - Behavior and autonomy boundaries
+  - Evaluation thresholds and production signals
+  - Existing incident and escalation systems
+  - Applicable reporting and preservation duties
+  produces:
+  - AI risk-control map
+  - Incident response playbook
+  - Exercise and learning plan
+  assessment_questions:
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - EVAL-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 90-180 min plus exercise
+  group_size: 5-12
+  depends_on:
+  - aipom-accountability-charter
+  - aipom-autonomy-boundary-designer
+  - aipom-eval-scorecard-builder
+  combine_with:
+  - aipom-production-evidence-review
+  - aipom-trust-assurance-pack-builder
+  - aipom-initiative-readiness-review
+  sources:
+  - https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+  - https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  - https://oecd.ai/en/site/incidents/
+  path: skills/aipom-risk-control-incident-playbook/SKILL.md
+- name: aipom-platform-dependency-audit
+  description: Assess model, vendor, data, infrastructure, integration, talent, switching,
+    and portability dependencies that can change an AI investment decision.
+  type: component
+  category: portfolio-and-investment-choices
+  phase: 3
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - initiative
+  audience:
+  - CTO
+  - VP Product
+  - Product Manager
+  - Engineering
+  - Procurement
+  - Finance
+  - Security
+  - AI Governance
+  best_for:
+  - Material vendor or platform commitments
+  - Preparing scale or renewal decisions
+  - Finding concentration and exit exposure
+  evidence_required:
+  - Architecture and data flows
+  - Contracts pricing and service terms
+  - Model and evaluation evidence
+  - Portability tests and operating ownership
+  produces:
+  - Dependency and concentration map
+  - Scenario and exit analysis
+  - Mitigation and decision recommendations
+  assessment_questions:
+  - POR-04
+  - POR-05
+  - STR-04
+  - GOV-03
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - aipom-bet-charter
+  combine_with:
+  - aipom-economic-case-builder
+  - aipom-investment-stage-gates
+  - aipom-initiative-readiness-review
+  sources:
+  - https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+  path: skills/aipom-platform-dependency-audit/SKILL.md
+- name: aipom-decision-cycle-redesign
+  description: Redesign a recurring product decision cycle around evidence, context,
+    human judgment, AI assistance, authority, feedback, and measurable learning.
+  type: workflow
+  category: product-team-workflows
+  phase: 3
+  status: active
+  operating_level:
+  - product-team
+  - initiative
+  audience:
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Research
+  - Data
+  - AI Governance
+  best_for:
+  - Improving a slow or low-quality recurring decision
+  - Integrating multiple Phase 2 practices
+  - Testing whether AI changes learning rather than output
+  evidence_required:
+  - Productive-motion map and baseline
+  - Decision records and outcomes
+  - Context behavior and evaluation artifacts
+  - Authority and incident evidence
+  produces:
+  - Redesigned decision cycle
+  - Pilot and measurement plan
+  - Governed workflow handoff
+  assessment_questions:
+  - WFL-01
+  - WFL-02
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  maturity_move:
+    from: repeatable
+    to: operationalized
+  estimated_time: 2-4 hours across multiple sessions
+  group_size: 4-10
+  depends_on:
+  - aipom-productive-motion-map
+  - human-aipom-work-contract
+  - aipom-workflow-playbook-builder
+  combine_with:
+  - aipom-context-package-builder
+  - aipom-evaluation-strategy-advisor
+  - aipom-accountability-charter
+  sources: []
+  path: skills/aipom-decision-cycle-redesign/SKILL.md
+- name: aipom-economic-case-builder
+  description: Build an evidence-aware economic case for an AI investment across value,
+    full lifecycle cost, uncertainty, alternatives, risk, and decision thresholds.
+  type: component
+  category: strategy-and-economic-outcomes
+  phase: 3
+  status: active
+  operating_level:
+  - portfolio
+  - initiative
+  audience:
+  - CPO
+  - VP Product
+  - Product Manager
+  - Finance
+  - Engineering
+  - Operations
+  - AI Governance
+  best_for:
+  - Funding validation or scale
+  - Comparing AI with non-AI alternatives
+  - Revising a case when evidence changes
+  evidence_required:
+  - Outcome value map and baselines
+  - Cost and capacity evidence
+  - Adoption and evaluation evidence
+  - Dependency risk and alternative estimates
+  produces:
+  - AI economic case
+  - Scenario and sensitivity model
+  - Funding decision rules
+  assessment_questions:
+  - STR-02
+  - STR-03
+  - STR-04
+  - POR-02
+  - POR-03
+  maturity_move:
+    from: repeatable
+    to: operationalized
+  estimated_time: 60-120 min
+  group_size: 3-8
+  depends_on:
+  - aipom-outcome-value-map
+  - aipom-bet-charter
+  combine_with:
+  - aipom-platform-dependency-audit
+  - aipom-investment-stage-gates
+  - aipom-initiative-readiness-review
+  sources: []
+  path: skills/aipom-economic-case-builder/SKILL.md
