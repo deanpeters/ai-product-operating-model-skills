@@ -32,7 +32,6 @@ These are release candidates, not published assets.
 - Public contribution and issue governance
 - Draft GitHub Release review
 - Verified public release assets and repository visibility
-- Acceptance or remediation of the disclosed historical commit-author email before changing visibility
 
 External field validation is now a post-release evidence program for `v0.6`, not a blocker for the explicitly pre-1.0 `v0.5` preview.
 

@@ -13,7 +13,7 @@ Use this checklist for the explicitly synthetic-data `v0.5` public preview.
 - [x] Catalogs match canonical metadata.
 - [x] Synthetic forward-test findings are resolved and external field validation is labeled as a post-release evidence target.
 - [x] Source freshness and legal or regulatory caveats are reviewed.
-- [x] No confidential client or personal content is present; historical commit-author email exposure is separately disclosed for acceptance before visibility changes.
+- [x] No confidential client or personal content is present; all historical Dean author and committer records use the approved AIPOM routing alias.
 - [x] License and attribution are visible in source and packages.
 - [x] Contribution and issue governance is ready for public users.
 

@@ -83,3 +83,5 @@ The [external validation hub](validation/README.md) is ready for three human pil
 ## Stop Rule
 
 The next work should improve evidence, examples, usability, interoperability, and measured reuse. Do not create additional skills merely to increase the catalog beyond 41.
+
+After publication, follow the [active post-release roadmap](POST-RELEASE-ROADMAP.md). Public use is an evidence-producing motion, not a reason to stop development while waiting for perfect data.

@@ -44,6 +44,7 @@ PUBLIC_PREVIEW_FILES = {
     "SECURITY.md",
     "docs/EVIDENCE-STATUS.md",
     "docs/PUBLIC-PREVIEW.md",
+    "docs/POST-RELEASE-ROADMAP.md",
     "docs/releases/v0.5.md",
     "docs/releases/v0.5-release-audit.md",
 }

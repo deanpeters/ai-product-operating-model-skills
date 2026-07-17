@@ -18,6 +18,7 @@ The goal is not more AI activity or more completed canvases. The goal is better 
 - [Evidence standard](docs/EVIDENCE-STANDARD.md): how claims, evidence, assumptions, and maturity scores are handled.
 - [v0.5 release plan](docs/RELEASE-PLAN.md): private-preview readiness, field-validation, and public-release gates.
 - [Public preview contract](docs/PUBLIC-PREVIEW.md): what v0.5 is ready for, what it does not claim, and how feedback will shape v0.6.
+- [Post-release roadmap](docs/POST-RELEASE-ROADMAP.md): rapid v0.5.x corrections and the active path through field evidence, interoperability, adoption, stabilization, and v1.0.
 - [Contribution guide](CONTRIBUTING.md): the shortest path from an idea to a validated contribution.
 
 Repository-wide instructions for human and AI contributors live in [AGENTS.md](AGENTS.md).
