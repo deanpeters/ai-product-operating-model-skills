@@ -7,11 +7,13 @@ AIPOM contributions should change an organizational condition, not merely add an
 Read, in order:
 
 1. [AGENTS.md](AGENTS.md)
-2. [ROADMAP.md](ROADMAP.md)
-3. [Skill specification](docs/SKILL-SPEC.md)
-4. [Evidence standard](docs/EVIDENCE-STANDARD.md)
-5. [Adaptive facilitation](docs/ADAPTIVE-FACILITATION.md) for interactive advisors and workflows
-6. [Contribution workflow](docs/CONTRIBUTION-WORKFLOW.md)
+2. [Current-state handoff](docs/HANDOFF.md)
+3. [Active post-release roadmap](docs/POST-RELEASE-ROADMAP.md)
+4. [ROADMAP.md](ROADMAP.md) for canonical skill membership and completed build history
+5. [Skill specification](docs/SKILL-SPEC.md)
+6. [Evidence standard](docs/EVIDENCE-STANDARD.md)
+7. [Adaptive facilitation](docs/ADAPTIVE-FACILITATION.md) for interactive advisors and workflows
+8. [Contribution workflow](docs/CONTRIBUTION-WORKFLOW.md)
 
 Search for overlap before proposing a skill:
 

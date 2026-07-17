@@ -1,5 +1,7 @@
 # v0.5 Release Checklist
 
+> **Historical launch record:** Every gate below was completed for the published `v0.5` snapshot. Use [HANDOFF.md](HANDOFF.md) and [POST-RELEASE-ROADMAP.md](POST-RELEASE-ROADMAP.md) for current work.
+
 Use this checklist for the explicitly synthetic-data `v0.5` public preview.
 
 ## Before Tagging

@@ -6,7 +6,7 @@ category: capability-adoption-and-reuse
 phase: 2
 status: active
 operating_level: [organization, product-team]
-audience: [CPO, Product Operations, Product Manager, Design, Engineering, Data, AI Governance, Learning and Development]
+audience: [CPO, Product Operations, Product Manager, Team Lead, Design, Engineering, Data, AI Governance, Learning and Development]
 best_for: [Setting role-specific AI product expectations, Designing applied learning paths, Distinguishing proficiency from training attendance]
 evidence_required: [Role decisions and workflows, Expected outcomes and failure consequences, Work artifacts and observed practice, Current capability and support evidence]
 produces: [Role-based competency map, Observable proficiency rubric, Practice and progression priorities]

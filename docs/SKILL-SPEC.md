@@ -37,6 +37,8 @@ operating_level:
 audience:
   - CPO
   - Product Operations
+  - Product Manager
+  - Team Lead
   - AI Governance
 
 best_for:
@@ -106,6 +108,18 @@ Allowed categories:
 - `cross-category`
 
 Allowed maturity labels are `absent`, `emerging`, `repeatable`, `operationalized`, and `compounding`.
+
+### Audience Roles
+
+Use audience values to identify roles that perform, coordinate, decide, facilitate, or act on the skill. Inclusion does not transfer decision authority or imply that every listed role performs the same work.
+
+The primary execution personas are:
+
+- `Product Operations` — stewards operating-model coherence, cross-skill context, cadence, and reuse.
+- `Product Manager` — integrates product evidence and leads opportunity, outcome, readiness, and lifecycle decisions.
+- `Team Lead` — coordinates day-to-day execution, responsibilities, operating evidence, escalation, and improvement for a product or specialist team.
+
+Add these roles selectively where the skill supports work they perform or coordinate. Do not add every persona to every skill merely to increase coverage. See [TARGET-PERSONAS.md](TARGET-PERSONAS.md) for the canonical persona model and plain-English role flows.
 
 ## Required Sections
 
@@ -195,4 +209,3 @@ A skill is active only when:
 - Evidence and maturity claims follow repository standards.
 - Human and AI facilitation paths are usable.
 - The full test suite passes.
-

@@ -6,7 +6,7 @@ category: cross-category
 phase: 1
 status: active
 operating_level: [organization, portfolio, product-team]
-audience: [CPO, CTO, VP Product, Product Operations, Finance, AI Governance]
+audience: [CPO, CTO, VP Product, Product Operations, Product Manager, Finance, AI Governance]
 best_for:
   - Turning an AIPOM assessment into action
   - Sequencing cross-category operating-model change

@@ -25,9 +25,19 @@ The first post-launch improvement reorganizes the public experience without chan
 - Separate public doors for leaders, practitioners, and contributors
 - Practitioner preparation guides above the canonical command layer
 - Six executive adoption packages assembled from existing skills
+- Role-led execution flows for Product Operations, Product Managers, and Team Leads
 - A README that leads with the operating problem and bounded starting decisions
 
 This work is intended to make the preview easier to understand, try, and critique. It does not change the `v0.5` evidence label or claim field validation.
+
+### Immediate next work
+
+1. Cold-test the README and persona flows with Product Operations, Product Managers, and Team Leads.
+2. Run the three prepared human-validation pilots and independent-facilitator calibration.
+3. Correct tactical gaps, terminology friction, unsafe recommendations, and material differences in facilitation.
+4. Decide whether the next tagged snapshot is `v0.6` or whether the repository will explicitly add patch-version support. Do not overwrite `v0.5`.
+
+See the [current-state handoff](HANDOFF.md) for restart instructions, source-of-truth boundaries, commands, and known limitations.
 
 ## v0.6: Field Evidence and Facilitation
 

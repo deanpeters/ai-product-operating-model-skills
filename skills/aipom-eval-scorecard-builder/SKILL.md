@@ -6,7 +6,7 @@ category: evaluation-and-evidence
 phase: 3
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Manager, Research, Data, Engineering, Domain Experts, AI Governance]
+audience: [Product Manager, Team Lead, Research, Data, Engineering, Domain Experts, AI Governance]
 best_for: [Turning a behavior contract into repeatable evaluation, Calibrating human or automated judges, Making launch and rollback thresholds explicit]
 evidence_required: [Behavior contract and evaluation strategy, Governed representative cases, Failure consequences and baselines, Judge calibration evidence]
 produces: [Evaluation scorecard, Calibration and sampling plan, Decision threshold and exception rules]

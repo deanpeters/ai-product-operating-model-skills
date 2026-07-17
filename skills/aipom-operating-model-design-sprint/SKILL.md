@@ -6,7 +6,7 @@ category: cross-category
 phase: 3
 status: active
 operating_level: [organization, portfolio, product-team]
-audience: [CPO, CTO, Product Operations, Product Manager, Engineering, Data, Finance, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Engineering, Data, Finance, AI Governance]
 best_for: [Turning assessment findings into an operating design, Resolving cross-category dependencies, Testing a repeatable practice before scaling]
 evidence_required: [Operating-model assessment and roadmap, Priority condition and affected decisions, Existing artifacts workflows owners and measures, Capacity constraints and change evidence]
 produces: [Bounded operating-model design, Integrated prototype and test, Adoption decision and implementation handoff]

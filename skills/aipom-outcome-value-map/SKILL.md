@@ -6,7 +6,7 @@ category: strategy-and-economic-outcomes
 phase: 2
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [CPO, Product Manager, Design, Engineering, Research, Finance, AI Governance]
+audience: [CPO, Product Operations, Product Manager, Team Lead, Design, Engineering, Research, Finance, AI Governance]
 best_for: [Connecting AI behavior to meaningful value, Challenging activity metrics, Choosing measures and causal tests]
 evidence_required: [Opportunity frame, Current outcome baselines, Behavior or workflow evidence, Economic and risk assumptions]
 produces: [Outcome and value chain, Causal assumption ledger, Measures and countermeasures]

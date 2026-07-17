@@ -6,7 +6,7 @@ category: capability-adoption-and-reuse
 phase: 4
 status: active
 operating_level: [organization, product-team]
-audience: [CPO, Product Operations, Product Manager, Enablement, People Operations, Learning and Development, AI Governance]
+audience: [CPO, Product Operations, Product Manager, Team Lead, Enablement, People Operations, Learning and Development, AI Governance]
 best_for: [Moving beyond one-time AI training, Building role proficiency through work, Creating a repeatable capability and coaching system]
 evidence_required: [Role competency map and workflow priorities, Work samples and capability gaps, Coaching support and manager routines, Adoption behavior and outcome evidence]
 produces: [Role-based learning system, Applied practice and progression pathways, Reinforcement measurement and stewardship plan]

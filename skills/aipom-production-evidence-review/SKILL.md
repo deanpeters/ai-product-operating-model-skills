@@ -6,7 +6,7 @@ category: evaluation-and-evidence
 phase: 4
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [Product Manager, Engineering, Operations, Research, Data, Risk, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Engineering, Operations, Research, Data, Risk, AI Governance]
 best_for: [Recurring production governance, Responding to drift or emerging harm, Deciding whether AI behavior should continue or change]
 evidence_required: [Production monitoring and evaluation results, Workflow outcome and human-review evidence, Incidents feedback appeals and affected-party evidence, Versions changes controls and dependencies]
 produces: [Production evidence review record, Continue change constrain rollback or retire decision, Monitoring and remediation actions]
@@ -46,7 +46,7 @@ Use on a risk-proportionate cadence and after material changes, threshold breach
 
 ## Who Should Participate
 
-Include the accountable product or operational owner, Product Manager, engineering and operations, evaluation or research, affected-user representation, and governance partners proportionate to consequence.
+Include the accountable product or operational owner, Team Lead, Product Manager, Product Operations where present, engineering and operations, evaluation or research, affected-user representation, and governance partners proportionate to consequence.
 
 ## Evidence to Bring
 

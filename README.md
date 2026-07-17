@@ -1,154 +1,163 @@
 # AI Product Operating Model Skills
 
-AI Product Operating Model Skills (AIPOM) is a platform-neutral library for improving how organizations choose, build, evaluate, govern, and learn from AI-powered products and AI-assisted product work.
+AI is easy to start. It is much harder to run well.
 
-Many organizations already have AI pilots, copilots, prototypes, vendor experiments, governance committees, and training programs. What they often lack is a connected way to decide which opportunities matter, what evidence is sufficient, how teams should work differently, where human authority remains mandatory, and when an initiative should scale, change, pause, or stop.
+Most organizations do not need another pile of prompts, demos, pilots, or “AI strategy” slides. They need practical ways to decide what is worth doing, help teams do the work, tell whether it is working, keep people accountable, and stop the things that are not earning their keep.
 
-That is an operating-model problem. More AI activity will not solve it by itself.
+That is what this repository is for.
 
-AIPOM helps leaders and product teams move from scattered activity toward better decisions and repeatable organizational practices. The goal is not more completed canvases, policies, or AI-labeled initiatives. It is to improve the way consequential work gets chosen, funded, performed, evaluated, governed, and reused.
+AI Product Operating Model Skills (AIPOM) is a collection of guided methods for people trying to make AI product work useful, responsible, and repeatable. You can use it with a human facilitator or an AI assistant. You do not need to be a programmer, an AI evangelist, or a framework collector.
 
-[Download the v0.5 public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5), read the [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md), or begin with one of the three guided paths below.
+[Download the v0.5 public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5), [find your role](docs/TARGET-PERSONAS.md), or [start with the problem in front of you](docs/STARTING-PATHS.md).
 
-> **Evidence status:** `v0.5` is structurally validated and synthetically forward-tested. It has not yet established representative field effectiveness or demonstrated organizational adoption or impact. All worked examples are synthetic. Consequential decisions remain with accountable people and domain specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
+> **Honest v0.5 label:** This is a `v0.5 public preview`. The library is structurally validated and synthetically forward-tested, but it has not yet proved its effectiveness through representative organizational use. The examples are synthetic. Kick the tires, question the recommendations, and keep consequential decisions with accountable people and qualified specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
 
-## What Decisions Should Improve?
+## Find Yourself Here
 
-An effective AI product operating model helps an organization decide:
+You may come to this library with a title, a problem, or simply the sinking feeling that your organization has a lot of AI activity and no shared way to run it.
 
-- Which AI opportunities support meaningful customer and economic outcomes
-- Which bets should be explored, funded, constrained, scaled, paused, pivoted, or retired
-- What evidence is required before a material commitment or launch
-- How human and AI responsibilities should be divided in recurring work
-- Which sources, data, and context can be trusted and used
-- What acceptable AI behavior means and how it will be evaluated
-- Where human review, approval, escalation, and accountability remain mandatory
-- How effective local practices become reusable organizational capability
-
-The output may be an assessment, charter, scorecard, playbook, or recommendation. The intended outcome is a better decision or changed practice.
-
-## Choose Your Door
-
-| If you need to… | Start here | What you will find |
+| If this sounds like you… | What is in it for you | Start here |
 |---|---|---|
-| **Lead change** | [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) | The leadership case, decisions improved, operating levels, evidence expectations, and a practical first 90 days |
-| **Do the work** | [Starting Paths](docs/STARTING-PATHS.md) | Situation-led routes for an organization, an AI initiative, or a recurring product-team workflow |
-| **Build the library** | [Contribution Guide](CONTRIBUTING.md) | Canonical sources, skill authoring rules, validation, review, and release mechanics |
+| **You set direction or fund the work.** | Make clearer choices about where AI belongs, what deserves investment, what must be true before scaling, and what should stop. | [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) |
+| **You work in Product Operations.** | Turn scattered initiatives and one-off team habits into owned, repeatable practices without creating process theater. | [Product Operations flow](docs/personas/PRODUCT-OPERATIONS.md) |
+| **You are a Product Manager.** | Take an AI opportunity from problem evidence through value, behavior, evaluation, authority, launch decisions, and production learning. | [Product Manager flow](docs/personas/PRODUCT-MANAGER.md) |
+| **You lead a product, engineering, design, research, data, or operations team.** | Translate broad direction into work the team can perform, review, stop, recover, and improve. | [Team Lead flow](docs/personas/TEAM-LEAD.md) |
+| **You design, research, build, evaluate, or operate AI products.** | See where your work fits, what evidence others need from you, and how decisions travel across the product lifecycle. | [Skills by target persona](catalog/skills-by-persona.md) |
+| **You work in legal, privacy, security, safety, risk, finance, or AI governance.** | Bring specialist judgment into the work early, with clear authority, evidence, escalation, and decision boundaries. | [Governance and Accountability package](docs/adoption-packages/GOVERNANCE-AND-ACCOUNTABILITY.md) |
+| **You facilitate, consult, coach, or teach.** | Run practical engagements that preserve context and produce a decision, owner, and next move instead of a decorative workshop output. | [Starting Paths](docs/STARTING-PATHS.md) |
+| **You want to build or improve the library.** | Use a clear contribution contract, examples, validation, and release process. | [Contribution Guide](CONTRIBUTING.md) |
 
-The [Audience and Navigation Architecture](docs/AUDIENCE-ARCHITECTURE.md) defines how these public doors relate without creating competing sources of truth.
+The [Target Personas](docs/TARGET-PERSONAS.md) guide explains how these roles work together without pretending that one role owns every decision.
 
-Leaders with a defined executive decision can go directly to the [Executive Adoption Packages](docs/adoption-packages/README.md) for alignment, investment, readiness, workflow, governance, or quarterly portfolio engagements assembled from existing skills.
+## There Is Room for Your Working Style Too
 
-## Start with One Consequential Decision
+- **Strategists** can connect AI choices to customer and business outcomes.
+- **Operators** can turn decisions into routines that survive contact with real work.
+- **Builders** can see the context, behavior, evaluation, control, and recovery expectations around what they build.
+- **Skeptics** can demand evidence, expose wishful thinking, and help stop expensive theater.
+- **Facilitators** can guide a group without stealing its decisions.
+- **Teachers and coaches** can use the methods to explain not only what to do, but why it works and where it fails.
+- **People cleaning up after somebody else’s pilot** can establish ownership, evidence, boundaries, and a responsible next move.
 
-You do not need to understand or deploy all 41 skills before doing useful work.
+You do not have to buy into a grand transformation. Start with one decision that matters.
 
-### 1. Assess an organization
+## What Can You Use It to Do?
 
-Use this path when disconnected initiatives, inconsistent practices, or unclear ownership span multiple teams or operating-model categories.
+- Decide whether an AI idea deserves discovery, funding, launch, scale, constraint, or retirement
+- Connect AI behavior to customer value, business value, cost, and risk
+- Define what an AI product should and should not do
+- Decide what AI may do alone, what needs approval, and what it must never do
+- Prepare trusted context and data for recurring work
+- Build evaluations that support real product decisions instead of producing a wall of metrics
+- Redesign a team workflow without automating the wrong thing
+- Assign ownership, review, escalation, fallback, and incident responsibilities
+- Review production evidence and change, constrain, roll back, or retire the system
+- Turn a practice that works into something another team can safely reuse
+- Review the portfolio and move money and people away from zombie pilots
 
-**Result:** an evidence-based seven-category profile, critical gaps, prioritized interventions, accountable owners, and a dated operating-model roadmap.
+The point is not to complete a canvas. The point is to make a better decision and improve how the work happens next time.
 
-[Prepare the organization assessment journey](docs/journeys/ASSESS-AN-ORGANIZATION.md)
+## Start with What Is Hurting
 
-### 2. Evaluate an AI initiative
+You do not need to study all 41 skills before doing useful work.
 
-Use this path when a specific opportunity, pilot, investment, launch, scale, sensitive-data, or autonomy decision is pending.
+### “Our AI work is all over the place.”
 
-**Result:** a proceed, proceed-with-constraints, remediate-and-re-review, pause, or stop recommendation with evidence conditions, ownership, expiry, and a review trigger.
+Use [Assess an Organization](docs/journeys/ASSESS-AN-ORGANIZATION.md) when initiatives, policies, team practices, and ownership do not line up across the organization.
 
-[Prepare the initiative evaluation journey](docs/journeys/EVALUATE-AN-AI-INITIATIVE.md)
+You will leave with a clear view of the most important gaps, what needs attention first, who owns it, and what should happen over the next 30, 90, 180, and 365 days.
 
-### 3. Redesign a product-team workflow
+### “Should we fund, launch, scale, constrain, or stop this thing?”
 
-Use this path when recurring work is slow, inconsistent, context-poor, or being changed through AI assistance.
+Use [Evaluate an AI Initiative](docs/journeys/EVALUATE-AN-AI-INITIATIVE.md) when a specific idea, pilot, investment, launch, sensitive-data use, or increase in AI authority needs a decision.
 
-**Result:** an observed baseline, explicit human-AI responsibilities, a bounded pilot, measures and countermeasures, and a reusable playbook when representative evidence supports one.
+You will leave with a clear recommendation, the evidence behind it, unresolved specialist decisions, any conditions or limits, named owners, and a reason to return for review.
 
-[Prepare the workflow redesign journey](docs/journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md)
+### “AI is changing how my team works.”
 
-If the issue spans several teams, begin with the organization. If a material bet is pending, begin with the initiative. If the unit of change is recurring product-team work, begin with the workflow.
+Use [Redesign a Product-Team Workflow](docs/journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md) when recurring work is slow, inconsistent, overloaded, or being changed through AI assistance.
 
-## What Is in the Library?
+You will leave with a picture of how the work really happens, clear human and AI responsibilities, a small test, measures that include hidden burden and failure, and a decision to adopt, revise, contain, or stop.
 
-The complete planned catalog is available in the `v0.5` public preview:
+Not sure? Use the [starting-path comparison](docs/STARTING-PATHS.md). Each path also has a smaller 60–90 minute version when you need to scope the problem before committing to the full journey.
 
-- **41 active skills** with canonical metadata, facilitation instructions, templates, worked examples, and weak examples
-- **35 evidence-based assessment questions** connected to interventions and maturity movement
-- **Three guided starting paths** that preserve evidence, assumptions, decisions, ownership, and unresolved questions
-- **Platform-neutral canonical packages** plus generated Codex-compatible packages
-- **Automated structural, link, catalog, release, and packaging validation**
+## What Is in the Box?
 
-Future releases will prioritize field evidence, facilitation quality, examples, interoperability, adoption, and measured reuse—not catalog growth for its own sake.
+- **41 guided skills.** Each explains when to use it, who should participate, what to bring, how to run it, what it produces, what commonly goes wrong, and what should happen next.
+- **Templates and examples.** Every skill includes a reusable template, a synthetic worked example, and a synthetic weak example that shows failure modes.
+- **Three end-to-end journeys.** Assess the organization, evaluate an initiative, or redesign a team workflow.
+- **Six executive adoption packages.** Start with alignment, investment, readiness, workflow, governance, or a quarterly portfolio decision.
+- **Role-led guides.** Product Operations, Product Managers, and Team Leads each have a plain-English route through the library.
+- **A 35-question organization assessment.** Use evidence and disagreement to find the most important conditions—not to manufacture one flattering score.
+- **Human and AI facilitation guidance.** The methods work as readable facilitation guides and as instructions an AI assistant can follow.
+- **Automated checks.** The repository checks skill structure, links, packages, and release integrity so contributors can change it without quietly breaking it.
 
-### Seven connected conditions
+Browse the [complete skill catalog](catalog/INDEX.md), including the generated [skills by target persona](catalog/skills-by-persona.md) view.
 
-1. **Strategy and Economic Outcomes** — where AI creates value and which outcomes should change.
-2. **Portfolio and Investment Choices** — which opportunities to explore, fund, scale, pause, pivot, or retire.
-3. **Product-Team Workflows** — how decisions, evidence, collaboration, context, and human-AI responsibilities work.
-4. **Context, Knowledge, and Data** — which sources and data can be trusted, used, refreshed, retained, or excluded.
-5. **Evaluation and Evidence** — acceptable behavior, representative evaluations, monitoring, and evidence-based decisions.
-6. **Governance and Accountability** — ownership, autonomy boundaries, controls, escalation, incident response, and trust evidence.
-7. **Capability, Adoption, and Reuse** — role capability, applied learning, stewardship, reuse, adoption, and continuous improvement.
+## How the Pieces Fit Together
 
-The categories are diagnostic lenses, not seven separate transformation programs.
+AIPOM looks at seven connected parts of the work:
 
-### Four operating levels
+1. **Strategy and outcomes** — Where could AI create value, and what should improve?
+2. **Portfolio and investment** — Which ideas should receive time and money, and which should stop?
+3. **Product-team workflows** — How should people and AI work together in recurring decisions?
+4. **Context, knowledge, and data** — What information can the system and team trust and use?
+5. **Evaluation and evidence** — What does acceptable behavior look like, and how will we know?
+6. **Governance and accountability** — Who decides, what is allowed, and what happens when things go wrong?
+7. **Capability, adoption, and reuse** — How do people learn, improve, and reuse practices that actually work?
 
-| Level | Leadership question |
+These are connected parts of one working system, not seven departments or seven transformation programs.
+
+The methods can also focus on four different levels:
+
+| Level | Plain-English question |
 |---|---|
-| Organization | Are strategy, governance, capability, and operating systems working together? |
-| Portfolio | Are investment, evidence, dependencies, and risk being managed across initiatives? |
-| Product team | Are recurring decisions, workflows, context, and human-AI responsibilities improving? |
-| Initiative | Is this specific AI bet valuable, ready, controlled, and accountably owned? |
+| Organization | Does the company have a workable way to run AI product work? |
+| Portfolio | Are we putting money and people behind the right things? |
+| Product team | Can the team perform the work clearly, safely, and repeatedly? |
+| Initiative | Is this particular AI bet worth doing and ready for its next step? |
 
-Organization maturity and initiative readiness are related but not interchangeable. A policy is not proof that teams use it, and a promising initiative cannot average away a critical safety or accountability gap.
+## Evidence Matters
 
-### Three skill types
+AIPOM keeps four claims separate:
 
-- **Component:** a focused method that produces one primary operating artifact, usually in 30–90 minutes.
-- **Interactive advisor:** an adaptive diagnostic that interprets supplied context and recommends an appropriate next move.
-- **Workflow:** an end-to-end process that coordinates several advisors and components while preserving evidence and decisions across the work.
+1. We talk about the practice.
+2. We wrote the practice down.
+3. People actually use the practice consistently.
+4. The practice improves decisions or outcomes.
 
-Every skill is both functional and pedagogic: it helps complete organizational work and teaches the reasoning, tradeoffs, evidence, and failure modes behind it.
+Those are not the same thing.
 
-## Evidence Before Maturity
+A policy, workshop, license, training course, generated document, or maturity score does not prove that the organization can do the work. When evidence is absent, AIPOM does not award a maturity score above `2 — Emerging`.
 
-AIPOM distinguishes four claims:
+Read the [Evidence Standard](docs/EVIDENCE-STANDARD.md), [scoring model](assessments/scoring-model.md), and [Public Preview Contract](docs/PUBLIC-PREVIEW.md) for the detailed rules and current limitations.
 
-1. A practice is discussed.
-2. A practice is documented.
-3. A practice is consistently used.
-4. A practice demonstrably improves decisions or outcomes.
-
-A policy, workshop, license, training course, generated artifact, or maturity score is not proof of organizational capability by itself. If evidence is absent, maturity cannot be scored above `2 — Emerging`.
-
-See the [Evidence Standard](docs/EVIDENCE-STANDARD.md), [scoring model](assessments/scoring-model.md), and [Public Preview Contract](docs/PUBLIC-PREVIEW.md) for the complete rules and current limitations.
-
-## Explore the System
+## Explore Further
 
 ### Understand and use AIPOM
 
-- [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) — leadership case and first 90 days
-- [Executive Adoption Packages](docs/adoption-packages/README.md) — six sponsor-ready engagements built from canonical skills
-- [Operating Model](docs/OPERATING-MODEL.md) — purpose, categories, levels, and intended system
-- [Starting Paths](docs/STARTING-PATHS.md) — choose a bounded route through the library
-- [Skill Catalog](catalog/INDEX.md) — browse all 41 skills by category, type, or build phase
-- [Roadmap](ROADMAP.md) — canonical phase membership and completion status
+- [Documentation Guide](docs/README.md) — find current guidance, canonical standards, release records, and validation materials
+- [Current-State Handoff](docs/HANDOFF.md) — restart information for a coworker or coding agent
+- [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) — the leadership case and a practical first 90 days
+- [Executive Adoption Packages](docs/adoption-packages/README.md) — six recognizable executive decisions
+- [Target Personas](docs/TARGET-PERSONAS.md) — who the library serves and how the roles work together
+- [Starting Paths](docs/STARTING-PATHS.md) — choose a route based on the problem in front of you
+- [Operating Model](docs/OPERATING-MODEL.md) — the fuller explanation of the system
+- [Skill Catalog](catalog/INDEX.md) — browse all 41 skills
 
-### Inspect evidence and release status
+### Inspect the evidence and release
 
 - [Evidence Status](docs/EVIDENCE-STATUS.md) — what has and has not been demonstrated
 - [Public Preview Contract](docs/PUBLIC-PREVIEW.md) — responsible-use and feedback boundaries
-- [Validation Hub](docs/validation/README.md) — forward tests and prepared field-validation materials
-- [Post-Release Roadmap](docs/POST-RELEASE-ROADMAP.md) — path through evidence, interoperability, adoption, stabilization, and `v1.0`
+- [Validation Hub](docs/validation/README.md) — synthetic tests and prepared field-validation materials
+- [Post-Release Roadmap](docs/POST-RELEASE-ROADMAP.md) — the route toward stronger evidence and a stable `v1.0`
 
 ### Contribute or integrate
 
-- [Contribution Guide](CONTRIBUTING.md) — contributor entry point
-- [Repository Operating Contract](AGENTS.md) — project principles, boundaries, and workflow
-- [Skill Specification](docs/SKILL-SPEC.md) — canonical skill schema and completion requirements
-- [Adaptive Facilitation](docs/ADAPTIVE-FACILITATION.md) — context-aware advisor and workflow behavior
+- [Contribution Guide](CONTRIBUTING.md) — the contributor entry point
+- [Repository Working Agreement](AGENTS.md) — principles, boundaries, and workflow
+- [Skill Specification](docs/SKILL-SPEC.md) — the detailed skill requirements
+- [Adaptive Facilitation](docs/ADAPTIVE-FACILITATION.md) — how guided methods respond to supplied context
 
 ## For Maintainers
 
@@ -164,25 +173,25 @@ Run the complete verification suite:
 ./scripts/test-library.sh
 ```
 
-Regenerate catalogs after changing canonical skill metadata:
+Regenerate catalogs after changing skill information:
 
 ```bash
 python3 scripts/generate-catalog.py
 ```
 
-Build release artifacts after validation succeeds:
+Build release files after validation succeeds:
 
 ```bash
 ./scripts/build-release.sh
 ```
 
-The release build produces versioned canonical and Codex-compatible archives, stable local aliases, and SHA-256 checksums under `dist/`. Generated catalog and distribution files must not be edited directly.
+Generated catalog and distribution files must not be edited directly.
 
-## Scope Boundaries
+## What This Is Not
 
-AIPOM is not a prompt library, vendor comparison, AI tool tutorial, machine-learning engineering handbook, generic Product Manager toolkit, legal opinion, or collection of maturity charts without interventions.
+AIPOM is not a prompt library, vendor comparison, AI tool tutorial, machine-learning engineering handbook, legal opinion, or collection of maturity charts with nothing useful behind them.
 
-The library uses or extends credible foundational methods rather than recreating weaker copies with “AI” added to their names. Examples must be public, appropriately licensed, anonymized, or clearly labeled as synthetic. Productside client-confidential material does not belong here.
+The library uses credible existing methods where they already solve the underlying problem. Examples must be public, appropriately licensed, anonymized, or clearly labeled as synthetic. Productside client-confidential material does not belong here.
 
 ## License
 

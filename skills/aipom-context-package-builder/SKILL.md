@@ -6,7 +6,7 @@ category: context-knowledge-and-data
 phase: 1
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Manager, Product Operations, Engineering, Data, Research, Knowledge Management]
+audience: [Product Operations, Product Manager, Team Lead, Engineering, Data, Research, Knowledge Management]
 best_for:
   - Grounding a recurring AI-assisted workflow
   - Reducing stale, conflicting, or excessive context

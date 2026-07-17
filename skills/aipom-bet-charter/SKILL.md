@@ -6,7 +6,7 @@ category: portfolio-and-investment-choices
 phase: 1
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [CPO, VP Product, Product Manager, Engineering, Design, Finance, AI Governance]
+audience: [CPO, VP Product, Product Operations, Product Manager, Team Lead, Engineering, Design, Finance, AI Governance]
 best_for:
   - Deciding whether an AI idea deserves discovery funding
   - Reframing a pilot with unclear outcomes or ownership

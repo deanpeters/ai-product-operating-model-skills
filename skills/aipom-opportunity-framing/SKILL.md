@@ -6,7 +6,7 @@ category: strategy-and-economic-outcomes
 phase: 2
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [Product Manager, Design, Engineering, Research, Data, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Research, Data, AI Governance]
 best_for: [Turning an AI idea into a problem-led opportunity, Challenging a vendor-first proposal, Preparing an opportunity for outcome mapping and triage]
 evidence_required: [Customer or workflow evidence, Current alternatives and workarounds, Frequency and consequence evidence, Constraints and affected perspectives]
 produces: [AI opportunity frame, Evidence and assumption ledger, Smallest next learning question]
@@ -42,7 +42,7 @@ Use before a bet charter, use-case comparison, discovery investment, or vendor s
 
 ## Who Should Participate
 
-Include the Product Manager, people close to the work or customer, design or research, technical and data partners, and governance partners proportionate to the consequences.
+Include the Product Manager, Team Lead, Product Operations where the opportunity crosses workflows, people close to the work or customer, design or research, technical and data partners, and governance partners proportionate to the consequences.
 
 ## Evidence to Bring
 

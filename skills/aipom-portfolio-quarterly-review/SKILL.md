@@ -6,7 +6,7 @@ category: cross-category
 phase: 4
 status: active
 operating_level: [organization, portfolio]
-audience: [CPO, CTO, VP Product, Product Operations, Finance, Engineering, Risk, AI Governance]
+audience: [CPO, CTO, VP Product, Product Operations, Product Manager, Finance, Engineering, Risk, AI Governance]
 best_for: [Quarterly AI investment decisions, Stopping zombie pilots and premature scale, Rebalancing initiatives and shared capabilities]
 evidence_required: [Strategy and portfolio inventory, Initiative economics readiness and production evidence, Dependencies incidents and control status, Capacity reuse adoption and prior decision records]
 produces: [Portfolio decision record, Initiative and shared-capability allocations, Updated strategy assumptions and next review agenda]

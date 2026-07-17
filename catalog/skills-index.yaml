@@ -15,6 +15,7 @@ skills:
   - CTO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Enablement
   - People Operations
   - AI Governance
@@ -63,6 +64,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Enablement
@@ -109,8 +111,9 @@ skills:
   - product-team
   - initiative
   audience:
-  - Product Manager
   - Product Operations
+  - Product Manager
+  - Team Lead
   - Engineering
   - Data
   - Research
@@ -159,8 +162,9 @@ skills:
   - product-team
   - initiative
   audience:
-  - Product Manager
   - Product Operations
+  - Product Manager
+  - Team Lead
   - Engineering
   - Data
   - Knowledge Management
@@ -215,6 +219,7 @@ skills:
   - VP Product
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Data
@@ -315,6 +320,7 @@ skills:
   - CTO
   - VP Product
   - Product Operations
+  - Product Manager
   - Finance
   - AI Governance
   best_for:
@@ -395,7 +401,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Data
@@ -444,7 +452,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Data
@@ -497,6 +507,7 @@ skills:
   audience:
   - Product Manager
   - Product Operations
+  - Team Lead
   - Engineering
   - Design
   - Legal
@@ -560,6 +571,7 @@ skills:
   - CTO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Legal
   - Privacy
   - Security
@@ -614,7 +626,9 @@ skills:
   audience:
   - CPO
   - VP Product
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Design
   - Finance
@@ -667,6 +681,7 @@ skills:
   - CTO
   - VP Product
   - Product Operations
+  - Product Manager
   - Finance
   - AI Governance
   best_for:
@@ -714,6 +729,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Research
@@ -760,7 +776,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Operations
@@ -872,6 +890,7 @@ skills:
   - CPO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Data
@@ -922,6 +941,7 @@ skills:
   - initiative
   audience:
   - Product Manager
+  - Team Lead
   - Data
   - Engineering
   - Research
@@ -975,6 +995,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Data
   - Knowledge Management
   - Privacy
@@ -1026,7 +1047,9 @@ skills:
   audience:
   - CPO
   - CTO
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Legal
   - Privacy
@@ -1083,6 +1106,7 @@ skills:
   - CTO
   - VP Product
   - Product Operations
+  - Product Manager
   - Finance
   - Engineering
   - AI Governance
@@ -1135,6 +1159,7 @@ skills:
   - VP Product
   - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Finance
   - AI Governance
@@ -1183,6 +1208,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Research
@@ -1230,6 +1256,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Operations
@@ -1279,7 +1306,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Research
@@ -1329,7 +1358,9 @@ skills:
   - initiative
   audience:
   - CPO
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Research
@@ -1380,6 +1411,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Data
   - Knowledge Management
@@ -1433,7 +1465,9 @@ skills:
   audience:
   - CPO
   - CTO
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Finance
   - Operations
@@ -1520,6 +1554,7 @@ skills:
   - CTO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Data
   - Finance
@@ -1599,6 +1634,7 @@ skills:
   - initiative
   audience:
   - Product Manager
+  - Team Lead
   - Research
   - Data
   - Engineering
@@ -1651,6 +1687,7 @@ skills:
   - initiative
   audience:
   - Product Manager
+  - Team Lead
   - Research
   - Data
   - Engineering
@@ -1702,7 +1739,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Operations
   - Security
@@ -1812,6 +1851,7 @@ skills:
   audience:
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Research
@@ -1864,6 +1904,7 @@ skills:
   audience:
   - CPO
   - VP Product
+  - Product Operations
   - Product Manager
   - Finance
   - Engineering
@@ -1917,6 +1958,7 @@ skills:
   - CPO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Finance
   - Enablement
   - People Operations
@@ -1968,6 +2010,7 @@ skills:
   - CPO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Enablement
   - People Operations
   - Learning and Development
@@ -2022,6 +2065,7 @@ skills:
   - CTO
   - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Data
   - Finance
@@ -2106,6 +2150,7 @@ skills:
   - CTO
   - VP Product
   - Product Operations
+  - Product Manager
   - Finance
   - Engineering
   - Risk
@@ -2165,7 +2210,9 @@ skills:
   - product-team
   - initiative
   audience:
+  - Product Operations
   - Product Manager
+  - Team Lead
   - Engineering
   - Operations
   - Research
@@ -2223,6 +2270,7 @@ skills:
   - portfolio
   - initiative
   audience:
+  - Product Operations
   - Product Manager
   - Engineering
   - Legal

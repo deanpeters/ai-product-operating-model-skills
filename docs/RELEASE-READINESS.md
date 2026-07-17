@@ -1,6 +1,8 @@
 # v0.5 Release Readiness
 
-## Current Decision
+> **Historical launch record:** This records the decision and readiness basis for the published `v0.5` snapshot. For current source state and next work, use [HANDOFF.md](HANDOFF.md).
+
+## Release Decision
 
 `v0.5` is approved as the first public preview using synthetic examples and synthetic forward-testing. It is suitable for public learning, evaluation, adaptation, and feedback. It is not presented as field-proven, production-certified, compliance-establishing, or evidence of demonstrated adoption or impact.
 
@@ -24,7 +26,7 @@ Running `./scripts/build-release.sh` produces:
 - Stable aliases without the version suffix
 - `dist/SHA256SUMS`
 
-These are release candidates, not published assets.
+These were the local release-candidate outputs. The verified `v0.5` assets are now published on GitHub; later improvements on `main` are not silently substituted into that historical tag.
 
 ## Public Preview Status
 

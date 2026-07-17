@@ -6,7 +6,7 @@ category: governance-and-accountability
 phase: 2
 status: active
 operating_level: [organization, portfolio, product-team, initiative]
-audience: [CPO, CTO, Product Manager, Engineering, Legal, Privacy, Security, Risk, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Engineering, Legal, Privacy, Security, Risk, AI Governance]
 best_for: [Clarifying ownership before a consequential AI decision, Resolving committee ambiguity, Connecting accountability to evidence and escalation]
 evidence_required: [Decision inventory and consequences, Existing authority and policy, Workflow and system responsibilities, Approval exception and incident examples]
 produces: [AI accountability charter, Decision-rights and evidence matrix, Escalation and exception rules]
@@ -44,7 +44,7 @@ Use before material funding, data use, launch, autonomy, exception, incident, or
 
 ## Who Should Participate
 
-Include the accountable business or product leader, decision operators, product and technical owners, and legal, privacy, security, safety, risk, or governance partners proportionate to the consequence.
+Include the accountable business or product leader, Team Lead, Product Manager, Product Operations where present, decision operators, product and technical owners, and legal, privacy, security, safety, risk, or governance partners proportionate to the consequence.
 
 ## Evidence to Bring
 

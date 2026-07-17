@@ -6,7 +6,7 @@ category: capability-adoption-and-reuse
 phase: 4
 status: active
 operating_level: [organization, portfolio, product-team]
-audience: [CPO, Product Operations, Product Manager, Finance, Enablement, People Operations, AI Governance]
+audience: [CPO, Product Operations, Product Manager, Team Lead, Finance, Enablement, People Operations, AI Governance]
 best_for: [Evaluating learning or adoption investment, Replacing license and login metrics, Deciding whether a practice should scale change or stop]
 evidence_required: [Target behavior and workflow baselines, Usage and applied-work evidence, Decision outcome burden and risk measures, Comparison and attribution evidence]
 produces: [Adoption impact scorecard, Evidence and attribution notes, Scale revise reinforce or retire decision rules]

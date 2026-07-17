@@ -6,7 +6,7 @@ category: capability-adoption-and-reuse
 phase: 1
 status: active
 operating_level: [organization, product-team]
-audience: [Product Operations, Product Manager, Design, Engineering, Enablement]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Enablement]
 best_for:
   - Bottling a workflow that works repeatedly
   - Turning local practice into inspectable organizational capability

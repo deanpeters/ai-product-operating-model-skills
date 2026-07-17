@@ -6,7 +6,7 @@ category: evaluation-and-evidence
 phase: 1
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Manager, Design, Engineering, Data, Research, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Data, Research, AI Governance]
 best_for:
   - Defining acceptable behavior before evaluation or launch
   - Resolving disagreement about what good enough means

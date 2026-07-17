@@ -6,7 +6,7 @@ category: product-team-workflows
 phase: 3
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Operations, Product Manager, Design, Engineering, Research, Data, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Research, Data, AI Governance]
 best_for: [Improving a slow or low-quality recurring decision, Integrating multiple Phase 2 practices, Testing whether AI changes learning rather than output]
 evidence_required: [Productive-motion map and baseline, Decision records and outcomes, Context behavior and evaluation artifacts, Authority and incident evidence]
 produces: [Redesigned decision cycle, Pilot and measurement plan, Governed workflow handoff]
@@ -43,7 +43,7 @@ Use after mapping the current productive motion and establishing foundational co
 
 ## Who Should Participate
 
-Include the decision owner, people performing and affected by the work, Product Manager, product operations, technical and data partners, and governance partners proportionate to consequence.
+Include the decision owner, Team Lead, people performing and affected by the work, Product Manager, Product Operations, technical and data partners, and governance partners proportionate to consequence.
 
 ## Evidence to Bring
 

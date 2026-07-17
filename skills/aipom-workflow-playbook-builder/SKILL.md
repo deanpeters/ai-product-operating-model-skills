@@ -6,7 +6,7 @@ category: product-team-workflows
 phase: 2
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Operations, Product Manager, Design, Engineering, Operations, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Operations, AI Governance]
 best_for: [Making a tested workflow repeatable, Onboarding another team without losing judgment, Governing an AI-assisted operating motion]
 evidence_required: [Observed motion map, Human-AI work contract, Behavior and evaluation evidence, Pilot outcomes exceptions and incidents]
 produces: [Reusable workflow playbook, Run and exception guidance, Ownership and improvement cadence]

@@ -48,6 +48,25 @@ PUBLIC_PREVIEW_FILES = {
     "docs/releases/v0.5.md",
     "docs/releases/v0.5-release-audit.md",
 }
+PUBLIC_EXPERIENCE_FILES = {
+    "docs/README.md",
+    "docs/HANDOFF.md",
+    "docs/TARGET-PERSONAS.md",
+    "docs/personas/PRODUCT-OPERATIONS.md",
+    "docs/personas/PRODUCT-MANAGER.md",
+    "docs/personas/TEAM-LEAD.md",
+    "docs/journeys/ASSESS-AN-ORGANIZATION.md",
+    "docs/journeys/EVALUATE-AN-AI-INITIATIVE.md",
+    "docs/journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md",
+    "docs/adoption-packages/README.md",
+    "docs/adoption-packages/EXECUTIVE-ALIGNMENT.md",
+    "docs/adoption-packages/AI-INVESTMENT-DECISION.md",
+    "docs/adoption-packages/INITIATIVE-READINESS.md",
+    "docs/adoption-packages/HUMAN-AI-WORKFLOW-PILOT.md",
+    "docs/adoption-packages/GOVERNANCE-AND-ACCOUNTABILITY.md",
+    "docs/adoption-packages/QUARTERLY-AI-PORTFOLIO-REVIEW.md",
+    "catalog/skills-by-persona.md",
+}
 REQUIRED_FILES = {
     "VERSION",
     "CHANGELOG.md",
@@ -57,7 +76,7 @@ REQUIRED_FILES = {
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
     "docs/STARTING-PATHS.md",
-} | VALIDATION_KIT | PUBLIC_PREVIEW_FILES
+} | VALIDATION_KIT | PUBLIC_PREVIEW_FILES | PUBLIC_EXPERIENCE_FILES
 
 
 def split_skill(path: Path) -> tuple[dict, str]:

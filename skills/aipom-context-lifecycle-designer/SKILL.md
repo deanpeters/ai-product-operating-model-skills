@@ -6,7 +6,7 @@ category: context-knowledge-and-data
 phase: 3
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Operations, Product Manager, Engineering, Data, Knowledge Management, Privacy, Security, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Engineering, Data, Knowledge Management, Privacy, Security, AI Governance]
 best_for: [Operating reusable context packages, Preventing stale or conflicting context, Defining retention correction and expiry behavior]
 evidence_required: [Authoritative source map and context package, Retrieval and failure evidence, Permissions retention and correction rules, Owners and change triggers]
 produces: [Context lifecycle design, State transition and conflict rules, Ownership monitoring and test plan]

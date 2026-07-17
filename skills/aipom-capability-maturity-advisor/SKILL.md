@@ -6,7 +6,7 @@ category: capability-adoption-and-reuse
 phase: 1
 status: active
 operating_level: [organization, product-team]
-audience: [CPO, CTO, Product Operations, Product Manager, Enablement, People Operations, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Enablement, People Operations, AI Governance]
 best_for: [Moving beyond AI literacy training, Diagnosing adoption without outcome evidence, Choosing a role-specific capability intervention]
 evidence_required: [Role expectations and workflow needs, Applied work examples, Coaching and adoption evidence, Decision and outcome measures]
 produces: [Capability maturity diagnosis, Role and workflow gap, Recommended learning or reuse motion]

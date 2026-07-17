@@ -2,6 +2,8 @@
 
 You do not need to read or run all 41 skills. Start with the decision you need to make, then use the practitioner guide to prepare the people, evidence, and authority the work requires.
 
+If you are starting from your day-to-day role rather than a named decision, use the plain-English flows for [Product Operations](personas/PRODUCT-OPERATIONS.md), [Product Managers](personas/PRODUCT-MANAGER.md), or [Team Leads](personas/TEAM-LEAD.md).
+
 ## Compare the Paths
 
 | Path | Choose it when | Typical shape | Primary result |

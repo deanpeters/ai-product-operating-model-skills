@@ -6,7 +6,7 @@ category: evaluation-and-evidence
 phase: 3
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Manager, Research, Data, Engineering, Domain Experts, Privacy, AI Governance]
+audience: [Product Manager, Team Lead, Research, Data, Engineering, Domain Experts, Privacy, AI Governance]
 best_for: [Creating repeatable pre-release evaluation, Improving unrepresentative test cases, Governing expected answers and expert disagreement]
 evidence_required: [Behavior contract and real-use evidence, Data readiness and provenance, Failure incidents and affected perspectives, Expert adjudication capacity]
 produces: [Versioned evaluation set, Coverage and provenance record, Adjudication and maintenance rules]

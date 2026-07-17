@@ -17,6 +17,7 @@ audience:
   - VP Product
   - Product Operations
   - Product Manager
+  - Team Lead
   - Design
   - Engineering
   - Data
@@ -159,7 +160,7 @@ Build a cross-functional evidence group rather than relying on a single executiv
 Include appropriate representatives from:
 
 - Product and technology leadership
-- Product Managers and product teams
+- Product Managers, Team Leads, and product teams
 - Product Operations
 - Design, research, data, and engineering
 - Legal, privacy, security, safety, risk, compliance, or AI governance

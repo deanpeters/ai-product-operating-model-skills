@@ -6,7 +6,7 @@ category: portfolio-and-investment-choices
 phase: 2
 status: active
 operating_level: [organization, portfolio, initiative]
-audience: [CPO, CTO, VP Product, Product Operations, Finance, Engineering, AI Governance]
+audience: [CPO, CTO, VP Product, Product Operations, Product Manager, Finance, Engineering, AI Governance]
 best_for: [Creating consistent AI funding decisions, Ending zombie pilots, Separating learning capital from scaling capital]
 evidence_required: [Bet charters and initiative inventory, Outcome and evaluation evidence, Cost and dependency evidence, Control incidents and adoption evidence]
 produces: [Investment gate model, Stage-specific evidence requirements, Decision and exception record]

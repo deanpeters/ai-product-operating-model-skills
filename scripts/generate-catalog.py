@@ -25,6 +25,8 @@ CATEGORY_LABELS = {
     "cross-category": "Cross-Category",
 }
 
+TARGET_PERSONAS = ["Product Operations", "Product Manager", "Team Lead"]
+
 
 def load_skills() -> list[dict]:
     records: list[dict] = []
@@ -55,7 +57,7 @@ def generate_index(records: list[dict]) -> str:
         f"- Active skills: {active}",
         f"- {library_status}",
         "",
-        "Browse by [category](skills-by-category.md), [type](skills-by-type.md), or [phase](skills-by-phase.md).",
+        "Browse by [category](skills-by-category.md), [type](skills-by-type.md), [phase](skills-by-phase.md), or [target persona](skills-by-persona.md).",
         "",
     ])
 
@@ -77,6 +79,31 @@ def grouped_page(title: str, records: list[dict], key: str, labels: dict | None 
     return "\n".join(lines)
 
 
+def persona_page(records: list[dict]) -> str:
+    lines = [
+        "# Skills by Target Persona",
+        "",
+        "Generated from canonical `SKILL.md` audience metadata. Do not edit directly.",
+        "",
+        "Audience inclusion means the role performs, coordinates, decides, facilitates, or acts on the skill. It does not transfer specialist or executive authority.",
+        "",
+    ]
+    for persona in TARGET_PERSONAS:
+        matches = [record for record in records if persona in record.get("audience", [])]
+        lines.extend([
+            f"## {persona}",
+            "",
+            f"{len(matches)} of {len(records)} skills identify this persona in their audience metadata.",
+            "",
+            "| Skill | Description | Type |",
+            "|---|---|---|",
+        ])
+        for record in matches:
+            lines.append(f"| {link(record)} | {record.get('description', '')} | {record.get('type', '')} |")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def main() -> int:
     records = load_skills()
     CATALOG.mkdir(parents=True, exist_ok=True)
@@ -84,6 +111,7 @@ def main() -> int:
     (CATALOG / "skills-index.yaml").write_text(yaml.safe_dump({"skills": records}, sort_keys=False, allow_unicode=True))
     (CATALOG / "skills-by-category.md").write_text(grouped_page("Skills by Category", records, "category", CATEGORY_LABELS))
     (CATALOG / "skills-by-type.md").write_text(grouped_page("Skills by Type", records, "type"))
+    (CATALOG / "skills-by-persona.md").write_text(persona_page(records))
     phase_labels = {1: "Phase 1", 2: "Phase 2", 3: "Phase 3", 4: "Phase 4"}
     (CATALOG / "skills-by-phase.md").write_text(grouped_page("Skills by Phase", records, "phase", phase_labels))
     print(f"Generated catalog for {len(records)} skill(s).")

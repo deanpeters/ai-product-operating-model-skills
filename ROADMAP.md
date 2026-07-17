@@ -4,6 +4,17 @@ This file is the source of truth for phase membership, skill names, progress, an
 
 All build phases are complete, and the synthetic-data [`v0.5` public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5) is published. Post-release evidence, interoperability, adoption, and stabilization work is tracked in [docs/POST-RELEASE-ROADMAP.md](docs/POST-RELEASE-ROADMAP.md).
 
+For the current public experience, persona coverage, known limitations, validation commands, and recommended next work, read [docs/HANDOFF.md](docs/HANDOFF.md). This roadmap records completed phase membership; it is not the active task list.
+
+## Current Post-Release State
+
+- The public front door now routes people by role, working style, and problem.
+- Product Operations, Product Managers, and Team Leads have plain-English execution flows.
+- Relevant skills expose those execution personas in audience metadata and participation guidance.
+- Leaders have an executive field guide and six adoption packages assembled from existing skills.
+- Three practitioner journeys sit above the compact command layer.
+- The next evidence priority is representative practitioner and human-facilitator use, not additional catalog growth.
+
 ## Status Vocabulary
 
 - `planned` — named and sequenced, but not started

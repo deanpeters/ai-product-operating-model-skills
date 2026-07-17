@@ -1,5 +1,7 @@
 # AIPOM v0.5 Release Plan
 
+> **Historical launch record:** `v0.5` was published on 2026-07-17. Do not use this file as the current work queue. Use [HANDOFF.md](HANDOFF.md) and [POST-RELEASE-ROADMAP.md](POST-RELEASE-ROADMAP.md).
+
 The 41-skill build roadmap is complete. This plan governs the first public preview release, `v0.5`, and the evidence-building path that follows it.
 
 `v0.5` is explicitly a synthetic-data public preview. External human field validation is not a release blocker for this pre-1.0 version; it becomes a primary input to `v0.6`. The release must state that boundary prominently and must not claim field-proven effectiveness, adoption, impact, or compliance.

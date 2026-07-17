@@ -1,5 +1,11 @@
 # Repository Guidelines
 
+## Cold Start for a New Contributor or Agent
+
+Read [README.md](README.md), [docs/HANDOFF.md](docs/HANDOFF.md), and [docs/POST-RELEASE-ROADMAP.md](docs/POST-RELEASE-ROADMAP.md) before choosing work. The 41-skill build is complete; current work is post-release usability, evidence, facilitation, interoperability, adoption, and stabilization.
+
+Use [docs/README.md](docs/README.md) as the documentation map. Treat live canonical sources and the handoff as current state; the v0.5 release plan, readiness record, checklist, notes, and audit are historical launch records.
+
 ## Repository Mission
 
 AI Product Operating Model Skills (AIPOM) is a structured library of tools for assessing, designing, and improving how organizations manage AI-powered products and AI-assisted product work.
@@ -22,6 +28,7 @@ The intended users include:
 -   Product and technology executives
 -   Product Operations leaders
 -   Product Managers
+-   Team Leads responsible for day-to-day product-team execution
 -   Design, engineering, data, and research leaders
 -   Legal, privacy, security, risk, and AI governance partners
 -   Consultants, trainers, and facilitators helping organizations improve AI product practice
@@ -292,13 +299,22 @@ Use the following repository structure:
 │   ├── skills-index.yaml
 │   ├── skills-by-category.md
 │   ├── skills-by-type.md
-│   └── skills-by-phase.md
+│   ├── skills-by-phase.md
+│   └── skills-by-persona.md
 ├── docs/
 │   ├── SKILL-SPEC.md
 │   ├── ADAPTIVE-FACILITATION.md
 │   ├── EVIDENCE-STANDARD.md
 │   ├── OPERATING-MODEL.md
+│   ├── TARGET-PERSONAS.md
+│   ├── HANDOFF.md
+│   ├── README.md
 │   ├── CONTRIBUTION-WORKFLOW.md
+│   ├── personas/
+│   ├── journeys/
+│   ├── adoption-packages/
+│   ├── validation/
+│   ├── releases/
 │   └── research/
 ├── scripts/
 │   ├── validate-skills.py
@@ -632,9 +648,9 @@ Do not add later-phase skills merely to increase the catalog count.
 
 Each phase must produce a coherent, usable release.
 
-## Four-Phase Build Discipline
+## Four-Phase Build Record
 
-The planned library contains 41 skills across four phases.
+The planned 41-skill library was completed across four phases. The phase structure remains the canonical record of skill membership; it is not the active work queue.
 
 `ROADMAP.md` is the source of truth for phase membership and progress.
 
@@ -672,14 +688,14 @@ Add deeper economic, evaluation, context-lifecycle, dependency, and incident-con
 
 Add recurring portfolio review, production evidence review, trust assurance, learning systems, adoption measurement, and operating-model retrospectives.
 
-### Phase Rules
+### Post-Build Rules
 
--   Work within the current active phase unless explicitly instructed otherwise.
--   Do not create empty placeholders for later phases.
+-   Use `docs/POST-RELEASE-ROADMAP.md` and `docs/HANDOFF.md` to select current work.
+-   Do not reopen completed phases or create empty placeholders merely to show activity.
 -   Do not mark a skill complete until its content, examples, metadata, templates, links, and validation pass.
--   Prefer a smaller complete phase over a large partially built catalog.
 -   Update `ROADMAP.md` when phase status changes.
 -   Do not silently move skills between phases.
+-   Default to improving evidence, examples, facilitation, persona usability, interoperability, adoption, and measured reuse rather than adding catalog volume.
 
 ## Research and Source Standards
 
@@ -829,6 +845,7 @@ Do not edit these directly:
 -   `catalog/skills-by-category.md`
 -   `catalog/skills-by-type.md`
 -   `catalog/skills-by-phase.md`
+-   `catalog/skills-by-persona.md`
 -   Files under `dist/`
 
 Update canonical sources and regenerate them through repository scripts.

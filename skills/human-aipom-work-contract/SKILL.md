@@ -6,7 +6,7 @@ category: product-team-workflows
 phase: 1
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Manager, Design, Engineering, Operations, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Operations, AI Governance]
 best_for:
   - Introducing AI into a consequential recurring workflow
   - Fixing vague human-in-the-loop responsibilities
@@ -54,7 +54,7 @@ Use after understanding the current workflow and before production adoption or e
 
 ## Who Should Participate
 
-Include people who perform the work, the Product Manager, technical owner, decision owner, and accountable operational leader. Add affected-user and governance perspectives as consequences require.
+Include people who perform the work, the Team Lead, Product Manager, Product Operations where present, technical owner, decision owner, and accountable operational leader. Add affected-user and governance perspectives as consequences require.
 
 ## Evidence to Bring
 

@@ -6,4 +6,4 @@ This directory is generated from canonical skill metadata. Do not edit generated
 - Active skills: 41
 - Complete library: 41 active skills
 
-Browse by [category](skills-by-category.md), [type](skills-by-type.md), or [phase](skills-by-phase.md).
+Browse by [category](skills-by-category.md), [type](skills-by-type.md), [phase](skills-by-phase.md), or [target persona](skills-by-persona.md).

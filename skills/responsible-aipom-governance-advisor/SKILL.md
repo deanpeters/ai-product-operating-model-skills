@@ -6,7 +6,7 @@ category: governance-and-accountability
 phase: 1
 status: active
 operating_level: [organization, portfolio, product-team, initiative]
-audience: [CPO, CTO, Product Operations, Product Manager, Legal, Privacy, Security, Risk, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Legal, Privacy, Security, Risk, AI Governance]
 best_for: [Preparing consequential AI work, Resolving policy-practice gaps, Choosing a practical governance intervention]
 evidence_required: [Decision and accountability records, AI actions and consequences, Control and incident evidence, Applicable obligations and policies]
 produces: [Governance posture diagnosis, Critical gap and constrained decisions, Recommended control motion and owner]

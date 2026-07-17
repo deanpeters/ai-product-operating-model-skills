@@ -6,7 +6,7 @@ category: context-knowledge-and-data
 phase: 2
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Operations, Product Manager, Data, Knowledge Management, Privacy, Security, AI Governance]
+audience: [Product Operations, Product Manager, Team Lead, Data, Knowledge Management, Privacy, Security, AI Governance]
 best_for: [Resolving conflicting organizational sources, Preparing trusted context for AI-assisted work, Assigning source ownership and refresh]
 evidence_required: [Actual source inventory, Ownership and permission records, Conflict and failure examples, Refresh and usage evidence]
 produces: [Purpose-specific authoritative source map, Conflict and trust rules, Ownership and remediation actions]

@@ -6,7 +6,7 @@ category: portfolio-and-investment-choices
 phase: 2
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [CPO, VP Product, Product Operations, Product Manager, Engineering, Finance, AI Governance]
+audience: [CPO, VP Product, Product Operations, Product Manager, Team Lead, Engineering, Finance, AI Governance]
 best_for: [Comparing an intake of AI ideas, Preventing enthusiasm-only prioritization, Choosing bounded discovery investments]
 evidence_required: [Comparable opportunity frames, Outcome and value assumptions, Feasibility and readiness evidence, Consequences and constraints]
 produces: [Comparable triage record, Posture recommendation for each use case, Portfolio-level gaps and next tests]

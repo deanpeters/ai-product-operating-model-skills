@@ -11,7 +11,7 @@ The release is built with synthetic examples and has passed structural validatio
 The public repository now separates three reader needs:
 
 - Leaders can use the [Executive Field Guide](EXECUTIVE-FIELD-GUIDE.md) and [Executive Adoption Packages](adoption-packages/README.md) to select a consequential decision and bounded engagement.
-- Practitioners can use the [Starting Paths](STARTING-PATHS.md) and journey guides to prepare participants, evidence, authority, timing, and follow-through before running a workflow.
+- Practitioners can start with the [Target Personas](TARGET-PERSONAS.md) for role-led flows or the [Starting Paths](STARTING-PATHS.md) for decision-led journeys, then prepare participants, evidence, authority, timing, and follow-through before running a workflow.
 - Contributors can use the [Contribution Guide](../CONTRIBUTING.md), skill specification, and repository operating contract without making contributor mechanics the main public entry experience.
 
 These navigation and engagement layers organize existing canonical methods. They do not add evidence of field effectiveness, adoption, impact, certification, or compliance.

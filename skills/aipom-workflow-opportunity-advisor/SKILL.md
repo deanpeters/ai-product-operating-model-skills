@@ -6,7 +6,7 @@ category: product-team-workflows
 phase: 1
 status: active
 operating_level: [product-team]
-audience: [Product Operations, Product Manager, Design, Engineering, Research]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Research]
 best_for: [Choosing where AI should change product-team work, Avoiding tool-first adoption, Prioritizing one workflow redesign]
 evidence_required: [Workflow inventory, Decision and outcome evidence, Delay and rework evidence, Context and governance constraints]
 produces: [Priority workflow recommendation, Fit and readiness diagnosis, Next mapping or experiment action]

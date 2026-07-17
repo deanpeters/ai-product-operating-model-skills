@@ -14,6 +14,7 @@ operating_level:
 audience:
   - Product Manager
   - Product Operations
+  - Team Lead
   - Engineering
   - Design
   - Legal
@@ -115,7 +116,7 @@ The completed artifact contains:
 
 ## Who Should Participate
 
-Include the Product Manager, technical owner, workflow operator, and the person accountable for the affected outcome. Add design, research, data, legal, privacy, security, safety, risk, compliance, or domain specialists in proportion to the consequences.
+Include the Team Lead, Product Manager, Product Operations where present, technical owner, workflow operator, and the person accountable for the affected outcome. Add design, research, data, legal, privacy, security, safety, risk, compliance, or domain specialists in proportion to the consequences.
 
 Someone who performs the proposed human review should participate. Do not design oversight solely from management assumptions about how operators work.
 

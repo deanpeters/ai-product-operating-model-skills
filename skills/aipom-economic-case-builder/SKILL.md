@@ -6,7 +6,7 @@ category: strategy-and-economic-outcomes
 phase: 3
 status: active
 operating_level: [portfolio, initiative]
-audience: [CPO, VP Product, Product Manager, Finance, Engineering, Operations, AI Governance]
+audience: [CPO, VP Product, Product Operations, Product Manager, Finance, Engineering, Operations, AI Governance]
 best_for: [Funding validation or scale, Comparing AI with non-AI alternatives, Revising a case when evidence changes]
 evidence_required: [Outcome value map and baselines, Cost and capacity evidence, Adoption and evaluation evidence, Dependency risk and alternative estimates]
 produces: [AI economic case, Scenario and sensitivity model, Funding decision rules]

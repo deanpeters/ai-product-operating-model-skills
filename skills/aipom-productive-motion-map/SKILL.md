@@ -6,7 +6,7 @@ category: product-team-workflows
 phase: 2
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Operations, Product Manager, Design, Engineering, Research, Data]
+audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Research, Data]
 best_for: [Understanding work before adding AI, Finding consequential delays and rework, Establishing a baseline for workflow redesign]
 evidence_required: [Observed workflow examples, Decision and handoff records, Cycle-time and rework evidence, Practitioner and affected-user perspectives]
 produces: [Current-state productive-motion map, Friction and failure diagnosis, Baseline and redesign target]
@@ -42,7 +42,7 @@ Use after choosing a workflow opportunity and before a human-AI work contract, p
 
 ## Who Should Participate
 
-Include people who perform and receive the work, the accountable workflow owner, the Product Manager, and technical or operational partners. Leadership descriptions cannot replace practitioner observation.
+Include people who perform and receive the work, the accountable workflow owner, Team Lead, Product Manager, Product Operations where present, and technical or operational partners. Leadership descriptions cannot replace practitioner observation.
 
 ## Evidence to Bring
 

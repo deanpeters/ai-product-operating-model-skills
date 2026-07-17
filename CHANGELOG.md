@@ -10,12 +10,16 @@ Notable changes to AI Product Operating Model Skills are recorded here.
 - Three-door audience architecture for leaders, practitioners, and library contributors
 - Practitioner journey guides for organization assessment, initiative evaluation, and product-team workflow redesign
 - Six executive adoption packages for alignment, investment, readiness, workflow pilots, governance, and quarterly portfolio decisions
+- Target-persona map and plain-English execution flows for Product Operations, Product Managers, and Team Leads
+- Documentation guide and cold-start handoff for coworkers and coding agents
 
 ### Changed
 
 - Rebuilt the repository front door around organizational problems, consequential decisions, and situation-led entry paths
 - Separated human engagement preparation from the compact command layer used by facilitators and agents
 - Preserved canonical skills, assessments, catalogs, evidence standards, and release claims as the underlying sources of truth
+- Expanded relevant skill metadata and participation guidance so execution roles are represented across the work they perform and coordinate
+- Marked completed v0.5 launch documents as historical and routed current work through the handoff and active post-release roadmap
 
 ## [0.5] - 2026-07-17
 

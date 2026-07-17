@@ -6,7 +6,7 @@ category: governance-and-accountability
 phase: 4
 status: active
 operating_level: [organization, portfolio, initiative]
-audience: [Product Manager, Engineering, Legal, Privacy, Security, Risk, Procurement, AI Governance]
+audience: [Product Operations, Product Manager, Engineering, Legal, Privacy, Security, Risk, Procurement, AI Governance]
 best_for: [Answering customer or internal assurance questions, Preparing governance or procurement review, Replacing scattered trust claims with current evidence]
 evidence_required: [System scope and versions, Behavior evaluation and production evidence, Data context dependency and control records, Ownership incidents limitations and change history]
 produces: [Audience-specific trust assurance pack, Evidence provenance and freshness register, Claims gaps and update rules]

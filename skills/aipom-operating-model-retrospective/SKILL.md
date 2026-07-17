@@ -6,7 +6,7 @@ category: cross-category
 phase: 4
 status: active
 operating_level: [organization, portfolio, product-team]
-audience: [CPO, CTO, Product Operations, Product Manager, Engineering, Data, Finance, People Operations, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Engineering, Data, Finance, People Operations, AI Governance]
 best_for: [Annual or semiannual operating-model improvement, Learning after several portfolio cycles, Retiring controls practices or metrics that no longer help]
 evidence_required: [Assessment roadmap and prior retrospective, Portfolio and production decisions, Workflow capability adoption and outcome evidence, Incidents exceptions burden and stakeholder feedback]
 produces: [Operating-model learning report, Keep change stop and experiment decisions, Updated roadmap owners and reassessment plan]

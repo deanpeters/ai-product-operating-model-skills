@@ -20,11 +20,11 @@ This door should emphasize organizational consequences, decision quality, owners
 
 ### Do the Work
 
-**Primary readers:** Product Managers, product teams, cross-functional partners, facilitators, consultants, trainers, and practitioners responsible for an initiative or recurring workflow.
+**Primary readers:** Product Operations, Product Managers, Team Leads, product teams, cross-functional partners, facilitators, consultants, trainers, and practitioners responsible for an initiative or recurring workflow.
 
 **Question:** What decision or condition needs attention, what evidence should we bring, and what useful result will the work produce?
 
-**Primary route:** [Starting Paths](STARTING-PATHS.md), then a practitioner journey guide, guided command, and the skills it orchestrates.
+**Primary route:** [Target Personas](TARGET-PERSONAS.md) or [Starting Paths](STARTING-PATHS.md), then a persona flow or practitioner journey guide, guided command, and the skills it orchestrates.
 
 This door should be situation-led and action-oriented. It should explain participants, preparation, effort, outputs, decision authority, and what happens next before exposing the full catalog.
 
@@ -65,9 +65,12 @@ The seven categories remain the diagnostic architecture. They should not be the 
 | Content | Canonical source |
 |---|---|
 | Executive explanation and adoption route | `docs/EXECUTIVE-FIELD-GUIDE.md` |
+| Current state and next-work handoff | `docs/HANDOFF.md` |
+| Documentation navigation | `docs/README.md` |
 | Sponsor-ready engagement packages | `docs/adoption-packages/` |
 | Product concept, categories, levels, and intended outcomes | `docs/OPERATING-MODEL.md` |
 | Situation-led entry routes | `docs/STARTING-PATHS.md`, `docs/journeys/`, and `commands/` |
+| Role-led practitioner routes | `docs/TARGET-PERSONAS.md` and `docs/personas/` |
 | Assessment questions and scoring | `assessments/` |
 | Skill content and relationships | `skills/` |
 | Shared skill and facilitation requirements | `docs/SKILL-SPEC.md` and `docs/ADAPTIVE-FACILITATION.md` |

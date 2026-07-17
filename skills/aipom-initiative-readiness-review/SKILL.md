@@ -6,7 +6,7 @@ category: cross-category
 phase: 3
 status: active
 operating_level: [portfolio, product-team, initiative]
-audience: [CPO, CTO, Product Manager, Engineering, Finance, Operations, Legal, Privacy, Security, Risk, AI Governance]
+audience: [CPO, CTO, Product Operations, Product Manager, Team Lead, Engineering, Finance, Operations, Legal, Privacy, Security, Risk, AI Governance]
 best_for: [Launch or scale decisions, Increasing autonomy or sensitive-data use, Resolving conflicting readiness claims]
 evidence_required: [Bet outcome and economic evidence, Architecture context data and evaluation artifacts, Accountability controls and incident readiness, Adoption capability and operating evidence]
 produces: [Initiative readiness profile, Critical gaps and constrained decisions, Proceed constrain remediate pause or stop recommendation]
@@ -45,7 +45,7 @@ Use at material investment gates and after significant model, data, workflow, ve
 
 ## Who Should Participate
 
-Include the accountable decision owner, Product Manager, technical and operational owners, finance, affected-user or domain representation, and legal, privacy, security, risk, or governance specialists proportionate to consequence.
+Include the accountable decision owner, Team Lead, Product Manager, Product Operations where present, technical and operational owners, finance, affected-user or domain representation, and legal, privacy, security, risk, or governance specialists proportionate to consequence.
 
 ## Evidence to Bring
 
