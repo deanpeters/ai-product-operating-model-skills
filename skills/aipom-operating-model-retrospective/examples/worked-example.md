@@ -1,0 +1,3 @@
+# Synthetic Worked Example: First-Year Review
+
+The organization finds that stage gates stopped two weak pilots and funded shared evaluation, but the same evidence is reformatted for three committees. Product teams use context maps, yet correction ownership remains unclear. Training attendance is high while manager reinforcement predicts actual workflow change. The retrospective keeps critical-gap gates, consolidates assurance review, changes context stewardship, stops prompt-volume reporting, and experiments with manager-led practice reviews. Each decision updates the roadmap, owner, capacity, measure, and six-month reassessment trigger.

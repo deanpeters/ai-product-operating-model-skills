@@ -45,6 +45,7 @@ def link(record: dict) -> str:
 
 def generate_index(records: list[dict]) -> str:
     active = sum(record.get("status") == "active" for record in records)
+    library_status = "Complete library: 41 active skills" if active == 41 else "Planned library: 41 skills"
     return "\n".join([
         "# AIPOM Skill Catalog",
         "",
@@ -52,7 +53,7 @@ def generate_index(records: list[dict]) -> str:
         "",
         f"- Skills present: {len(records)}",
         f"- Active skills: {active}",
-        "- Planned library: 41 skills",
+        f"- {library_status}",
         "",
         "Browse by [category](skills-by-category.md), [type](skills-by-type.md), or [phase](skills-by-phase.md).",
         "",
@@ -91,4 +92,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

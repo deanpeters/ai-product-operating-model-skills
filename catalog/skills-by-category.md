@@ -9,6 +9,8 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-capability-maturity-advisor`](../skills/aipom-capability-maturity-advisor/SKILL.md) | Diagnose role capability, applied learning, workflow adoption, stewardship, and outcome evidence; recommend the next capability-building motion rather than more generic training. | active |
 | [`workflow-to-skill-converter`](../skills/workflow-to-skill-converter/SKILL.md) | Convert a proven, improved workflow into a governed, reusable skill with context, decisions, examples, guardrails, evaluations, ownership, and maintenance rules. | active |
 | [`role-based-aipom-competency-map`](../skills/role-based-aipom-competency-map/SKILL.md) | Define observable AI product competencies by role and proficiency level, tied to real decisions, evidence, practice, and progression rather than generic tool fluency. | active |
+| [`aipom-adoption-impact-scorecard`](../skills/aipom-adoption-impact-scorecard/SKILL.md) | Measure whether AI operating practices change behavior, decisions, workflows, reuse, outcomes, burden, and risk rather than merely increasing activity. | active |
+| [`aipom-learning-system-designer`](../skills/aipom-learning-system-designer/SKILL.md) | Design a role-based applied learning system with real work, practice, coaching, peer feedback, progression, reinforcement, stewardship, and outcome evidence. | active |
 
 ## Context, Knowledge, and Data
 
@@ -28,6 +30,8 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-operating-model-roadmap`](../skills/aipom-operating-model-roadmap/SKILL.md) | Convert evidence-based operating-model findings into an owned 30-, 90-, 180-, and 365-day sequence of interventions, learning milestones, dependencies, and decisions. | active |
 | [`aipom-initiative-readiness-review`](../skills/aipom-initiative-readiness-review/SKILL.md) | Review one AI initiative across value, economics, dependencies, workflow, context, evaluation, governance, controls, capability, and recovery before a material decision. | active |
 | [`aipom-operating-model-design-sprint`](../skills/aipom-operating-model-design-sprint/SKILL.md) | Design and test a bounded AI product operating-model change across decisions, workflows, context, evidence, governance, capability, ownership, and adoption. | active |
+| [`aipom-operating-model-retrospective`](../skills/aipom-operating-model-retrospective/SKILL.md) | Review whether the AI product operating model improves decisions and outcomes, identify systemic friction and performative activity, and choose the next changes. | active |
+| [`aipom-portfolio-quarterly-review`](../skills/aipom-portfolio-quarterly-review/SKILL.md) | Run a recurring AI portfolio review that reallocates capital and capacity using strategy, outcomes, economics, readiness, production evidence, dependencies, and learning. | active |
 
 ## Evaluation and Evidence
 
@@ -37,6 +41,7 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-evaluation-strategy-advisor`](../skills/aipom-evaluation-strategy-advisor/SKILL.md) | Recommend the product, model, workflow, human, and production evaluations needed for an AI decision, based on behavior, consequences, evidence gaps, and lifecycle stage. | active |
 | [`aipom-eval-scorecard-builder`](../skills/aipom-eval-scorecard-builder/SKILL.md) | Define calibrated AI evaluation metrics, rubrics, judges, thresholds, sampling, uncertainty, ownership, and decision rules tied to behavior and consequences. | active |
 | [`aipom-golden-dataset-builder`](../skills/aipom-golden-dataset-builder/SKILL.md) | Build a governed, representative AI evaluation set with provenance, expected behavior, edge cases, affected groups, adjudication, versioning, and limits. | active |
+| [`aipom-production-evidence-review`](../skills/aipom-production-evidence-review/SKILL.md) | Run a recurring review of AI behavior, workflow, human, outcome, control, incident, and affected-party evidence to continue, change, constrain, roll back, or retire. | active |
 
 ## Governance and Accountability
 
@@ -46,6 +51,7 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`responsible-aipom-governance-advisor`](../skills/responsible-aipom-governance-advisor/SKILL.md) | Diagnose the most consequential missing AI governance condition across ownership, authority, controls, escalation, oversight, and trust evidence; recommend the next motion. | active |
 | [`aipom-accountability-charter`](../skills/aipom-accountability-charter/SKILL.md) | Assign human decision rights, accountability, review, contribution, escalation, and evidence duties for a material AI product or recurring operating decision. | active |
 | [`aipom-risk-control-incident-playbook`](../skills/aipom-risk-control-incident-playbook/SKILL.md) | Design preventive controls, detection, triage, containment, rollback, communication, investigation, remediation, learning, and reporting for AI incidents. | active |
+| [`aipom-trust-assurance-pack-builder`](../skills/aipom-trust-assurance-pack-builder/SKILL.md) | Assemble current, audience-appropriate evidence about an AI product's purpose, behavior, limits, evaluations, controls, ownership, incidents, and change history. | active |
 
 ## Portfolio and Investment Choices
 
@@ -75,3 +81,4 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-opportunity-framing`](../skills/aipom-opportunity-framing/SKILL.md) | Frame an AI product opportunity around an evidenced condition, affected actors, consequences, alternatives, and the uncertainty that should be tested next. | active |
 | [`aipom-outcome-value-map`](../skills/aipom-outcome-value-map/SKILL.md) | Map how AI behavior may change user behavior, product outcomes, economic value, and risk while exposing causal assumptions and countermeasures. | active |
 | [`aipom-economic-case-builder`](../skills/aipom-economic-case-builder/SKILL.md) | Build an evidence-aware economic case for an AI investment across value, full lifecycle cost, uncertainty, alternatives, risk, and decision thresholds. | active |
+| [`aipom-strategy-narrative-builder`](../skills/aipom-strategy-narrative-builder/SKILL.md) | Turn an evidence-based AI product thesis, portfolio choices, outcomes, boundaries, and learning into a clear narrative for aligned organizational action. | active |

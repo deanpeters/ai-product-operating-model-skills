@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Product Manager Evaluation Practice
+
+Product Managers first learn to distinguish behavior, workflow, and outcome evidence. They then critique a weak scorecard, build one with an evaluation specialist, and use production evidence to make a constrained-launch recommendation. Coaches review artifacts and reasoning; peers calibrate disagreements. Managers require evidence-led review in real initiative gates, and a reusable skill captures the method. Progression is demonstrated through decisions and artifacts, while lack of evaluation-tool access is escalated as a system barrier rather than scored as learner failure.

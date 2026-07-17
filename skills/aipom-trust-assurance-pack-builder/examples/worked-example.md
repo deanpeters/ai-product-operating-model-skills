@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Customer Assurance for Case Briefs
+
+The pack states that the system drafts cited briefs but never decides entitlement or severity. It links omission and citation claims to the current scorecard and 90-day production review, discloses the recent schema-change incident and verified remediation, describes human review and rollback authority, and names regional processing limits. Each claim identifies version, date, owner, and limitation. Security-sensitive control details are marked available through an approved diligence channel. The pack expires after 90 days or any material model, source, autonomy, or incident change.

@@ -1902,3 +1902,420 @@ skills:
   - aipom-initiative-readiness-review
   sources: []
   path: skills/aipom-economic-case-builder/SKILL.md
+- name: aipom-adoption-impact-scorecard
+  description: Measure whether AI operating practices change behavior, decisions,
+    workflows, reuse, outcomes, burden, and risk rather than merely increasing activity.
+  type: component
+  category: capability-adoption-and-reuse
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - Product Operations
+  - Product Manager
+  - Finance
+  - Enablement
+  - People Operations
+  - AI Governance
+  best_for:
+  - Evaluating learning or adoption investment
+  - Replacing license and login metrics
+  - Deciding whether a practice should scale change or stop
+  evidence_required:
+  - Target behavior and workflow baselines
+  - Usage and applied-work evidence
+  - Decision outcome burden and risk measures
+  - Comparison and attribution evidence
+  produces:
+  - Adoption impact scorecard
+  - Evidence and attribution notes
+  - Scale revise reinforce or retire decision rules
+  assessment_questions:
+  - CAP-02
+  - CAP-03
+  - CAP-04
+  - CAP-05
+  - WFL-05
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 60-120 min
+  group_size: 3-8
+  depends_on:
+  - role-based-aipom-competency-map
+  combine_with:
+  - aipom-learning-system-designer
+  - aipom-production-evidence-review
+  - aipom-operating-model-retrospective
+  sources: []
+  path: skills/aipom-adoption-impact-scorecard/SKILL.md
+- name: aipom-learning-system-designer
+  description: Design a role-based applied learning system with real work, practice,
+    coaching, peer feedback, progression, reinforcement, stewardship, and outcome
+    evidence.
+  type: workflow
+  category: capability-adoption-and-reuse
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  audience:
+  - CPO
+  - Product Operations
+  - Product Manager
+  - Enablement
+  - People Operations
+  - Learning and Development
+  - AI Governance
+  best_for:
+  - Moving beyond one-time AI training
+  - Building role proficiency through work
+  - Creating a repeatable capability and coaching system
+  evidence_required:
+  - Role competency map and workflow priorities
+  - Work samples and capability gaps
+  - Coaching support and manager routines
+  - Adoption behavior and outcome evidence
+  produces:
+  - Role-based learning system
+  - Applied practice and progression pathways
+  - Reinforcement measurement and stewardship plan
+  assessment_questions:
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  - CAP-04
+  - CAP-05
+  maturity_move:
+    from: repeatable
+    to: operationalized
+  estimated_time: 2-4 hours design plus ongoing delivery
+  group_size: 4-12 design team
+  depends_on:
+  - role-based-aipom-competency-map
+  - aipom-capability-maturity-advisor
+  combine_with:
+  - aipom-adoption-impact-scorecard
+  - workflow-to-skill-converter
+  - aipom-operating-model-retrospective
+  sources: []
+  path: skills/aipom-learning-system-designer/SKILL.md
+- name: aipom-operating-model-retrospective
+  description: Review whether the AI product operating model improves decisions and
+    outcomes, identify systemic friction and performative activity, and choose the
+    next changes.
+  type: workflow
+  category: cross-category
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - CTO
+  - Product Operations
+  - Product Manager
+  - Engineering
+  - Data
+  - Finance
+  - People Operations
+  - AI Governance
+  best_for:
+  - Annual or semiannual operating-model improvement
+  - Learning after several portfolio cycles
+  - Retiring controls practices or metrics that no longer help
+  evidence_required:
+  - Assessment roadmap and prior retrospective
+  - Portfolio and production decisions
+  - Workflow capability adoption and outcome evidence
+  - Incidents exceptions burden and stakeholder feedback
+  produces:
+  - Operating-model learning report
+  - Keep change stop and experiment decisions
+  - Updated roadmap owners and reassessment plan
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  - POR-01
+  - POR-02
+  - POR-03
+  - POR-04
+  - POR-05
+  - WFL-01
+  - WFL-02
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  - CTX-01
+  - CTX-02
+  - CTX-03
+  - CTX-04
+  - CTX-05
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  - CAP-04
+  - CAP-05
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 2-4 hours plus evidence preparation
+  group_size: 6-16
+  depends_on:
+  - aipom-operating-model-assessment
+  - aipom-operating-model-roadmap
+  combine_with:
+  - aipom-portfolio-quarterly-review
+  - aipom-adoption-impact-scorecard
+  - aipom-operating-model-design-sprint
+  sources: []
+  path: skills/aipom-operating-model-retrospective/SKILL.md
+- name: aipom-portfolio-quarterly-review
+  description: Run a recurring AI portfolio review that reallocates capital and capacity
+    using strategy, outcomes, economics, readiness, production evidence, dependencies,
+    and learning.
+  type: workflow
+  category: cross-category
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  audience:
+  - CPO
+  - CTO
+  - VP Product
+  - Product Operations
+  - Finance
+  - Engineering
+  - Risk
+  - AI Governance
+  best_for:
+  - Quarterly AI investment decisions
+  - Stopping zombie pilots and premature scale
+  - Rebalancing initiatives and shared capabilities
+  evidence_required:
+  - Strategy and portfolio inventory
+  - Initiative economics readiness and production evidence
+  - Dependencies incidents and control status
+  - Capacity reuse adoption and prior decision records
+  produces:
+  - Portfolio decision record
+  - Initiative and shared-capability allocations
+  - Updated strategy assumptions and next review agenda
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  - POR-01
+  - POR-02
+  - POR-03
+  - POR-04
+  - POR-05
+  - EVAL-05
+  - GOV-03
+  - CAP-03
+  - CAP-04
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 2-4 hours quarterly plus preparation
+  group_size: 5-12 decision group
+  depends_on:
+  - aipom-portfolio-posture-advisor
+  - aipom-investment-stage-gates
+  combine_with:
+  - aipom-production-evidence-review
+  - aipom-strategy-narrative-builder
+  - aipom-operating-model-retrospective
+  sources: []
+  path: skills/aipom-portfolio-quarterly-review/SKILL.md
+- name: aipom-production-evidence-review
+  description: Run a recurring review of AI behavior, workflow, human, outcome, control,
+    incident, and affected-party evidence to continue, change, constrain, roll back,
+    or retire.
+  type: workflow
+  category: evaluation-and-evidence
+  phase: 4
+  status: active
+  operating_level:
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Engineering
+  - Operations
+  - Research
+  - Data
+  - Risk
+  - AI Governance
+  best_for:
+  - Recurring production governance
+  - Responding to drift or emerging harm
+  - Deciding whether AI behavior should continue or change
+  evidence_required:
+  - Production monitoring and evaluation results
+  - Workflow outcome and human-review evidence
+  - Incidents feedback appeals and affected-party evidence
+  - Versions changes controls and dependencies
+  produces:
+  - Production evidence review record
+  - Continue change constrain rollback or retire decision
+  - Monitoring and remediation actions
+  assessment_questions:
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  - GOV-03
+  - GOV-05
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 60-120 min recurring
+  group_size: 5-12
+  depends_on:
+  - aipom-eval-scorecard-builder
+  - aipom-risk-control-incident-playbook
+  combine_with:
+  - aipom-golden-dataset-builder
+  - aipom-trust-assurance-pack-builder
+  - aipom-portfolio-quarterly-review
+  sources:
+  - https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems
+  - https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+  - https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  path: skills/aipom-production-evidence-review/SKILL.md
+- name: aipom-trust-assurance-pack-builder
+  description: Assemble current, audience-appropriate evidence about an AI product's
+    purpose, behavior, limits, evaluations, controls, ownership, incidents, and change
+    history.
+  type: component
+  category: governance-and-accountability
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - initiative
+  audience:
+  - Product Manager
+  - Engineering
+  - Legal
+  - Privacy
+  - Security
+  - Risk
+  - Procurement
+  - AI Governance
+  best_for:
+  - Answering customer or internal assurance questions
+  - Preparing governance or procurement review
+  - Replacing scattered trust claims with current evidence
+  evidence_required:
+  - System scope and versions
+  - Behavior evaluation and production evidence
+  - Data context dependency and control records
+  - Ownership incidents limitations and change history
+  produces:
+  - Audience-specific trust assurance pack
+  - Evidence provenance and freshness register
+  - Claims gaps and update rules
+  assessment_questions:
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - EVAL-05
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - aipom-initiative-readiness-review
+  - aipom-production-evidence-review
+  combine_with:
+  - aipom-accountability-charter
+  - aipom-risk-control-incident-playbook
+  - aipom-strategy-narrative-builder
+  sources:
+  - https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+  - https://oecd.ai/en/accountability/
+  path: skills/aipom-trust-assurance-pack-builder/SKILL.md
+- name: aipom-strategy-narrative-builder
+  description: Turn an evidence-based AI product thesis, portfolio choices, outcomes,
+    boundaries, and learning into a clear narrative for aligned organizational action.
+  type: component
+  category: strategy-and-economic-outcomes
+  phase: 4
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - CTO
+  - VP Product
+  - Product Operations
+  - Product Manager
+  - Communications
+  - AI Governance
+  best_for:
+  - Explaining AI strategy beyond slogans
+  - Aligning teams on choices and non-goals
+  - Updating direction after portfolio evidence changes
+  evidence_required:
+  - Strategy thesis and decision history
+  - Portfolio bets outcomes and economics
+  - Critical constraints and non-goals
+  - Evidence of learning and changed choices
+  produces:
+  - AI product strategy narrative
+  - Audience-specific decision messages
+  - Evidence and update ledger
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  maturity_move:
+    from: operationalized
+    to: compounding
+  estimated_time: 60-120 min
+  group_size: 3-8
+  depends_on:
+  - aipom-strategy-thesis-advisor
+  - aipom-portfolio-quarterly-review
+  combine_with:
+  - aipom-outcome-value-map
+  - aipom-economic-case-builder
+  - aipom-trust-assurance-pack-builder
+  sources: []
+  path: skills/aipom-strategy-narrative-builder/SKILL.md

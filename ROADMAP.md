@@ -53,7 +53,7 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 
 **Phase status: complete.** All 15 Phase 1 skills are active and validated as a coherent assessment-to-action loop.
 
-**Pattern gate: complete.** The component, interactive-advisor, and workflow exemplars are active and validated. Review their behavior and artifact patterns before generating the remaining Phase 1 skills.
+**Pattern gate: complete.** The component, interactive-advisor, and workflow exemplars established the behavior and artifact patterns used by subsequent Phase 1 skills.
 
 **Exit gate:** A leadership team can assess the operating model, identify the weakest consequential conditions, select an intervention, produce a useful artifact, assign a next action, build a roadmap, and capture effective practice for reuse.
 
@@ -108,15 +108,17 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 
 | Category | Skill | Type | Status |
 |---|---|---|---|
-| Strategy | `aipom-strategy-narrative-builder` | component | planned |
-| Evaluation | `aipom-production-evidence-review` | workflow | planned |
-| Governance | `aipom-trust-assurance-pack-builder` | component | planned |
-| Capability | `aipom-learning-system-designer` | workflow | planned |
-| Capability | `aipom-adoption-impact-scorecard` | component | planned |
-| Cross-category | `aipom-portfolio-quarterly-review` | workflow | planned |
-| Cross-category | `aipom-operating-model-retrospective` | workflow | planned |
+| Strategy | `aipom-strategy-narrative-builder` | component | active |
+| Evaluation | `aipom-production-evidence-review` | workflow | active |
+| Governance | `aipom-trust-assurance-pack-builder` | component | active |
+| Capability | `aipom-learning-system-designer` | workflow | active |
+| Capability | `aipom-adoption-impact-scorecard` | component | active |
+| Cross-category | `aipom-portfolio-quarterly-review` | workflow | active |
+| Cross-category | `aipom-operating-model-retrospective` | workflow | active |
 
 **Total:** 7 skills.
+
+**Phase status: complete.** All 7 Phase 4 skills are active and validated as the recurring assurance, learning, portfolio, and improvement layer.
 
 **Exit gate:** The organization can repeatedly review investments, monitor production evidence, communicate trust evidence, grow role capability, measure changed outcomes, reuse effective practices, and retire performative AI activity.
 
@@ -129,3 +131,5 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 | Phase 3 | 9 |
 | Phase 4 | 7 |
 | **Total** | **41** |
+
+**Library status: complete.** All 41 planned skills across all four phases are active. Future work should improve evidence, examples, facilitation, interoperability, and field use rather than inflate the catalog.

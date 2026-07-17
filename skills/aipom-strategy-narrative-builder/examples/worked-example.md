@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Support Decision Quality
+
+The company’s strategy is to improve consequential support decisions, not automate support broadly. It invests first in cited case preparation because delay and missing facts are evidenced; it declines autonomous entitlement and severity decisions until behavior, authority, and recovery evidence improve. Value comes from faster specialist preparation without increased misrouting or reopenings. A production omission caused the team to strengthen context expiry and rollback before expansion. The narrative tells teams which decisions change now, which remain human, and what evidence would justify the next move.

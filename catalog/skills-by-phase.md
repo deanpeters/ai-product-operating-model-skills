@@ -50,3 +50,15 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-platform-dependency-audit`](../skills/aipom-platform-dependency-audit/SKILL.md) | Assess model, vendor, data, infrastructure, integration, talent, switching, and portability dependencies that can change an AI investment decision. | active |
 | [`aipom-decision-cycle-redesign`](../skills/aipom-decision-cycle-redesign/SKILL.md) | Redesign a recurring product decision cycle around evidence, context, human judgment, AI assistance, authority, feedback, and measurable learning. | active |
 | [`aipom-economic-case-builder`](../skills/aipom-economic-case-builder/SKILL.md) | Build an evidence-aware economic case for an AI investment across value, full lifecycle cost, uncertainty, alternatives, risk, and decision thresholds. | active |
+
+## Phase 4
+
+| Skill | Description | Status |
+|---|---|---|
+| [`aipom-adoption-impact-scorecard`](../skills/aipom-adoption-impact-scorecard/SKILL.md) | Measure whether AI operating practices change behavior, decisions, workflows, reuse, outcomes, burden, and risk rather than merely increasing activity. | active |
+| [`aipom-learning-system-designer`](../skills/aipom-learning-system-designer/SKILL.md) | Design a role-based applied learning system with real work, practice, coaching, peer feedback, progression, reinforcement, stewardship, and outcome evidence. | active |
+| [`aipom-operating-model-retrospective`](../skills/aipom-operating-model-retrospective/SKILL.md) | Review whether the AI product operating model improves decisions and outcomes, identify systemic friction and performative activity, and choose the next changes. | active |
+| [`aipom-portfolio-quarterly-review`](../skills/aipom-portfolio-quarterly-review/SKILL.md) | Run a recurring AI portfolio review that reallocates capital and capacity using strategy, outcomes, economics, readiness, production evidence, dependencies, and learning. | active |
+| [`aipom-production-evidence-review`](../skills/aipom-production-evidence-review/SKILL.md) | Run a recurring review of AI behavior, workflow, human, outcome, control, incident, and affected-party evidence to continue, change, constrain, roll back, or retire. | active |
+| [`aipom-trust-assurance-pack-builder`](../skills/aipom-trust-assurance-pack-builder/SKILL.md) | Assemble current, audience-appropriate evidence about an AI product's purpose, behavior, limits, evaluations, controls, ownership, incidents, and change history. | active |
+| [`aipom-strategy-narrative-builder`](../skills/aipom-strategy-narrative-builder/SKILL.md) | Turn an evidence-based AI product thesis, portfolio choices, outcomes, boundaries, and learning into a clear narrative for aligned organizational action. | active |
