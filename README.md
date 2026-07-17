@@ -8,11 +8,13 @@ The goal is not more AI activity or more completed canvases. The goal is better 
 
 ## Start Here
 
+- [Choose a starting path](docs/STARTING-PATHS.md): assess an organization, evaluate an AI initiative, or redesign a product-team workflow.
 - [Operating model](docs/OPERATING-MODEL.md): the product concept, seven categories, operating levels, and intended outcomes.
-- [Roadmap](ROADMAP.md): canonical phase membership, progress, and release gates for all 41 planned skills.
+- [Roadmap](ROADMAP.md): canonical phase membership and completion status for all 41 active skills.
 - [Skill specification](docs/SKILL-SPEC.md): required metadata, sections, naming, and completion rules.
 - [Adaptive facilitation](docs/ADAPTIVE-FACILITATION.md): how advisors and workflows recognize context and guide decisions.
 - [Evidence standard](docs/EVIDENCE-STANDARD.md): how claims, evidence, assumptions, and maturity scores are handled.
+- [v0.5 release plan](docs/RELEASE-PLAN.md): private-preview readiness, field-validation, and public-release gates.
 - [Contribution guide](CONTRIBUTING.md): the shortest path from an idea to a validated contribution.
 
 Repository-wide instructions for human and AI contributors live in [AGENTS.md](AGENTS.md).
@@ -39,6 +41,16 @@ All four build phases are complete. The library now provides 41 active, validate
 - Reallocate the AI portfolio and improve the operating model through recurring evidence
 
 The planned 41-skill catalog is complete. Future releases should deepen field evidence, examples, facilitation quality, interoperability, and measured reuse rather than add skills for catalog size.
+
+The first public preview is targeted as `v0.5`. The repository remains private and no release tag has been created; representative field validation and the remaining release gates come next. See [release readiness](docs/RELEASE-READINESS.md) and the [release checklist](docs/RELEASE-CHECKLIST.md).
+
+## Three Starting Paths
+
+You do not need to read all 41 skills before doing useful work:
+
+1. [Assess an organization](commands/aipom-assess-organization.md) to produce an evidence-based maturity profile and owned operating-model roadmap.
+2. [Evaluate an AI initiative](commands/aipom-evaluate-initiative.md) to reach a proceed, constrain, remediate, pause, or stop decision.
+3. [Redesign a product-team workflow](commands/aipom-redesign-workflow.md) to test a responsible human-AI decision cycle before standardizing it.
 
 Canonical packages preserve the full AIPOM organizational metadata. The release build also generates Codex-compatible packages with platform-specific metadata and bundled references.
 
@@ -106,6 +118,8 @@ See [assessments/scoring-model.md](assessments/scoring-model.md) for the complet
 ├── README.md
 ├── ROADMAP.md
 ├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── VERSION
 ├── LICENSE
 ├── assessments/       # Canonical questions, evidence rubric, and scoring
 ├── catalog/           # Generated navigation; do not edit directly
@@ -144,8 +158,10 @@ Build a release after validation succeeds:
 
 The build produces:
 
-- `dist/aipom-skills.zip`, the canonical platform-neutral library
-- `dist/aipom-codex-skills.zip`, adapted Codex-compatible skill packages
+- `dist/aipom-skills-v0.5.zip`, the versioned canonical platform-neutral library
+- `dist/aipom-codex-skills-v0.5.zip`, the versioned Codex-compatible skill packages
+- Stable aliases without version suffixes for local consumers
+- `dist/SHA256SUMS`, checksums for the versioned release archives
 
 Generated catalog and distribution files must not be edited directly.
 

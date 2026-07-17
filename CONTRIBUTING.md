@@ -21,6 +21,8 @@ rg "relevant term|possible-skill-name" .
 
 Use an existing foundational skill when it already solves the underlying problem. An AIPOM contribution must add a meaningful operating-model application.
 
+The 41-skill build roadmap is complete. Default to improving evidence, examples, facilitation, interoperability, or measured reuse in the existing catalog. A proposed new skill requires a documented operating-model gap and an explicit roadmap amendment; catalog growth is not a goal by itself.
+
 ## Contribution Standard
 
 A contribution must identify:
@@ -62,11 +64,10 @@ Do not edit files in `catalog/` or `dist/` directly.
 
 - Keep changes focused.
 - Preserve canonical names and stable assessment IDs.
-- Do not move skills between phases without updating `ROADMAP.md` and explaining why.
+- Do not add or move skills between phases without an explicit `ROADMAP.md` amendment and rationale.
 - Use primary or authoritative sources for laws, standards, named frameworks, and time-sensitive requirements.
 - Do not claim validation passed unless you ran it.
 
 ## License
 
 By contributing, you agree that your contribution will be licensed under the repository’s [CC BY-NC-SA 4.0 license](LICENSE).
-

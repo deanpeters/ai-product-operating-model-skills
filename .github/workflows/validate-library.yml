@@ -1,0 +1,38 @@
+name: Validate AIPOM library
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install validation dependency
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Validate canonical library
+        run: ./scripts/test-library.sh
+
+      - name: Build v0.5 release candidates
+        run: ./scripts/build-release.sh
+
+      - name: Verify release archives
+        run: |
+          unzip -t dist/aipom-skills-v0.5.zip
+          unzip -t dist/aipom-codex-skills-v0.5.zip
+          cd dist
+          shasum -a 256 -c SHA256SUMS

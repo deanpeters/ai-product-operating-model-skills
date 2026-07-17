@@ -6,6 +6,7 @@ cd "$repo_dir"
 
 python3 scripts/validate-skills.py
 python3 scripts/check-links.py
+python3 scripts/validate-release.py
 python3 scripts/generate-catalog.py
 
 if ! git diff --exit-code -- catalog >/dev/null 2>&1; then
@@ -17,4 +18,3 @@ if ! git diff --exit-code -- catalog >/dev/null 2>&1; then
 fi
 
 echo "AIPOM library checks passed."
-

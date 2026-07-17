@@ -2,6 +2,8 @@
 
 This file is the source of truth for phase membership, skill names, progress, and release gates.
 
+All build phases are complete. The path to the `v0.5` public preview—including private-preview readiness, field validation, hardening, and public-release gates—is tracked in [docs/RELEASE-PLAN.md](docs/RELEASE-PLAN.md).
+
 ## Status Vocabulary
 
 - `planned` — named and sequenced, but not started

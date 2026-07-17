@@ -4,13 +4,13 @@ Use this workflow to move from an idea or source document to a validated AIPOM s
 
 ## 1. Preflight
 
-- Confirm the skill belongs in the current active roadmap phase.
+- Confirm the proposal improves an existing skill or addresses a documented operating-model gap that warrants an explicit roadmap amendment.
 - Search this repository and referenced skill libraries for overlap.
 - Identify the operating-model extension beyond any foundational method.
 - Confirm one primary category, skill type, operating levels, and assessment IDs.
 - State the organizational condition and intended maturity movement.
 
-Stop if the proposal is a generic Product Manager method, vendor tutorial, decorative canvas, duplicate foundation, or assessment question disguised as an intervention.
+Stop if the proposal is a generic Product Manager method, vendor tutorial, decorative canvas, duplicate foundation, assessment question disguised as an intervention, or catalog growth without a demonstrated gap.
 
 ## 2. Define the Contract
 
@@ -80,4 +80,3 @@ Confirm that the skill:
 Update `ROADMAP.md` only when the definition of done is met. Regenerate catalogs and run the full test suite again.
 
 Do not mark a skill active based on prose alone.
-

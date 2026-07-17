@@ -12,10 +12,12 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
+VERSION = (ROOT / "VERSION").read_text().strip()
 SKILLS = ROOT / "skills"
 DIST = ROOT / "dist"
 OUTPUT = DIST / "aipom-codex-skills"
-ARCHIVE = DIST / "aipom-codex-skills.zip"
+ARCHIVE = DIST / f"aipom-codex-skills-v{VERSION}.zip"
+STABLE_ARCHIVE = DIST / "aipom-codex-skills.zip"
 
 INTERFACE = {
     "aipom-autonomy-boundary-designer": {
@@ -111,6 +113,8 @@ def main() -> int:
         shutil.rmtree(OUTPUT)
     if ARCHIVE.exists():
         ARCHIVE.unlink()
+    if STABLE_ARCHIVE.exists():
+        STABLE_ARCHIVE.unlink()
     OUTPUT.mkdir(parents=True)
 
     skill_dirs = sorted(path.parent for path in SKILLS.glob("*/SKILL.md"))
@@ -122,6 +126,7 @@ def main() -> int:
             if path.is_file():
                 bundle.write(path, path.relative_to(DIST))
 
+    shutil.copy2(ARCHIVE, STABLE_ARCHIVE)
     print(f"Built Codex packages for {len(skill_dirs)} skill(s): {ARCHIVE.relative_to(ROOT)}")
     return 0
 
