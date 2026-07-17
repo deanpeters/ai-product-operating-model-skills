@@ -1,8 +1,8 @@
 # AIPOM v0.5 Release Plan
 
-The 41-skill build roadmap is complete. This plan governs the path from complete private repository to the first public preview release, `v0.5`.
+The 41-skill build roadmap is complete. This plan governs the first public preview release, `v0.5`, and the evidence-building path that follows it.
 
-Do not create the `v0.5` tag, publish a GitHub Release, or make the repository public until the field-validation and public-release gates are complete.
+`v0.5` is explicitly a synthetic-data public preview. External human field validation is not a release blocker for this pre-1.0 version; it becomes a primary input to `v0.6`. The release must state that boundary prominently and must not claim field-proven effectiveness, adoption, impact, or compliance.
 
 ## Stage 1: Release Readiness
 
@@ -32,7 +32,7 @@ Do not create the `v0.5` tag, publish a GitHub Release, or make the repository p
 
 ## Stage 3: Representative Field Validation
 
-**Status: synthetic forward-testing complete; external field validation pending**
+**Status: complete for the v0.5 synthetic-preview gate; external evidence program moves to v0.6**
 
 Test six representative skills across executive or portfolio leaders, product teams, and governance partners:
 
@@ -45,15 +45,17 @@ Test six representative skills across executive or portfolio leaders, product te
 
 Capture time, unnecessary questions, missing context, terminology friction, artifact usefulness, decisions changed, facilitation failures, and whether another facilitator can repeat the method.
 
-The first isolated synthetic cycle exercised all six representative skills across executive, product-team, governance, and portfolio scenarios. Findings and changes are recorded in the [v0.5 forward-test report](validation/v0.5-forward-test-report.md). This does not close the external field-evidence gate.
+The first isolated synthetic cycle exercised all six representative skills across executive, product-team, governance, and portfolio scenarios. Findings and changes are recorded in the [v0.5 forward-test report](validation/v0.5-forward-test-report.md).
 
-The [external validation hub](validation/README.md) is ready for three human pilots covering leadership and portfolio, product and initiative, and governance and operations. The sessions and independent-facilitator calibrations remain pending.
+The [external validation hub](validation/README.md) is ready for three human pilots covering leadership and portfolio, product and initiative, and governance and operations. Those sessions, independent-facilitator calibrations, and public-use feedback will inform `v0.6`.
 
-**Gate:** Representative users complete useful work and the resulting evidence has been incorporated into the library.
+**v0.5 gate:** All six representative skills pass isolated synthetic scenarios; findings are incorporated; evidence limitations are public; and feedback mechanisms are ready.
+
+**v0.6 evidence target:** Representative users complete useful work, independent facilitators reproduce consequential decisions, and permitted findings are incorporated.
 
 ## Stage 4: Example and Facilitation Hardening
 
-**Status: initial synthetic hardening complete; field-derived hardening pending**
+**Status: complete for v0.5 synthetic evidence; field-derived hardening moves to v0.6**
 
 - Convert permitted field findings into anonymized examples
 - Add edge cases for disagreement, partial evidence, and interrupted workflows
@@ -61,11 +63,13 @@ The [external validation hub](validation/README.md) is ready for three human pil
 - Record which skills demonstrably changed decisions
 - Re-run the full release suite
 
-**Gate:** Priority field issues are resolved without introducing client-confidential content or unsupported maturity claims.
+**v0.5 gate:** Priority synthetic findings are resolved, representative examples teach the reasoning path, and the full release suite passes.
+
+**v0.6 evidence target:** Priority field and public-use findings are resolved without introducing confidential content or unsupported maturity claims.
 
 ## Stage 5: Public Release Preparation
 
-**Status: planned**
+**Status: in progress**
 
 - Final confidentiality, license, attribution, and source-freshness review
 - Public contribution and issue governance

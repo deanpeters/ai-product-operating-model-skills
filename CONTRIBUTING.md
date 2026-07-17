@@ -37,6 +37,12 @@ A contribution must identify:
 
 Synthetic examples must be labeled. Do not contribute confidential client material.
 
+## Public Preview Feedback
+
+Use the GitHub issue forms for facilitation friction, potentially unsafe or unauthorized recommendations, and sanitized field-session reports. Use [private vulnerability reporting](SECURITY.md) for software-security concerns.
+
+Before submitting, remove participant and organization names, client material, personal data, credentials, privileged advice, contractual details, direct quotations, raw notes, recordings, and security-sensitive information. One session or example must not be presented as universal validity, compliance, adoption, or impact.
+
 ## Validation
 
 Install the development dependency:

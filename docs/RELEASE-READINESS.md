@@ -2,7 +2,7 @@
 
 ## Current Decision
 
-`v0.5` is the target first public preview. The repository remains private and no release tag exists yet.
+`v0.5` is approved as the first public preview using synthetic examples and synthetic forward-testing. It is suitable for public learning, evaluation, adaptation, and feedback. It is not presented as field-proven, production-certified, compliance-establishing, or evidence of demonstrated adoption or impact.
 
 ## Completed Foundations
 
@@ -28,12 +28,12 @@ These are release candidates, not published assets.
 
 ## Remaining Gates
 
-- External representative field validation with human participants or facilitators
-- External findings incorporated into priority skills and examples
 - Final source-freshness, confidentiality, license, and attribution review
 - Public contribution and issue governance
 - Draft GitHub Release review
-- Explicit approval to create the tag and change repository visibility
+- Verified public release assets and repository visibility
+
+External field validation is now a post-release evidence program for `v0.6`, not a blocker for the explicitly pre-1.0 `v0.5` preview.
 
 ## Known Limitations
 

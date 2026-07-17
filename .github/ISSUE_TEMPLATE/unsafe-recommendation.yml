@@ -1,0 +1,52 @@
+name: Potentially unsafe or unauthorized recommendation
+description: Report behavior that could hide a critical gap or enable unauthorized consequential action.
+title: "[Safety]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for method or recommendation safety. Report software-security vulnerabilities privately through the Security link instead. Do not include confidential or identifying information.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: aipom-autonomy-boundary-designer
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Sanitized scenario
+      description: Provide the minimum fictionalized context needed to reproduce the concern.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Recommendation or behavior observed
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Critical gap, authority, or harm concern
+      description: Explain which evidence, control, specialist decision, affected party, or authority was omitted or overridden.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Safer expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Submission safety
+      options:
+        - label: I removed names, organizations, clients, personal data, privileged advice, credentials, contractual details, and security-sensitive information.
+          required: true
+        - label: I did not include an active exploit, secret, or vulnerability that should be reported privately.
+          required: true
+

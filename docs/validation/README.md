@@ -1,6 +1,6 @@
 # v0.5 Validation Hub
 
-Start here to run and record the external human-validation work required before the public `v0.5` release.
+Start here to run and record the external human-validation program that follows the synthetic-data `v0.5` public preview and informs `v0.6`.
 
 ## Run the Validation Cycle
 
@@ -17,4 +17,3 @@ The [synthetic forward-test report](v0.5-forward-test-report.md) records the int
 ## Data Rule
 
 Do not commit participant names, organization names, recordings, transcripts, proprietary artifacts, personal data, client material, security details, or raw session notes. Store raw research only in an approved private location. The repository receives sanitized findings, decision implications, and permitted example patterns.
-

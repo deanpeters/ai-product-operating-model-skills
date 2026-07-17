@@ -121,6 +121,9 @@ def main() -> int:
     for source in skill_dirs:
         adapt_skill(source)
 
+    for filename in ["README.md", "LICENSE", "CITATION.cff", "SECURITY.md"]:
+        shutil.copy2(ROOT / filename, OUTPUT / filename)
+
     with zipfile.ZipFile(ARCHIVE, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
         for path in sorted(OUTPUT.rglob("*")):
             if path.is_file():

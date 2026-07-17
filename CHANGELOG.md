@@ -2,9 +2,9 @@
 
 Notable changes to AI Product Operating Model Skills are recorded here.
 
-## [0.5] - Unreleased
+## [0.5] - 2026-07-17
 
-Private preview target. Do not create the `v0.5` tag or publish a GitHub Release until the field-validation and public-release gates in [the release plan](docs/RELEASE-PLAN.md) are complete.
+First public preview. This release is structurally validated and synthetically forward-tested; it is not field-proven, compliance-certified, or evidence of demonstrated organizational adoption or impact.
 
 ### Added
 
@@ -18,6 +18,7 @@ Private preview target. Do not create the `v0.5` tag or publish a GitHub Release
 - Substantive worked and weak examples for triage, initiative readiness, and quarterly portfolio review
 - Clearer rules for unscored assessment conditions, unassigned owners, specialist decisions, autonomy execution, and portfolio exceptions
 - External validation kit with participant guidance, facilitator protocol, session capture, calibration scenarios, findings register, and release gate
+- Public evidence-status disclosure, preview contract, feedback forms, safety-reporting path, and attribution metadata
 
 ### License
 

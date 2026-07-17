@@ -27,7 +27,7 @@ if stable_archive.exists():
 
 release.mkdir(parents=True)
 
-for filename in ["AGENTS.md", "README.md", "ROADMAP.md", "CONTRIBUTING.md", "CHANGELOG.md", "VERSION", "LICENSE"]:
+for filename in ["AGENTS.md", "README.md", "ROADMAP.md", "CONTRIBUTING.md", "CHANGELOG.md", "VERSION", "CITATION.cff", "SECURITY.md", "LICENSE"]:
     shutil.copy2(root / filename, release / filename)
 
 for dirname in ["assessments", "catalog", "commands", "docs", "skills"]:

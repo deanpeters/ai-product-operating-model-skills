@@ -1,0 +1,66 @@
+name: Sanitized field-session report
+description: Share evidence from using an AIPOM skill with representative participants.
+title: "[Field session]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only anonymized findings you are authorized to make public. Do not attach raw notes, transcripts, recordings, or proprietary artifacts.
+  - type: input
+    id: skills
+    attributes:
+      label: Skill or skills used
+      placeholder: aipom-use-case-triage, aipom-initiative-readiness-review
+    validations:
+      required: true
+  - type: textarea
+    id: roles
+    attributes:
+      label: Participant-role coverage
+      description: List roles only; do not identify people or organizations.
+    validations:
+      required: true
+  - type: input
+    id: duration
+    attributes:
+      label: Preparation and live duration
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Sanitized decision before and after
+      description: State what changed, clarified, constrained, or remained unresolved.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence that changed or supported the decision
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: Friction, missing evidence, or facilitation failure
+    validations:
+      required: true
+  - type: textarea
+    id: next_action
+    attributes:
+      label: Next action, required owner or role, and trigger
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-sharing confirmation
+      options:
+        - label: I am authorized to share this sanitized report publicly.
+          required: true
+        - label: I removed names, organizations, clients, personal data, privileged advice, credentials, contractual details, security-sensitive information, raw notes, and direct quotations.
+          required: true
+        - label: I understand that one session does not establish universal validity, compliance, adoption, or impact.
+          required: true
+

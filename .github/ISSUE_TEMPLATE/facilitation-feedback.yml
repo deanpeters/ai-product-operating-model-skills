@@ -1,0 +1,64 @@
+name: Facilitation feedback
+description: Report confusing questions, terms, handoffs, burden, or output problems.
+title: "[Facilitation]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the public preview. Describe the method behavior without including confidential or identifying context.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: aipom-initiative-readiness-review
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Facilitation mode
+      options:
+        - Guided
+        - Context dump
+        - Best guess
+        - Human-only facilitation
+        - Other or unknown
+    validations:
+      required: true
+  - type: textarea
+    id: supplied_context
+    attributes:
+      label: Sanitized context already supplied
+      description: Summarize only the context needed to understand the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: What created friction?
+      description: Identify the exact question, term, step, handoff, or output problem.
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Decision or participant consequence
+      description: Explain what became confusing, burdensome, omitted, or misleading.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_change
+    attributes:
+      label: Suggested change
+      description: Optional repair or expected behavior.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Submission safety
+      options:
+        - label: I removed names, organizations, clients, personal data, privileged advice, credentials, contractual details, and security-sensitive information.
+          required: true
+        - label: I understand that this public issue does not establish field validation, compliance, or organizational impact.
+          required: true
+

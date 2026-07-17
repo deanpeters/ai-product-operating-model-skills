@@ -1,6 +1,6 @@
 # v0.5 Release Checklist
 
-Use this checklist only after the field-validation gate is complete.
+Use this checklist for the explicitly synthetic-data `v0.5` public preview.
 
 ## Before Tagging
 
@@ -11,7 +11,7 @@ Use this checklist only after the field-validation gate is complete.
 - [ ] `shasum -a 256 -c dist/SHA256SUMS` passes.
 - [ ] All 41 skills, templates, and examples are present.
 - [ ] Catalogs match canonical metadata.
-- [ ] Representative field findings are resolved or documented.
+- [ ] Synthetic forward-test findings are resolved and external field validation is labeled as a post-release evidence target.
 - [ ] Source freshness and legal or regulatory caveats are reviewed.
 - [ ] No confidential client or personal material is present.
 - [ ] License and attribution are visible in source and packages.
@@ -28,8 +28,8 @@ Use this checklist only after the field-validation gate is complete.
 
 ## Publish
 
-- [ ] Obtain explicit approval to publish the release.
-- [ ] Obtain explicit approval to change repository visibility.
+- [x] Obtain explicit approval to publish the synthetic-data `v0.5` preview.
+- [x] Obtain explicit approval to change repository visibility.
 - [ ] Publish the release and then switch visibility in the agreed sequence.
 - [ ] Verify public links, installation steps, license, and archive downloads.
 - [ ] Record the next source-review and field-feedback dates.

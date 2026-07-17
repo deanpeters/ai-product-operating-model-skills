@@ -1,5 +1,7 @@
 # AI Product Operating Model Skills
 
+> **v0.5 public preview:** This library is structurally validated and synthetically forward-tested. It has not yet been validated through representative organizational field sessions, and demonstrated adoption or impact has not been established. All worked examples are synthetic. Review consequential decisions with accountable domain specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
+
 AI Product Operating Model Skills (AIPOM) is a platform-neutral library for assessing, designing, and improving how organizations choose, build, evaluate, govern, and learn from AI-powered products and AI-assisted product work.
 
 The library is built for CPOs, CTOs, product and technology leaders, Product Operations, Product Managers, cross-functional delivery leaders, governance partners, consultants, trainers, and facilitators.
@@ -15,6 +17,7 @@ The goal is not more AI activity or more completed canvases. The goal is better 
 - [Adaptive facilitation](docs/ADAPTIVE-FACILITATION.md): how advisors and workflows recognize context and guide decisions.
 - [Evidence standard](docs/EVIDENCE-STANDARD.md): how claims, evidence, assumptions, and maturity scores are handled.
 - [v0.5 release plan](docs/RELEASE-PLAN.md): private-preview readiness, field-validation, and public-release gates.
+- [Public preview contract](docs/PUBLIC-PREVIEW.md): what v0.5 is ready for, what it does not claim, and how feedback will shape v0.6.
 - [Contribution guide](CONTRIBUTING.md): the shortest path from an idea to a validated contribution.
 
 Repository-wide instructions for human and AI contributors live in [AGENTS.md](AGENTS.md).
@@ -42,9 +45,9 @@ All four build phases are complete. The library now provides 41 active, validate
 
 The planned 41-skill catalog is complete. Future releases should deepen field evidence, examples, facilitation quality, interoperability, and measured reuse rather than add skills for catalog size.
 
-The first public preview is targeted as `v0.5`. The repository remains private and no release tag has been created; representative field validation and the remaining release gates come next. See [release readiness](docs/RELEASE-READINESS.md) and the [release checklist](docs/RELEASE-CHECKLIST.md).
+`v0.5` is the first public preview. Its release basis is complete structural validation, synthetic forward-testing, explicit evidence limitations, and public feedback infrastructure—not a claim of field-proven effectiveness. See [release readiness](docs/RELEASE-READINESS.md) and the [release checklist](docs/RELEASE-CHECKLIST.md).
 
-The first synthetic forward-test and facilitation-hardening cycle is complete across six representative skills. See the [v0.5 forward-test report](docs/validation/v0.5-forward-test-report.md). The [validation hub](docs/validation/README.md) contains the external pilot plan, participant brief, facilitator runbook, capture form, calibration scenarios, and findings register. External human field validation remains required before public release.
+The first synthetic forward-test and facilitation-hardening cycle is complete across six representative skills. See the [v0.5 forward-test report](docs/validation/v0.5-forward-test-report.md). The [validation hub](docs/validation/README.md) contains the external pilot plan, participant brief, facilitator runbook, capture form, calibration scenarios, and findings register. External human validation and public-use feedback will build the evidence base for `v0.6`.
 
 ## Three Starting Paths
 
@@ -122,6 +125,8 @@ See [assessments/scoring-model.md](assessments/scoring-model.md) for the complet
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── VERSION
+├── CITATION.cff
+├── SECURITY.md
 ├── LICENSE
 ├── assessments/       # Canonical questions, evidence rubric, and scoring
 ├── catalog/           # Generated navigation; do not edit directly

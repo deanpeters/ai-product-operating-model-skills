@@ -34,6 +34,19 @@ VALIDATION_KIT = {
     "docs/validation/v0.5-findings-register.md",
     "docs/validation/v0.5-forward-test-report.md",
 }
+PUBLIC_PREVIEW_FILES = {
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/facilitation-feedback.yml",
+    ".github/ISSUE_TEMPLATE/unsafe-recommendation.yml",
+    ".github/ISSUE_TEMPLATE/field-session-report.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    "CITATION.cff",
+    "SECURITY.md",
+    "docs/EVIDENCE-STATUS.md",
+    "docs/PUBLIC-PREVIEW.md",
+    "docs/releases/v0.5.md",
+    "docs/releases/v0.5-release-audit.md",
+}
 REQUIRED_FILES = {
     "VERSION",
     "CHANGELOG.md",
@@ -43,7 +56,7 @@ REQUIRED_FILES = {
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
     "docs/STARTING-PATHS.md",
-} | VALIDATION_KIT
+} | VALIDATION_KIT | PUBLIC_PREVIEW_FILES
 
 
 def split_skill(path: Path) -> tuple[dict, str]:
@@ -65,8 +78,25 @@ def main() -> int:
     version = (ROOT / "VERSION").read_text().strip() if (ROOT / "VERSION").exists() else ""
     if not re.fullmatch(r"0\.\d+", version):
         errors.append("VERSION must use the pre-1.0 form 0.x")
-    elif f"## [{version}] - Unreleased" not in (ROOT / "CHANGELOG.md").read_text():
-        errors.append(f"CHANGELOG.md must contain an Unreleased section for {version}")
+    elif not re.search(rf"^## \[{re.escape(version)}\] - \d{{4}}-\d{{2}}-\d{{2}}$", (ROOT / "CHANGELOG.md").read_text(), re.MULTILINE):
+        errors.append(f"CHANGELOG.md must contain a dated release section for {version}")
+
+    readme = (ROOT / "README.md").read_text() if (ROOT / "README.md").exists() else ""
+    if "v0.5 public preview" not in readme or "synthetically forward-tested" not in readme:
+        errors.append("README.md must display the v0.5 synthetic public-preview evidence label")
+
+    evidence_status = ROOT / "docs" / "EVIDENCE-STATUS.md"
+    if evidence_status.exists():
+        evidence_text = evidence_status.read_text()
+        for phrase in ["Human field validation", "Not yet completed", "Demonstrated organizational adoption", "Not established"]:
+            if phrase not in evidence_text:
+                errors.append(f"docs/EVIDENCE-STATUS.md is missing required disclosure: {phrase}")
+
+    for issue_form in sorted((ROOT / ".github" / "ISSUE_TEMPLATE").glob("*.yml")):
+        try:
+            yaml.safe_load(issue_form.read_text())
+        except yaml.YAMLError as exc:
+            errors.append(f"{issue_form.relative_to(ROOT)}: invalid YAML: {exc}")
 
     skill_files = sorted((ROOT / "skills").glob("*/SKILL.md"))
     if len(skill_files) != EXPECTED_SKILLS:
