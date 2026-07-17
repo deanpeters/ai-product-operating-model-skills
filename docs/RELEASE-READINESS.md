@@ -26,12 +26,12 @@ Running `./scripts/build-release.sh` produces:
 
 These are release candidates, not published assets.
 
-## Remaining Gates
+## Public Preview Status
 
-- Final source-freshness, confidentiality, license, and attribution review
-- Public contribution and issue governance
-- Draft GitHub Release review
-- Verified public release assets and repository visibility
+- Source-freshness, confidentiality, license, and attribution review passed.
+- Public contribution, feedback, safety, and vulnerability-reporting paths are active.
+- The `v0.5` prerelease is published with verified canonical and Codex archives plus checksums.
+- Repository visibility is public; Discussions, secret scanning, and push protection are enabled.
 
 External field validation is now a post-release evidence program for `v0.6`, not a blocker for the explicitly pre-1.0 `v0.5` preview.
 

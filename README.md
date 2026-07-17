@@ -2,6 +2,8 @@
 
 > **v0.5 public preview:** This library is structurally validated and synthetically forward-tested. It has not yet been validated through representative organizational field sessions, and demonstrated adoption or impact has not been established. All worked examples are synthetic. Review consequential decisions with accountable domain specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
 
+[Download the v0.5 release](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5) or start with one of the three guided paths below.
+
 AI Product Operating Model Skills (AIPOM) is a platform-neutral library for assessing, designing, and improving how organizations choose, build, evaluate, govern, and learn from AI-powered products and AI-assisted product work.
 
 The library is built for CPOs, CTOs, product and technology leaders, Product Operations, Product Managers, cross-functional delivery leaders, governance partners, consultants, trainers, and facilitators.
@@ -16,7 +18,7 @@ The goal is not more AI activity or more completed canvases. The goal is better 
 - [Skill specification](docs/SKILL-SPEC.md): required metadata, sections, naming, and completion rules.
 - [Adaptive facilitation](docs/ADAPTIVE-FACILITATION.md): how advisors and workflows recognize context and guide decisions.
 - [Evidence standard](docs/EVIDENCE-STANDARD.md): how claims, evidence, assumptions, and maturity scores are handled.
-- [v0.5 release plan](docs/RELEASE-PLAN.md): private-preview readiness, field-validation, and public-release gates.
+- [v0.5 release plan](docs/RELEASE-PLAN.md): completed synthetic-preview gates and the transition to post-release evidence building.
 - [Public preview contract](docs/PUBLIC-PREVIEW.md): what v0.5 is ready for, what it does not claim, and how feedback will shape v0.6.
 - [Post-release roadmap](docs/POST-RELEASE-ROADMAP.md): rapid v0.5.x corrections and the active path through field evidence, interoperability, adoption, stabilization, and v1.0.
 - [Contribution guide](CONTRIBUTING.md): the shortest path from an idea to a validated contribution.

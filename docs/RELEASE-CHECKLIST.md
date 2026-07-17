@@ -19,17 +19,17 @@ Use this checklist for the explicitly synthetic-data `v0.5` public preview.
 
 ## Draft Release
 
-- [ ] Create tag `v0.5` only after explicit approval.
-- [ ] Create a draft GitHub Release from that tag.
-- [ ] Attach both versioned archives and `SHA256SUMS`.
-- [ ] Use the finalized changelog entry as release notes.
-- [ ] Verify the attached asset hashes.
-- [ ] Review the repository as an anonymous new user.
+- [x] Create tag `v0.5` only after explicit approval.
+- [x] Create a draft GitHub Release from that tag.
+- [x] Attach both versioned archives and `SHA256SUMS`.
+- [x] Use the finalized changelog entry as release notes.
+- [x] Verify the attached asset hashes.
+- [x] Review the repository as an anonymous new user.
 
 ## Publish
 
 - [x] Obtain explicit approval to publish the synthetic-data `v0.5` preview.
 - [x] Obtain explicit approval to change repository visibility.
-- [ ] Publish the release and then switch visibility in the agreed sequence.
-- [ ] Verify public links, installation steps, license, and archive downloads.
-- [ ] Record the next source-review and field-feedback dates.
+- [x] Publish the release and then switch visibility in the agreed sequence.
+- [x] Verify public links, installation steps, license, and archive downloads.
+- [x] Record the active post-release feedback and evidence roadmap.

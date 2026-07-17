@@ -2,7 +2,7 @@
 
 This file is the source of truth for phase membership, skill names, progress, and release gates.
 
-All build phases are complete. The path to the `v0.5` public preview—including private-preview readiness, field validation, hardening, and public-release gates—is tracked in [docs/RELEASE-PLAN.md](docs/RELEASE-PLAN.md).
+All build phases are complete, and the synthetic-data [`v0.5` public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5) is published. Post-release evidence, interoperability, adoption, and stabilization work is tracked in [docs/POST-RELEASE-ROADMAP.md](docs/POST-RELEASE-ROADMAP.md).
 
 ## Status Vocabulary
 

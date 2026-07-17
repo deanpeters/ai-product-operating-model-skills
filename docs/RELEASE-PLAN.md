@@ -69,7 +69,7 @@ The [external validation hub](validation/README.md) is ready for three human pil
 
 ## Stage 5: Public Release Preparation
 
-**Status: in progress**
+**Status: complete**
 
 - Final confidentiality, license, attribution, and source-freshness review
 - Public contribution and issue governance
@@ -79,6 +79,8 @@ The [external validation hub](validation/README.md) is ready for three human pil
 - Repository visibility change only after explicit approval
 
 **Gate:** The draft release contains verified assets and documentation, and the repository is safe and understandable for public use.
+
+`v0.5` was published as a prerelease on 2026-07-17. The repository is public, release assets are anonymously downloadable and checksum-verified, and public feedback, Discussions, private vulnerability reporting, secret scanning, and push protection are active.
 
 ## Stop Rule
 
