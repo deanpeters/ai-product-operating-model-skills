@@ -17,6 +17,18 @@ Priority order:
 
 Every patch should preserve the evidence label, update the changelog, rerun the complete suite, and publish reproducible archives and checksums.
 
+### Current v0.5.x public-experience work
+
+The first post-launch improvement reorganizes the public experience without changing the canonical 41-skill catalog:
+
+- A decision-led executive field guide and first 90-day route
+- Separate public doors for leaders, practitioners, and contributors
+- Practitioner preparation guides above the canonical command layer
+- Six executive adoption packages assembled from existing skills
+- A README that leads with the operating problem and bounded starting decisions
+
+This work is intended to make the preview easier to understand, try, and critique. It does not change the `v0.5` evidence label or claim field validation.
+
 ## v0.6: Field Evidence and Facilitation
 
 Use public feedback and the three prepared human pilots to:
@@ -64,4 +76,3 @@ Consider `v1.0` when:
 - The library has evidence of changed decisions or practices without overstating universal effectiveness
 
 `v1.0` is not a claim that learning is finished. It is a promise that the public contracts are stable enough for others to build on responsibly.
-

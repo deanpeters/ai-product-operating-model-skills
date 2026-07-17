@@ -6,6 +6,16 @@
 
 The release is built with synthetic examples and has passed structural validation, source-traceability checks, clean-checkout packaging, and isolated synthetic forward-tests. It has not completed representative organizational field validation.
 
+## How to Enter the Preview
+
+The public repository now separates three reader needs:
+
+- Leaders can use the [Executive Field Guide](EXECUTIVE-FIELD-GUIDE.md) and [Executive Adoption Packages](adoption-packages/README.md) to select a consequential decision and bounded engagement.
+- Practitioners can use the [Starting Paths](STARTING-PATHS.md) and journey guides to prepare participants, evidence, authority, timing, and follow-through before running a workflow.
+- Contributors can use the [Contribution Guide](../CONTRIBUTING.md), skill specification, and repository operating contract without making contributor mechanics the main public entry experience.
+
+These navigation and engagement layers organize existing canonical methods. They do not add evidence of field effectiveness, adoption, impact, certification, or compliance.
+
 ## What This Release Claims
 
 - The repository contains a coherent assessment-to-action operating-model library.
@@ -40,4 +50,3 @@ Use the repository issue forms and remove confidential, identifying, privileged,
 ## Path to v0.6
 
 The `v0.6` evidence cycle will use public feedback and the three planned human pilots to strengthen examples, decision logic, facilitation, interoperability, and field evidence. Catalog growth is not the priority.
-

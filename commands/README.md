@@ -4,6 +4,8 @@ This directory contains optional workflow entry points that orchestrate canonica
 
 Commands must not duplicate skill content or become an alternative source of truth.
 
+Practitioners should begin with [Choose Your AIPOM Starting Path](../docs/STARTING-PATHS.md). The journey guides explain preparation, participation, effort, authority, and follow-through; these commands provide the compact facilitation and agent execution layer.
+
 ## Starting Paths
 
 - [Assess an Organization](aipom-assess-organization.md)

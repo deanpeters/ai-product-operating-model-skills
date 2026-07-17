@@ -2,6 +2,21 @@
 
 Notable changes to AI Product Operating Model Skills are recorded here.
 
+## [Unreleased]
+
+### Added
+
+- Executive field guide with a decision-led explanation of AIPOM and a practical first 90-day adoption route
+- Three-door audience architecture for leaders, practitioners, and library contributors
+- Practitioner journey guides for organization assessment, initiative evaluation, and product-team workflow redesign
+- Six executive adoption packages for alignment, investment, readiness, workflow pilots, governance, and quarterly portfolio decisions
+
+### Changed
+
+- Rebuilt the repository front door around organizational problems, consequential decisions, and situation-led entry paths
+- Separated human engagement preparation from the compact command layer used by facilitators and agents
+- Preserved canonical skills, assessments, catalogs, evidence standards, and release claims as the underlying sources of truth
+
 ## [0.5] - 2026-07-17
 
 First public preview. This release is structurally validated and synthetically forward-tested; it is not field-proven, compliance-certified, or evidence of demonstrated organizational adoption or impact.
