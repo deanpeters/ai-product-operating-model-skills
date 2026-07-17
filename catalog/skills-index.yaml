@@ -1,0 +1,220 @@
+skills:
+- name: aipom-operating-model-assessment
+  description: Assess AI product operating-model maturity across seven categories
+    using evidence, disagreement, and critical-gap logic. Use to identify consequential
+    gaps and next interventions.
+  type: workflow
+  category: cross-category
+  phase: 1
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - CTO
+  - VP Product
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Data
+  - Research
+  - Legal
+  - Privacy
+  - Security
+  - Risk
+  - AI Governance
+  best_for:
+  - Establishing an evidence-based baseline before operating-model design
+  - Identifying the weakest consequential organizational conditions
+  - Comparing leadership intent with product-team and governance practice
+  - Preparing an AI product operating-model roadmap
+  evidence_required:
+  - Existing strategy, portfolio, workflow, context, evaluation, governance, and capability
+    artifacts
+  - Examples showing whether documented practices are actually used
+  - Decision records, evaluation results, adoption evidence, and outcome measures
+    where available
+  - Perspectives from leadership, practitioners, governance partners, and affected
+    users where relevant
+  produces:
+  - Seven-category maturity profile
+  - Evidence and confidence ledger
+  - Disagreement and critical-gap report
+  - Prioritized intervention recommendations
+  - Named owners and next evidence-producing actions
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  - POR-01
+  - POR-02
+  - POR-03
+  - POR-04
+  - POR-05
+  - WFL-01
+  - WFL-02
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  - CTX-01
+  - CTX-02
+  - CTX-03
+  - CTX-04
+  - CTX-05
+  - EVAL-01
+  - EVAL-02
+  - EVAL-03
+  - EVAL-04
+  - EVAL-05
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  - GOV-05
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  - CAP-04
+  - CAP-05
+  maturity_move:
+    from: absent
+    to: emerging
+  estimated_time: 2-4 hours across one or more sessions
+  group_size: 4-20
+  depends_on: []
+  combine_with:
+  - aipom-operating-model-roadmap
+  - aipom-strategy-thesis-advisor
+  - aipom-portfolio-posture-advisor
+  - aipom-workflow-opportunity-advisor
+  - aipom-context-readiness-advisor
+  - aipom-evaluation-strategy-advisor
+  - responsible-aipom-governance-advisor
+  - aipom-capability-maturity-advisor
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+  - https://oecd.ai/en/accountability/
+  path: skills/aipom-operating-model-assessment/SKILL.md
+- name: aipom-autonomy-boundary-designer
+  description: Define evidence-based boundaries for what an AI system may do independently,
+    with human approval, or never. Use before launch, scaling, or increasing AI authority.
+  type: component
+  category: governance-and-accountability
+  phase: 1
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Product Operations
+  - Engineering
+  - Design
+  - Legal
+  - Privacy
+  - Security
+  - Risk
+  - AI Governance
+  best_for:
+  - Preparing an AI or agentic product for launch
+  - Increasing the authority of an existing AI system
+  - Resolving disagreement about human approval
+  - Reviewing a workflow with vague human-in-the-loop claims
+  evidence_required:
+  - Inventory of proposed AI actions
+  - Consequences for users and the organization
+  - Existing approval and escalation policies
+  - Evaluation or production evidence where available
+  - Relevant legal, privacy, security, safety, and contractual constraints
+  produces:
+  - Autonomy boundary matrix
+  - Escalation and stop policy
+  - Named decision and accountability owners
+  - Evidence plan for safely changing autonomy
+  assessment_questions:
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - WFL-03
+  - EVAL-02
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-60 min
+  group_size: 3-8
+  depends_on:
+  - aipom-behavior-contract-builder
+  combine_with:
+  - human-aipom-work-contract
+  - aipom-accountability-charter
+  - aipom-risk-control-incident-playbook
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+  - https://oecd.ai/en/dashboards/ai-principles/P9
+  - https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+  path: skills/aipom-autonomy-boundary-designer/SKILL.md
+- name: aipom-strategy-thesis-advisor
+  description: Turn scattered AI ambition into an evidence-aware product strategy
+    thesis with choices, boundaries, outcomes, assumptions, and next bets. Use when
+    direction or non-goals are unclear.
+  type: interactive
+  category: strategy-and-economic-outcomes
+  phase: 1
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  audience:
+  - CPO
+  - CTO
+  - VP Product
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Data
+  - Finance
+  - AI Governance
+  best_for:
+  - Converting broad AI ambition into strategic choices
+  - Aligning leaders on where AI should and should not be used
+  - Connecting proposed AI bets to customer and economic outcomes
+  - Revising an AI strategy after evidence or market conditions change
+  evidence_required:
+  - Current product and business strategy
+  - Customer or end-user evidence
+  - Portfolio and investment evidence
+  - Relevant product, workflow, data, evaluation, and governance constraints
+  - Results from existing AI experiments where available
+  produces:
+  - AI product strategy thesis
+  - Strategic choices and non-goals
+  - Evidence and assumption ledger
+  - Portfolio implications and next learning bets
+  assessment_questions:
+  - STR-01
+  - STR-02
+  - STR-03
+  - STR-04
+  - STR-05
+  - POR-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-75 min
+  group_size: 2-8
+  depends_on: []
+  combine_with:
+  - aipom-bet-charter
+  - aipom-operating-model-roadmap
+  - aipom-outcome-value-map
+  - aipom-economic-case-builder
+  sources: []
+  path: skills/aipom-strategy-thesis-advisor/SKILL.md

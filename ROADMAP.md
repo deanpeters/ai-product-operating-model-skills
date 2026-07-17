@@ -1,0 +1,125 @@
+# AIPOM Roadmap
+
+This file is the source of truth for phase membership, skill names, progress, and release gates.
+
+## Status Vocabulary
+
+- `planned` — named and sequenced, but not started
+- `drafting` — canonical content is being developed
+- `review` — content exists and is undergoing conceptual or facilitation review
+- `active` — complete and validated for the current release
+
+A skill is not `active` merely because `SKILL.md` exists. Its metadata, content, template where applicable, worked example, weak example where useful, links, and validation must pass.
+
+## Phase 0: Repository Foundation
+
+**Objective:** Establish the canonical contracts and tooling required to build the library coherently.
+
+| Deliverable | Status |
+|---|---|
+| Root repository contract and front door | active |
+| CC BY-NC-SA 4.0 license | active |
+| Skill, facilitation, evidence, and operating-model standards | active |
+| Canonical 35-question assessment | active |
+| Evidence rubric and scoring model | active |
+| Validation and link-checking scripts | active |
+| Catalog generator and release tooling | active |
+
+**Exit gate:** The repository structure, contracts, assessment, and tooling validate before Phase 1 skill generation begins.
+
+## Phase 1: Assess and Establish the Foundation
+
+**Objective:** Create the minimum viable assessment-to-action operating-model system.
+
+| Category | Skill | Type | Status |
+|---|---|---|---|
+| Cross-category | `aipom-operating-model-assessment` | workflow | active |
+| Cross-category | `aipom-operating-model-roadmap` | workflow | planned |
+| Strategy | `aipom-strategy-thesis-advisor` | interactive | active |
+| Portfolio | `aipom-portfolio-posture-advisor` | interactive | planned |
+| Workflows | `aipom-workflow-opportunity-advisor` | interactive | planned |
+| Context | `aipom-context-readiness-advisor` | interactive | planned |
+| Evaluation | `aipom-evaluation-strategy-advisor` | interactive | planned |
+| Governance | `responsible-aipom-governance-advisor` | interactive | planned |
+| Capability | `aipom-capability-maturity-advisor` | interactive | planned |
+| Portfolio | `aipom-bet-charter` | component | planned |
+| Workflows | `human-aipom-work-contract` | component | planned |
+| Context | `aipom-context-package-builder` | component | planned |
+| Evaluation | `aipom-behavior-contract-builder` | component | planned |
+| Governance | `aipom-autonomy-boundary-designer` | component | active |
+| Capability | `workflow-to-skill-converter` | component | planned |
+
+**Total:** 15 skills.
+
+**Pattern gate: complete.** The component, interactive-advisor, and workflow exemplars are active and validated. Review their behavior and artifact patterns before generating the remaining Phase 1 skills.
+
+**Exit gate:** A leadership team can assess the operating model, identify the weakest consequential conditions, select an intervention, produce a useful artifact, assign a next action, build a roadmap, and capture effective practice for reuse.
+
+## Phase 2: Make Core Practices Repeatable
+
+**Objective:** Convert assessment findings into repeatable organizational practices.
+
+| Category | Skill | Type | Status |
+|---|---|---|---|
+| Strategy | `aipom-opportunity-framing` | component | planned |
+| Strategy | `aipom-outcome-value-map` | component | planned |
+| Portfolio | `aipom-use-case-triage` | interactive | planned |
+| Portfolio | `aipom-investment-stage-gates` | component | planned |
+| Workflows | `aipom-productive-motion-map` | component | planned |
+| Workflows | `aipom-workflow-playbook-builder` | component | planned |
+| Context | `authoritative-source-map` | component | planned |
+| Context | `aipom-data-readiness-audit` | component | planned |
+| Governance | `aipom-accountability-charter` | component | planned |
+| Capability | `role-based-aipom-competency-map` | component | planned |
+
+**Total:** 10 skills.
+
+**Exit gate:** A Phase 1 finding can be converted into a repeatable practice with evidence requirements, named ownership, decision rules, and an observable maturity move.
+
+## Phase 3: Build Evidence and Control Systems
+
+**Objective:** Add economic, evaluation, context-lifecycle, dependency, and incident-control infrastructure.
+
+| Category | Skill | Type | Status |
+|---|---|---|---|
+| Strategy | `aipom-economic-case-builder` | component | planned |
+| Portfolio | `aipom-platform-dependency-audit` | component | planned |
+| Workflows | `aipom-decision-cycle-redesign` | workflow | planned |
+| Context | `aipom-context-lifecycle-designer` | component | planned |
+| Evaluation | `aipom-golden-dataset-builder` | component | planned |
+| Evaluation | `aipom-eval-scorecard-builder` | component | planned |
+| Governance | `aipom-risk-control-incident-playbook` | component | planned |
+| Cross-category | `aipom-initiative-readiness-review` | workflow | planned |
+| Cross-category | `aipom-operating-model-design-sprint` | workflow | planned |
+
+**Total:** 9 skills.
+
+**Exit gate:** An organization can evaluate an AI initiative across economics, dependencies, behavior, context, controls, accountability, and readiness without averaging away a critical gap.
+
+## Phase 4: Scale, Assure, and Institutionalize
+
+**Objective:** Establish recurring mechanisms for review, trust, capability, adoption, and continuous improvement.
+
+| Category | Skill | Type | Status |
+|---|---|---|---|
+| Strategy | `aipom-strategy-narrative-builder` | component | planned |
+| Evaluation | `aipom-production-evidence-review` | workflow | planned |
+| Governance | `aipom-trust-assurance-pack-builder` | component | planned |
+| Capability | `aipom-learning-system-designer` | workflow | planned |
+| Capability | `aipom-adoption-impact-scorecard` | component | planned |
+| Cross-category | `aipom-portfolio-quarterly-review` | workflow | planned |
+| Cross-category | `aipom-operating-model-retrospective` | workflow | planned |
+
+**Total:** 7 skills.
+
+**Exit gate:** The organization can repeatedly review investments, monitor production evidence, communicate trust evidence, grow role capability, measure changed outcomes, reuse effective practices, and retire performative AI activity.
+
+## Library Totals
+
+| Phase | Skills |
+|---|---:|
+| Phase 1 | 15 |
+| Phase 2 | 10 |
+| Phase 3 | 9 |
+| Phase 4 | 7 |
+| **Total** | **41** |
