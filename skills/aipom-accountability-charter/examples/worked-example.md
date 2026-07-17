@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Case-Brief Launch
+
+The VP of Support decides limited launch and remains accountable for customer and operational outcomes. The Product Manager proposes; engineering and support operations contribute; privacy and security review named evidence; a reliability lead monitors behavior and may stop the workflow when critical-fact omissions exceed threshold. The incident commander decides severity conflicts. Privacy may block prohibited data use but does not approve product value. An absent decision owner triggers escalation to the COO delegate, and exceptions expire after 30 days. The charter is tested against an omission incident and a disputed launch recommendation.

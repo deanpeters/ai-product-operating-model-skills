@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Cited Escalation Brief
+
+The playbook starts only after a case enters specialist review. It names four authoritative inputs, requires citations for severity and entitlement, and prohibits inferred customer commitments. AI drafts; the specialist verifies critical facts and decides routing; the support operations director remains accountable. Missing sources trigger manual preparation, conflicting severity triggers escalation, and overload triggers queue fallback. Measures include preparation time, critical-fact omission, clarification, reopen rate, and review burden. A named steward reviews failures monthly and retires versions after source changes.

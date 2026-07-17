@@ -63,18 +63,20 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 
 | Category | Skill | Type | Status |
 |---|---|---|---|
-| Strategy | `aipom-opportunity-framing` | component | planned |
-| Strategy | `aipom-outcome-value-map` | component | planned |
-| Portfolio | `aipom-use-case-triage` | interactive | planned |
-| Portfolio | `aipom-investment-stage-gates` | component | planned |
-| Workflows | `aipom-productive-motion-map` | component | planned |
-| Workflows | `aipom-workflow-playbook-builder` | component | planned |
-| Context | `authoritative-source-map` | component | planned |
-| Context | `aipom-data-readiness-audit` | component | planned |
-| Governance | `aipom-accountability-charter` | component | planned |
-| Capability | `role-based-aipom-competency-map` | component | planned |
+| Strategy | `aipom-opportunity-framing` | component | active |
+| Strategy | `aipom-outcome-value-map` | component | active |
+| Portfolio | `aipom-use-case-triage` | interactive | active |
+| Portfolio | `aipom-investment-stage-gates` | component | active |
+| Workflows | `aipom-productive-motion-map` | component | active |
+| Workflows | `aipom-workflow-playbook-builder` | component | active |
+| Context | `authoritative-source-map` | component | active |
+| Context | `aipom-data-readiness-audit` | component | active |
+| Governance | `aipom-accountability-charter` | component | active |
+| Capability | `role-based-aipom-competency-map` | component | active |
 
 **Total:** 10 skills.
+
+**Phase status: complete.** All 10 Phase 2 skills are active and validated as a coherent finding-to-repeatable-practice layer.
 
 **Exit gate:** A Phase 1 finding can be converted into a repeatable practice with evidence requirements, named ownership, decision rules, and an observable maturity move.
 

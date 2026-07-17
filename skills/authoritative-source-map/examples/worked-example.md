@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Support Case Briefs
+
+The case system is authoritative for entitlement and case status; the incident system is authoritative for severity after incident declaration; customer notes are supporting and restricted; the generated brief is derived and never authoritative. When case and incident severity conflict, the brief flags both and routes to the incident commander rather than choosing the newest value. Each source has a steward, refresh expectation, permitted audience, and fallback. Two stale-source tests reveal that the knowledge base needs an explicit expiry signal.

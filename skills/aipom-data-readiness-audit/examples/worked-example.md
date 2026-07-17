@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Historical Escalations
+
+The team wants historical cases for case-brief evaluation. Lineage is documented, but 22% of older cases lack final severity and enterprise accounts are overrepresented. Free-text notes may contain restricted personal data, and consent for model adaptation is unresolved. The audit allows a redacted, access-controlled evaluation sample with subgroup coverage reporting; it defers model adaptation pending privacy and permission decisions. Owners are assigned for missing-label analysis, redaction tests, and a revised sampling plan. No overall readiness score hides the adaptation blocker.

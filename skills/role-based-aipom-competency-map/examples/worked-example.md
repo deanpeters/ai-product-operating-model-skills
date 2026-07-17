@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Product Manager Evaluation Competency
+
+For Product Managers, foundational proficiency distinguishes model metrics from product outcomes and identifies missing evidence in a behavior contract. Applied proficiency creates a representative evaluation plan with an expert. Independent proficiency uses calibrated evidence and countermeasures to make a launch recommendation while preserving disagreement. Enabling proficiency coaches teams, improves shared evaluation practice, and uses production failures to revise standards. Evidence comes from actual artifacts and decisions, not course attendance. The map separately records lack of access to evaluation tooling as an organizational barrier.

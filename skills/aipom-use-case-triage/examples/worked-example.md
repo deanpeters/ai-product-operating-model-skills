@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Three Internal Opportunities
+
+A portfolio council compares case briefs, automated refund approval, and research-note tagging. Case briefs receive **validate** because the problem is evidenced and review makes the test reversible, but omission behavior needs evaluation. Refund approval is **deferred** because authority and rollback controls are unresolved despite high projected savings. Research tagging receives **explore** because consequences are low and a two-week retrieval test is cheap. The group records that cost estimates are assumptions and assigns a separate owner and decision rule to each motion.

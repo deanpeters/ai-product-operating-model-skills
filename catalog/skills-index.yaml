@@ -857,3 +857,512 @@ skills:
   - aipom-economic-case-builder
   sources: []
   path: skills/aipom-strategy-thesis-advisor/SKILL.md
+- name: role-based-aipom-competency-map
+  description: Define observable AI product competencies by role and proficiency level,
+    tied to real decisions, evidence, practice, and progression rather than generic
+    tool fluency.
+  type: component
+  category: capability-adoption-and-reuse
+  phase: 2
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  audience:
+  - CPO
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Data
+  - AI Governance
+  - Learning and Development
+  best_for:
+  - Setting role-specific AI product expectations
+  - Designing applied learning paths
+  - Distinguishing proficiency from training attendance
+  evidence_required:
+  - Role decisions and workflows
+  - Expected outcomes and failure consequences
+  - Work artifacts and observed practice
+  - Current capability and support evidence
+  produces:
+  - Role-based competency map
+  - Observable proficiency rubric
+  - Practice and progression priorities
+  assessment_questions:
+  - CAP-01
+  - CAP-02
+  - CAP-03
+  - CAP-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - aipom-capability-maturity-advisor
+  combine_with:
+  - aipom-learning-system-designer
+  - aipom-adoption-impact-scorecard
+  - workflow-to-skill-converter
+  sources: []
+  path: skills/role-based-aipom-competency-map/SKILL.md
+- name: aipom-data-readiness-audit
+  description: Assess whether data is fit for a specific AI product decision across
+    provenance, quality, access, representativeness, consent, privacy, freshness,
+    and operations.
+  type: component
+  category: context-knowledge-and-data
+  phase: 2
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Data
+  - Engineering
+  - Research
+  - Privacy
+  - Security
+  - AI Governance
+  best_for:
+  - Deciding whether an AI use case may proceed
+  - Finding consequential data gaps before build
+  - Defining bounded remediation rather than generic cleanup
+  evidence_required:
+  - Named use and behavior requirements
+  - Data samples lineage and owners
+  - Quality and coverage evidence
+  - Consent privacy access and operational controls
+  produces:
+  - Purpose-specific data readiness profile
+  - Critical gaps and constrained decisions
+  - Remediation and evidence plan
+  assessment_questions:
+  - CTX-03
+  - CTX-05
+  - EVAL-03
+  - GOV-04
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-120 min
+  group_size: 4-10
+  depends_on:
+  - authoritative-source-map
+  - aipom-behavior-contract-builder
+  combine_with:
+  - aipom-context-package-builder
+  - aipom-golden-dataset-builder
+  - aipom-initiative-readiness-review
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+  path: skills/aipom-data-readiness-audit/SKILL.md
+- name: authoritative-source-map
+  description: Define which sources are authoritative for a purpose, who owns them,
+    who may use them, how conflicts resolve, and when trust expires.
+  type: component
+  category: context-knowledge-and-data
+  phase: 2
+  status: active
+  operating_level:
+  - organization
+  - product-team
+  - initiative
+  audience:
+  - Product Operations
+  - Product Manager
+  - Data
+  - Knowledge Management
+  - Privacy
+  - Security
+  - AI Governance
+  best_for:
+  - Resolving conflicting organizational sources
+  - Preparing trusted context for AI-assisted work
+  - Assigning source ownership and refresh
+  evidence_required:
+  - Actual source inventory
+  - Ownership and permission records
+  - Conflict and failure examples
+  - Refresh and usage evidence
+  produces:
+  - Purpose-specific authoritative source map
+  - Conflict and trust rules
+  - Ownership and remediation actions
+  assessment_questions:
+  - CTX-01
+  - CTX-02
+  - CTX-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-90 min
+  group_size: 3-10
+  depends_on:
+  - aipom-context-readiness-advisor
+  combine_with:
+  - aipom-context-package-builder
+  - aipom-data-readiness-audit
+  - aipom-context-lifecycle-designer
+  sources: []
+  path: skills/authoritative-source-map/SKILL.md
+- name: aipom-accountability-charter
+  description: Assign human decision rights, accountability, review, contribution,
+    escalation, and evidence duties for a material AI product or recurring operating
+    decision.
+  type: component
+  category: governance-and-accountability
+  phase: 2
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - CPO
+  - CTO
+  - Product Manager
+  - Engineering
+  - Legal
+  - Privacy
+  - Security
+  - Risk
+  - AI Governance
+  best_for:
+  - Clarifying ownership before a consequential AI decision
+  - Resolving committee ambiguity
+  - Connecting accountability to evidence and escalation
+  evidence_required:
+  - Decision inventory and consequences
+  - Existing authority and policy
+  - Workflow and system responsibilities
+  - Approval exception and incident examples
+  produces:
+  - AI accountability charter
+  - Decision-rights and evidence matrix
+  - Escalation and exception rules
+  assessment_questions:
+  - GOV-01
+  - GOV-02
+  - GOV-03
+  - GOV-04
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-90 min
+  group_size: 4-10
+  depends_on:
+  - responsible-aipom-governance-advisor
+  combine_with:
+  - aipom-autonomy-boundary-designer
+  - human-aipom-work-contract
+  - aipom-risk-control-incident-playbook
+  sources:
+  - https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+  - https://oecd.ai/en/dashboards/ai-principles/P9
+  path: skills/aipom-accountability-charter/SKILL.md
+- name: aipom-investment-stage-gates
+  description: Define evidence-based entry, continuation, pivot, scale, pause, and
+    stop decisions for AI investments without turning gates into document approval
+    theater.
+  type: component
+  category: portfolio-and-investment-choices
+  phase: 2
+  status: active
+  operating_level:
+  - organization
+  - portfolio
+  - initiative
+  audience:
+  - CPO
+  - CTO
+  - VP Product
+  - Product Operations
+  - Finance
+  - Engineering
+  - AI Governance
+  best_for:
+  - Creating consistent AI funding decisions
+  - Ending zombie pilots
+  - Separating learning capital from scaling capital
+  evidence_required:
+  - Bet charters and initiative inventory
+  - Outcome and evaluation evidence
+  - Cost and dependency evidence
+  - Control incidents and adoption evidence
+  produces:
+  - Investment gate model
+  - Stage-specific evidence requirements
+  - Decision and exception record
+  assessment_questions:
+  - POR-02
+  - POR-03
+  - POR-05
+  - STR-04
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-90 min
+  group_size: 4-10
+  depends_on:
+  - aipom-bet-charter
+  - aipom-use-case-triage
+  combine_with:
+  - aipom-portfolio-posture-advisor
+  - aipom-economic-case-builder
+  - aipom-initiative-readiness-review
+  sources: []
+  path: skills/aipom-investment-stage-gates/SKILL.md
+- name: aipom-use-case-triage
+  description: Compare AI opportunities across outcome value, evidence, feasibility,
+    responsibility, readiness, and reversibility to recommend explore, validate, defer,
+    or reject.
+  type: interactive
+  category: portfolio-and-investment-choices
+  phase: 2
+  status: active
+  operating_level:
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - CPO
+  - VP Product
+  - Product Operations
+  - Product Manager
+  - Engineering
+  - Finance
+  - AI Governance
+  best_for:
+  - Comparing an intake of AI ideas
+  - Preventing enthusiasm-only prioritization
+  - Choosing bounded discovery investments
+  evidence_required:
+  - Comparable opportunity frames
+  - Outcome and value assumptions
+  - Feasibility and readiness evidence
+  - Consequences and constraints
+  produces:
+  - Comparable triage record
+  - Posture recommendation for each use case
+  - Portfolio-level gaps and next tests
+  assessment_questions:
+  - POR-01
+  - POR-02
+  - POR-03
+  - STR-04
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-90 min
+  group_size: 3-10
+  depends_on:
+  - aipom-opportunity-framing
+  - aipom-outcome-value-map
+  combine_with:
+  - aipom-bet-charter
+  - aipom-investment-stage-gates
+  - aipom-portfolio-posture-advisor
+  sources: []
+  path: skills/aipom-use-case-triage/SKILL.md
+- name: aipom-productive-motion-map
+  description: Map a recurring product-team motion through decisions, actors, inputs,
+    handoffs, delays, rework, and failure before assigning AI and human responsibilities.
+  type: component
+  category: product-team-workflows
+  phase: 2
+  status: active
+  operating_level:
+  - product-team
+  - initiative
+  audience:
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Research
+  - Data
+  best_for:
+  - Understanding work before adding AI
+  - Finding consequential delays and rework
+  - Establishing a baseline for workflow redesign
+  evidence_required:
+  - Observed workflow examples
+  - Decision and handoff records
+  - Cycle-time and rework evidence
+  - Practitioner and affected-user perspectives
+  produces:
+  - Current-state productive-motion map
+  - Friction and failure diagnosis
+  - Baseline and redesign target
+  assessment_questions:
+  - WFL-01
+  - WFL-02
+  - WFL-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-90 min
+  group_size: 3-10
+  depends_on:
+  - aipom-workflow-opportunity-advisor
+  combine_with:
+  - human-aipom-work-contract
+  - aipom-workflow-playbook-builder
+  - aipom-decision-cycle-redesign
+  sources: []
+  path: skills/aipom-productive-motion-map/SKILL.md
+- name: aipom-workflow-playbook-builder
+  description: Turn a tested human-AI workflow into an inspectable playbook with context,
+    roles, decisions, examples, controls, measures, fallback, and improvement ownership.
+  type: component
+  category: product-team-workflows
+  phase: 2
+  status: active
+  operating_level:
+  - product-team
+  - initiative
+  audience:
+  - Product Operations
+  - Product Manager
+  - Design
+  - Engineering
+  - Operations
+  - AI Governance
+  best_for:
+  - Making a tested workflow repeatable
+  - Onboarding another team without losing judgment
+  - Governing an AI-assisted operating motion
+  evidence_required:
+  - Observed motion map
+  - Human-AI work contract
+  - Behavior and evaluation evidence
+  - Pilot outcomes exceptions and incidents
+  produces:
+  - Reusable workflow playbook
+  - Run and exception guidance
+  - Ownership and improvement cadence
+  assessment_questions:
+  - WFL-03
+  - WFL-04
+  - WFL-05
+  - CAP-04
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 60-120 min
+  group_size: 3-8
+  depends_on:
+  - aipom-productive-motion-map
+  - human-aipom-work-contract
+  combine_with:
+  - workflow-to-skill-converter
+  - aipom-context-package-builder
+  - aipom-behavior-contract-builder
+  sources: []
+  path: skills/aipom-workflow-playbook-builder/SKILL.md
+- name: aipom-opportunity-framing
+  description: Frame an AI product opportunity around an evidenced condition, affected
+    actors, consequences, alternatives, and the uncertainty that should be tested
+    next.
+  type: component
+  category: strategy-and-economic-outcomes
+  phase: 2
+  status: active
+  operating_level:
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - Product Manager
+  - Design
+  - Engineering
+  - Research
+  - Data
+  - AI Governance
+  best_for:
+  - Turning an AI idea into a problem-led opportunity
+  - Challenging a vendor-first proposal
+  - Preparing an opportunity for outcome mapping and triage
+  evidence_required:
+  - Customer or workflow evidence
+  - Current alternatives and workarounds
+  - Frequency and consequence evidence
+  - Constraints and affected perspectives
+  produces:
+  - AI opportunity frame
+  - Evidence and assumption ledger
+  - Smallest next learning question
+  assessment_questions:
+  - STR-02
+  - STR-03
+  - STR-04
+  - POR-01
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-75 min
+  group_size: 3-8
+  depends_on:
+  - aipom-strategy-thesis-advisor
+  combine_with:
+  - aipom-outcome-value-map
+  - aipom-use-case-triage
+  - aipom-bet-charter
+  sources: []
+  path: skills/aipom-opportunity-framing/SKILL.md
+- name: aipom-outcome-value-map
+  description: Map how AI behavior may change user behavior, product outcomes, economic
+    value, and risk while exposing causal assumptions and countermeasures.
+  type: component
+  category: strategy-and-economic-outcomes
+  phase: 2
+  status: active
+  operating_level:
+  - portfolio
+  - product-team
+  - initiative
+  audience:
+  - CPO
+  - Product Manager
+  - Design
+  - Engineering
+  - Research
+  - Finance
+  - AI Governance
+  best_for:
+  - Connecting AI behavior to meaningful value
+  - Challenging activity metrics
+  - Choosing measures and causal tests
+  evidence_required:
+  - Opportunity frame
+  - Current outcome baselines
+  - Behavior or workflow evidence
+  - Economic and risk assumptions
+  produces:
+  - Outcome and value chain
+  - Causal assumption ledger
+  - Measures and countermeasures
+  assessment_questions:
+  - STR-02
+  - STR-03
+  - STR-04
+  - WFL-05
+  maturity_move:
+    from: emerging
+    to: repeatable
+  estimated_time: 45-75 min
+  group_size: 3-8
+  depends_on:
+  - aipom-opportunity-framing
+  combine_with:
+  - aipom-bet-charter
+  - aipom-economic-case-builder
+  - aipom-evaluation-strategy-advisor
+  sources: []
+  path: skills/aipom-outcome-value-map/SKILL.md

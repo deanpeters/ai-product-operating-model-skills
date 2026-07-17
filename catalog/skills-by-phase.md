@@ -21,3 +21,18 @@ Generated from canonical `SKILL.md` metadata. Do not edit directly.
 | [`aipom-workflow-opportunity-advisor`](../skills/aipom-workflow-opportunity-advisor/SKILL.md) | Identify which product-team decision or productive workflow should be redesigned with AI first, based on outcome value, friction, evidence, consequence, and readiness. | active |
 | [`human-aipom-work-contract`](../skills/human-aipom-work-contract/SKILL.md) | Define AI responsibilities, human judgment, review, decision authority, escalation, and learning in a recurring workflow. Use when human-AI collaboration is vague or unreliable. | active |
 | [`aipom-strategy-thesis-advisor`](../skills/aipom-strategy-thesis-advisor/SKILL.md) | Turn scattered AI ambition into an evidence-aware product strategy thesis with choices, boundaries, outcomes, assumptions, and next bets. Use when direction or non-goals are unclear. | active |
+
+## Phase 2
+
+| Skill | Description | Status |
+|---|---|---|
+| [`role-based-aipom-competency-map`](../skills/role-based-aipom-competency-map/SKILL.md) | Define observable AI product competencies by role and proficiency level, tied to real decisions, evidence, practice, and progression rather than generic tool fluency. | active |
+| [`aipom-data-readiness-audit`](../skills/aipom-data-readiness-audit/SKILL.md) | Assess whether data is fit for a specific AI product decision across provenance, quality, access, representativeness, consent, privacy, freshness, and operations. | active |
+| [`authoritative-source-map`](../skills/authoritative-source-map/SKILL.md) | Define which sources are authoritative for a purpose, who owns them, who may use them, how conflicts resolve, and when trust expires. | active |
+| [`aipom-accountability-charter`](../skills/aipom-accountability-charter/SKILL.md) | Assign human decision rights, accountability, review, contribution, escalation, and evidence duties for a material AI product or recurring operating decision. | active |
+| [`aipom-investment-stage-gates`](../skills/aipom-investment-stage-gates/SKILL.md) | Define evidence-based entry, continuation, pivot, scale, pause, and stop decisions for AI investments without turning gates into document approval theater. | active |
+| [`aipom-use-case-triage`](../skills/aipom-use-case-triage/SKILL.md) | Compare AI opportunities across outcome value, evidence, feasibility, responsibility, readiness, and reversibility to recommend explore, validate, defer, or reject. | active |
+| [`aipom-productive-motion-map`](../skills/aipom-productive-motion-map/SKILL.md) | Map a recurring product-team motion through decisions, actors, inputs, handoffs, delays, rework, and failure before assigning AI and human responsibilities. | active |
+| [`aipom-workflow-playbook-builder`](../skills/aipom-workflow-playbook-builder/SKILL.md) | Turn a tested human-AI workflow into an inspectable playbook with context, roles, decisions, examples, controls, measures, fallback, and improvement ownership. | active |
+| [`aipom-opportunity-framing`](../skills/aipom-opportunity-framing/SKILL.md) | Frame an AI product opportunity around an evidenced condition, affected actors, consequences, alternatives, and the uncertainty that should be tested next. | active |
+| [`aipom-outcome-value-map`](../skills/aipom-outcome-value-map/SKILL.md) | Map how AI behavior may change user behavior, product outcomes, economic value, and risk while exposing causal assumptions and countermeasures. | active |

@@ -1,0 +1,3 @@
+# Synthetic Worked Example: Case Briefs
+
+AI behavior: produce a cited case brief with no omitted severity or entitlement facts. Operator behavior: specialists find and verify critical facts faster. Product outcome: escalation preparation time falls without increasing misroutes or reopenings. Economic outcome: specialist capacity shifts to resolution work, while review burden remains below the saved preparation time. Each link has its own measure; critical-fact omission and reopen rate are countermeasures. The weakest link—whether faster briefs improve decisions—is tested before labor savings are claimed.
