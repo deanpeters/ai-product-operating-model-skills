@@ -4,18 +4,18 @@ Use this checklist for the explicitly synthetic-data `v0.5` public preview.
 
 ## Before Tagging
 
-- [ ] `VERSION` is `0.5` and the changelog date is finalized.
-- [ ] `./scripts/test-library.sh` passes from a clean checkout.
-- [ ] `./scripts/build-release.sh` passes from a clean checkout.
-- [ ] Both versioned archives pass `unzip -t`.
-- [ ] `shasum -a 256 -c dist/SHA256SUMS` passes.
-- [ ] All 41 skills, templates, and examples are present.
-- [ ] Catalogs match canonical metadata.
-- [ ] Synthetic forward-test findings are resolved and external field validation is labeled as a post-release evidence target.
-- [ ] Source freshness and legal or regulatory caveats are reviewed.
-- [ ] No confidential client or personal material is present.
-- [ ] License and attribution are visible in source and packages.
-- [ ] Contribution and issue governance is ready for public users.
+- [x] `VERSION` is `0.5` and the changelog date is finalized.
+- [x] `./scripts/test-library.sh` passes from a clean checkout.
+- [x] `./scripts/build-release.sh` passes from a clean checkout.
+- [x] Both versioned archives pass `unzip -t`.
+- [x] `shasum -a 256 -c dist/SHA256SUMS` passes.
+- [x] All 41 skills, templates, and examples are present.
+- [x] Catalogs match canonical metadata.
+- [x] Synthetic forward-test findings are resolved and external field validation is labeled as a post-release evidence target.
+- [x] Source freshness and legal or regulatory caveats are reviewed.
+- [x] No confidential client or personal content is present; historical commit-author email exposure is separately disclosed for acceptance before visibility changes.
+- [x] License and attribution are visible in source and packages.
+- [x] Contribution and issue governance is ready for public users.
 
 ## Draft Release
 
