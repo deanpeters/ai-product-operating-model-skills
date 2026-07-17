@@ -32,9 +32,9 @@
 
 Boundary states: `independent within constraints`, `human approval required`, `human execution only`, or `prohibited`.
 
-| Atomic action | Affected people and consequences | Reversibility and detectability | Evidence quality | Boundary | Required controls and review | Decision owner | Rationale |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| Atomic action | Affected people and consequences | Reversibility and detectability | Evidence quality | Boundary | Who executes after approval | Required controls and review | Decision owner | Rationale |
+|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | |
 
 ## 4. Escalation and Stop Policy
 
@@ -59,6 +59,10 @@ Boundary states: `independent within constraints`, `human approval required`, `h
 
 - 
 
+### Acceptance thresholds set before evaluation
+
+- Define thresholds before reviewing results.
+
 ### Signals that reduce or suspend autonomy
 
 - 
@@ -71,7 +75,8 @@ Boundary states: `independent within constraints`, `human approval required`, `h
 
 ## 7. Exceptions, Disagreements, and Unresolved Questions
 
-- 
+- Required decision or accountability roles still unassigned:
+- Other disagreements and unresolved questions:
 
 ## 8. Final Human Decision
 

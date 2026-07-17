@@ -2,6 +2,8 @@
 
 ## Review Context
 - Quarter, strategy changes, constraints, capacity, authorities:
+- Capacity units and whether continuation consumes an allocation:
+- Allocation assumptions that remain unresolved:
 - Prior decisions, exceptions, and follow-through:
 
 ## Initiative Decisions
@@ -15,7 +17,8 @@
 ## Portfolio Learning
 - Concentration, duplication, zombies, premature scale:
 - Stopped work and retired assumptions:
-- Dissent and exceptions with expiry:
+- Dissent:
+- Exceptions: authority, constrained scope, safeguards, expiry, renewal evidence:
 - Strategy and narrative changes:
 
 ## Handoff

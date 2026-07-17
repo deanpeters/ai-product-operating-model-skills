@@ -180,7 +180,7 @@ Invite artifacts and examples across all seven categories:
 - Accountability records, autonomy boundaries, control tests, and incidents
 - Competency maps, applied learning evidence, reuse records, and outcome measures
 
-Evidence is an invitation, not a gate. When evidence is missing, record the gap, lower confidence, cap the score at `2 — Emerging`, and recommend how to obtain useful evidence.
+Evidence is an invitation, not a gate. When evidence is missing, record the gap, lower confidence, and recommend how to obtain useful evidence. Use `Not assessed` when the available context cannot distinguish absent practice from unobserved practice. Use `1 — Absent` only when inquiry or explicitly attributed reports support absence in the stated scope. Unsupported claims can never score above `2 — Emerging`.
 
 ## How to Do It
 
@@ -209,10 +209,11 @@ For every canonical question:
 3. Identify scope and representativeness.
 4. Record disagreement.
 5. Assign evidence strength.
-6. Select the highest maturity score fully supported.
-7. Assign confidence and explain the limiting factor.
-8. Flag any critical gap.
-9. Name the next evidence-producing action.
+6. Decide whether a score is supportable; otherwise record `Not assessed` and the evidence needed.
+7. Select the highest maturity score fully supported.
+8. Assign confidence and explain the limiting factor.
+9. Flag any critical gap.
+10. Name the next evidence-producing action.
 
 Do not ask participants to self-score an unfamiliar concept without explaining the maturity anchors and examining evidence.
 
@@ -252,7 +253,7 @@ Read all supplied materials first. Pre-populate claims, evidence, possible score
 
 ### Best-guess mode
 
-Produce a provisional profile using labeled assumptions. Cap unsupported scores at `2 — Emerging`, use low confidence, identify missing perspectives, and propose the smallest evidence-gathering actions needed before consequential decisions.
+Produce a provisional profile using labeled assumptions. Cap unsupported scores at `2 — Emerging`, leave genuinely unobservable conditions `Not assessed`, use low confidence, identify missing perspectives, and propose the smallest evidence-gathering actions needed before consequential decisions.
 
 ### Multi-session handling
 
@@ -368,4 +369,3 @@ An assessment is useful only when it changes a decision, routes work to an inter
 
 - National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10), published January 26, 2023. Supports lifecycle-based, organizational AI risk management; governance; measurement; and documented accountability. Accessed July 16, 2026. NIST notes that AI RMF 1.0 is being revised.
 - OECD.AI, [Advancing Accountability in AI](https://oecd.ai/en/accountability/). Supports role- and context-aware accountability and iterative risk governance across the AI lifecycle. Accessed July 16, 2026.
-

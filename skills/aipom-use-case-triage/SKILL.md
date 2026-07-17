@@ -50,7 +50,7 @@ Bring opportunity frames, outcome maps, alternatives, user evidence, feasibility
 
 ## How to Do It
 
-1. Extract supplied context and normalize each opportunity to a comparable scope.
+1. Extract supplied context and normalize each opportunity to a comparable scope. For a single proposal, compare it with the current workflow, a non-AI alternative, or the decision to do nothing.
 2. Confirm the portfolio decision, constraints, capacity, and non-negotiables.
 3. Examine outcome value, evidence strength, AI fit, feasibility, responsibility, readiness, and reversibility.
 4. Record missing perspectives, disagreements, and evidence confidence.
@@ -58,6 +58,8 @@ Bring opportunity frames, outcome maps, alternatives, user evidence, feasibility
 6. Present posture options and recommend a default with reasons.
 7. Define the smallest evidence-producing action for opportunities that proceed.
 8. Record the owner, decision rule, exceptions, and next review.
+
+Triage determines the next investment posture; it does not establish launch or scale readiness. Route a selected opportunity to a bet charter, investment gate, or initiative-readiness review appropriate to the next decision.
 
 ## Facilitation Protocol
 
@@ -74,7 +76,7 @@ Use dimensions as structured judgment, not a compensating arithmetic score. No v
 
 ## Completion Criteria
 
-Finish with the evidence used, assumptions, comparisons, posture for every use case, critical constraints, disagreements, owners, next tests, and review decisions.
+Finish with the evidence used, assumptions, alternatives, posture for every use case, critical constraints, disagreements, owners, next tests, and review decisions. If a named owner or review date is unavailable, identify the required role, mark assignment unresolved, and use an evidence-completion trigger rather than inventing details.
 
 ## Key Concepts
 

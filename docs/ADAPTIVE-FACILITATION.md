@@ -51,6 +51,8 @@ Workflows should maintain a compact ledger containing:
 
 Pass this ledger between component skills. Do not make users re-enter earlier work.
 
+When a named owner or calendar date is unavailable, do not invent one. Identify the required accountable role, mark assignment as unresolved, and use an evidence-completion or decision-event trigger until the authority sets a date. Clearly distinguish an AI-generated recommendation from a decision made by an authorized human.
+
 ## Questions
 
 Good questions are plain-language, answerable, and consequential.
@@ -131,4 +133,3 @@ An interactive advisor or workflow is complete when it has produced:
 - Related skills that logically follow
 
 Do not end with only a generic invitation to continue exploring.
-

@@ -170,6 +170,8 @@ Choose one state for each action:
 
 When evidence is weak or consequences are difficult to reverse, choose the more restrictive boundary.
 
+For `Human approval required`, state who executes after approval: the AI system under a logged approval token, or the authorized human. Use `Human execution only` when the AI must not hold the execution permission at all.
+
 ### 5. Make oversight operational
 
 For every non-prohibited action, name preventive controls, monitoring, logs, thresholds, reviewer competence, response time, fallback behavior, rollback, and the accountable owner.
@@ -186,9 +188,13 @@ Name who receives the escalation, who decides whether to resume, and what eviden
 
 State the evidence required to increase autonomy and the signals that reduce it. Use shadow operation, bounded pilots, representative evaluation, monitored production sampling, and incident learning as appropriate.
 
+Set acceptance thresholds before reviewing results. Define them in terms of the action's consequence, incorrect-action rate, severity, recovery, subgroup or edge-case behavior, control reliability, and operating load. Do not infer threshold sufficiency from aggregate agreement alone, and do not reuse evidence from one action—such as refunds—as a proxy for another—such as payout freezes.
+
 ### 8. Confirm the decision
 
 Record disagreements, unresolved legal or policy questions, the final human decision owner, the accountable executive or operational owner, and the next test. Do not let the AI facilitator make the authority decision.
+
+If those people are not named, identify the required roles and mark them unassigned. Do not silently appoint the Product Manager or another participant as the authority.
 
 ## Key Concepts
 
@@ -250,4 +256,3 @@ Prefer bounded, observable, and reversible actions while learning. Separate draf
 - National Institute of Standards and Technology, [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10), published January 26, 2023. Supports lifecycle risk management, roles, accountability, and human-AI oversight considerations. Accessed July 16, 2026. NIST notes that AI RMF 1.0 is being revised.
 - OECD.AI, [Accountability (OECD AI Principle 1.5)](https://oecd.ai/en/dashboards/ai-principles/P9). Supports role-based accountability, traceability, and ongoing risk management. Accessed July 16, 2026.
 - European Union, [Regulation (EU) 2024/1689, Article 14](https://eur-lex.europa.eu/eli/reg/2024/1689/oj). Supports risk-proportionate human oversight for high-risk AI systems. Accessed July 16, 2026. Apply only with appropriate jurisdictional and legal review; this skill is not legal advice and does not establish compliance.
-

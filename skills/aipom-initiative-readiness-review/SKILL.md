@@ -54,15 +54,16 @@ Bring bet and outcome evidence, economics, dependencies, workflow measures, cont
 ## How to Do It
 
 1. Define the exact decision, scope, population, environment, autonomy, jurisdictions, and consequence.
-2. Load supplied artifacts into a context ledger; ask only for decision-changing gaps.
-3. Profile strategic value and economics, including alternatives and uncertainty.
-4. Profile platform, data, context, workflow, and operating dependencies.
-5. Profile behavior, evaluation coverage, thresholds, production signals, and uncertainty.
-6. Profile accountability, authority, controls, escalation, rollback, incident response, and specialist decisions.
-7. Profile user adoption, operator capacity, role competence, support, and change readiness.
-8. Preserve disagreements and distinguish evidence, assumptions, and required approvals.
-9. Identify critical gaps and state which actions they constrain before any summary.
-10. Recommend a decision, conditions, owners, expiry, and next review trigger.
+2. Separate the decision under review from any lower-exposure interim motion that may continue while prerequisites are remediated.
+3. Load supplied artifacts into a context ledger; ask only for decision-changing gaps.
+4. Profile strategic value and economics, including alternatives and uncertainty.
+5. Profile platform, data, context, workflow, and operating dependencies.
+6. Profile behavior, evaluation coverage, thresholds, production signals, and uncertainty.
+7. Profile accountability, authority, controls, escalation, rollback, incident response, and specialist decisions.
+8. Profile user adoption, operator capacity, role competence, support, and change readiness.
+9. Preserve disagreements and distinguish evidence, assumptions, and required approvals.
+10. Identify critical gaps and state which actions they constrain before any summary.
+11. Recommend a decision, permitted interim motion, conditions, owners, expiry, and next review trigger.
 
 ## Facilitation Protocol
 
@@ -78,9 +79,11 @@ Support guided, context-dump, and best-guess modes. In guided mode begin with th
 
 Do not average away a critical legal, privacy, security, safety, accountability, evaluation, rollback, or incident-response gap. Required specialists make decisions within their authority; the review does not impersonate them.
 
+Record unresolved specialist decisions in a decision register. Missing specialist approval remains a constraint, not implied consent. When a named owner or date is unavailable, name the required role, mark it unassigned, and use an evidence or decision trigger until the accountable authority sets the calendar.
+
 ## Completion Criteria
 
-Finish with defined scope, evidence and confidence, category profiles, disagreements, critical gaps, constrained actions, recommendation, accountable decision, conditions, owners, expiry, unresolved questions, and re-review trigger.
+Finish with defined scope, evidence and confidence, category profiles, disagreements, critical gaps, constrained actions, recommendation, permitted interim motion, accountable decision, specialist decision register, conditions, owners, expiry, unresolved questions, and re-review trigger.
 
 ## Key Concepts
 

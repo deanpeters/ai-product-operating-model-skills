@@ -32,7 +32,7 @@ Do not create the `v0.5` tag, publish a GitHub Release, or make the repository p
 
 ## Stage 3: Representative Field Validation
 
-**Status: planned**
+**Status: synthetic forward-testing complete; external field validation pending**
 
 Test six representative skills across executive or portfolio leaders, product teams, and governance partners:
 
@@ -45,11 +45,13 @@ Test six representative skills across executive or portfolio leaders, product te
 
 Capture time, unnecessary questions, missing context, terminology friction, artifact usefulness, decisions changed, facilitation failures, and whether another facilitator can repeat the method.
 
+The first isolated synthetic cycle exercised all six representative skills across executive, product-team, governance, and portfolio scenarios. Findings and changes are recorded in the [v0.5 forward-test report](validation/v0.5-forward-test-report.md). This does not close the external field-evidence gate.
+
 **Gate:** Representative users complete useful work and the resulting evidence has been incorporated into the library.
 
 ## Stage 4: Example and Facilitation Hardening
 
-**Status: planned**
+**Status: initial synthetic hardening complete; field-derived hardening pending**
 
 - Convert permitted field findings into anonymized examples
 - Add edge cases for disagreement, partial evidence, and interrupted workflows

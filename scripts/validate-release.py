@@ -16,6 +16,14 @@ EXPECTED_COMMANDS = {
     "aipom-evaluate-initiative.md",
     "aipom-redesign-workflow.md",
 }
+REPRESENTATIVE_SKILLS = {
+    "aipom-operating-model-assessment",
+    "aipom-strategy-thesis-advisor",
+    "aipom-use-case-triage",
+    "aipom-autonomy-boundary-designer",
+    "aipom-initiative-readiness-review",
+    "aipom-portfolio-quarterly-review",
+}
 REQUIRED_FILES = {
     "VERSION",
     "CHANGELOG.md",
@@ -25,6 +33,7 @@ REQUIRED_FILES = {
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
     "docs/STARTING-PATHS.md",
+    "docs/validation/v0.5-forward-test-report.md",
 }
 
 
@@ -74,6 +83,14 @@ def main() -> int:
         worked = folder / "examples" / "worked-example.md"
         if worked.exists() and "synthetic" not in worked.read_text().lower():
             warnings.append(f"{worked.relative_to(ROOT)}: confirm that the example is visibly labeled synthetic")
+        if data.get("name") in REPRESENTATIVE_SKILLS:
+            worked_words = len(worked.read_text().split()) if worked.exists() else 0
+            weak = folder / "examples" / "weak-example.md"
+            weak_words = len(weak.read_text().split()) if weak.exists() else 0
+            if worked_words < 300:
+                errors.append(f"{worked.relative_to(ROOT)}: representative worked example must contain at least 300 words")
+            if weak_words < 120:
+                errors.append(f"{weak.relative_to(ROOT)}: representative weak example must contain at least 120 words")
 
     command_files = {path.name for path in (ROOT / "commands").glob("aipom-*.md")}
     if command_files != EXPECTED_COMMANDS:

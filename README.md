@@ -44,6 +44,8 @@ The planned 41-skill catalog is complete. Future releases should deepen field ev
 
 The first public preview is targeted as `v0.5`. The repository remains private and no release tag has been created; representative field validation and the remaining release gates come next. See [release readiness](docs/RELEASE-READINESS.md) and the [release checklist](docs/RELEASE-CHECKLIST.md).
 
+The first synthetic forward-test and facilitation-hardening cycle is complete across six representative skills. See the [v0.5 forward-test report](docs/validation/v0.5-forward-test-report.md). External human field validation remains required before public release.
+
 ## Three Starting Paths
 
 You do not need to read all 41 skills before doing useful work:

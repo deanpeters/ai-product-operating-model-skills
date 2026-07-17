@@ -52,7 +52,7 @@ Bring strategy choices, initiative inventory, bet charters, economics, stage dec
 ## How to Do It
 
 1. Load the prior decision ledger, commitments, exceptions, and material changes.
-2. Confirm current strategy, constraints, capacity, and the decisions required this cycle.
+2. Confirm current strategy, constraints, capacity, and the decisions required this cycle. Define capacity in usable units and state whether continuing existing work consumes the same allocation slots as new investment.
 3. Normalize initiative evidence by stage, consequence, and decision—not one universal score.
 4. Review outcome and economic evidence, production behavior, readiness, dependencies, controls, adoption, and owner confidence.
 5. Apply critical-gap and exception-expiry logic before relative comparison.
@@ -60,7 +60,7 @@ Bring strategy choices, initiative inventory, bet charters, economics, stage dec
 7. Allocate investment to shared context, evaluation, governance, platform, capability, and reuse conditions that unlock several bets.
 8. Examine concentration, duplication, zombie pilots, premature scale, and unowned mandatory work.
 9. Update strategy assumptions, narrative, allocations, owners, communication, and next evidence requirements.
-10. Record decisions, dissent, exceptions, and follow-through for the next review.
+10. Record decisions, dissent, exceptions, allocation assumptions, and follow-through for the next review.
 
 ## Facilitation Protocol
 
@@ -76,6 +76,8 @@ Use context-dump mode for pre-read synthesis and guided mode for contested decis
 6. **Fund shared capability:** one operating condition unlocks or protects several strategically relevant bets.
 
 Do not let sunk cost, executive sponsorship, or aggregate portfolio scores override failed criteria or critical gaps.
+
+An exception must name the authority granting it, the constrained scope, safeguards, expiry, and evidence required for renewal. If capacity units, exception authority, or decision dates are missing, expose them as allocation assumptions or unresolved governance conditions rather than silently resolving them.
 
 ## Completion Criteria
 

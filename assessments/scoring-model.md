@@ -19,10 +19,13 @@ For each question:
 1. Define the assessed scope and operating level.
 2. Record claims and evidence using [evidence-rubric.md](evidence-rubric.md).
 3. Identify conflicting perspectives and missing evidence.
-4. Assign the highest score fully supported by the evidence.
-5. Assign confidence and explain the limiting factor.
-6. Flag critical gaps separately.
-7. Name the next evidence-producing action or intervention.
+4. Decide whether a maturity score is supportable. Use `Not assessed` when missing evidence prevents a defensible distinction between absent and emerging practice.
+5. If a score is supportable, assign the highest score fully supported by the evidence.
+6. Assign confidence and explain the limiting factor.
+7. Flag critical gaps separately.
+8. Name the next evidence-producing action or intervention.
+
+`1 — Absent` is a finding, not a synonym for “no artifact was supplied.” Use it only when credible inquiry supports that no consistent practice or accountable ownership exists in the assessed scope. Self-reported absence may support a provisional `1` with low confidence when it is explicitly attributed and important enough to act on. If the assessment has not established whether a practice exists, record `Not assessed`, state the missing evidence, and exclude that item from category arithmetic until it can be assessed.
 
 ## Score Anchors
 
@@ -69,6 +72,8 @@ A category summary should include:
 - The weakest consequential condition
 - Any critical gaps
 - Recommended skills and next actions
+
+Show `Not assessed` items beside the distribution and do not convert them to zero or `1` for the median.
 
 If a numeric category score is needed, use the median rather than the mean and show the underlying distribution. Do not allow the summary to obscure a critical gap.
 
@@ -131,4 +136,3 @@ Every completed assessment includes:
 - Named owners
 - Next evidence-producing actions
 - Unresolved questions
-

@@ -27,8 +27,8 @@ These are release candidates, not published assets.
 
 ## Remaining Gates
 
-- Representative field validation
-- Findings incorporated into priority skills and examples
+- External representative field validation with human participants or facilitators
+- External findings incorporated into priority skills and examples
 - Final source-freshness, confidentiality, license, and attribution review
 - Public contribution and issue governance
 - Draft GitHub Release review
@@ -40,3 +40,4 @@ These are release candidates, not published assets.
 - The canonical package is platform-neutral; only Codex packaging is currently generated as a platform-specific distribution.
 - External URL availability is not checked in CI because network access is not deterministic. Source presence and traceability are checked locally.
 - A complete catalog is not evidence that organizations have adopted or benefited from the practices.
+- Synthetic forward-tests demonstrate internal behavioral coherence, not real session duration, human usability, adoption, decision impact, or independent facilitator repeatability.

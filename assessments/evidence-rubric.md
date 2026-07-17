@@ -63,4 +63,4 @@ Next evidence-producing action:
 - Critical governance, legal, privacy, security, safety, or accountability gaps are reported separately and cannot be averaged away.
 - Conflicting evidence lowers confidence until the conflict is explained or resolved.
 - Missing evidence is not automatically proof of absence; it limits the supported claim.
-
+- Use `Not assessed` when the available context cannot distinguish absent practice from unobserved practice. Use `1 — Absent` only when inquiry or attributed reports support absence in the stated scope.

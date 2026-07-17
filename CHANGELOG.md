@@ -14,6 +14,9 @@ Private preview target. Do not create the `v0.5` tag or publish a GitHub Release
 - Codex-compatible generated distribution
 - Three guided entry paths for organization assessment, initiative evaluation, and workflow redesign
 - Automated validation, versioned packaging, and release checksums
+- Representative synthetic forward-tests across executive, product-team, governance, and portfolio scenarios
+- Substantive worked and weak examples for triage, initiative readiness, and quarterly portfolio review
+- Clearer rules for unscored assessment conditions, unassigned owners, specialist decisions, autonomy execution, and portfolio exceptions
 
 ### License
 
