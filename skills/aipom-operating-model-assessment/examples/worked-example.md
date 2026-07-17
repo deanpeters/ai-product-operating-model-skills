@@ -91,4 +91,3 @@ The lowest numbers are not the only reason for prioritization. The root conditio
 The CPO decides not to scale any pilot solely on current evidence. The two most promising initiatives receive a 60-day evidence-building window. The portfolio leader owns common bet reviews, and the scheduling operations director remains accountable for customer-impacting actions.
 
 Reassessment will occur after the 60-day reviews or immediately after a material incident or control failure.
-

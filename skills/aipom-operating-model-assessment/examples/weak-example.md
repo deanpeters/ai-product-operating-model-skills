@@ -32,4 +32,3 @@ Eight executives rated the organization from 1 to 5:
 ## Minimum Repair
 
 Define the scope, inspect artifacts and examples of use, assess the canonical questions, cap unsupported claims at `2 — Emerging`, preserve disagreements, report critical gaps separately, and route the weakest consequential conditions to owned evidence-producing interventions.
-

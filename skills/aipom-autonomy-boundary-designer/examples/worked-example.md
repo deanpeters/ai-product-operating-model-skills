@@ -60,4 +60,3 @@ The Product Manager will run a two-week bounded pilot with human approval for al
 - Can the knowledge source expire instructions automatically?
 - What customer notice is required when AI drafts or sends a response?
 - Does the daily aggregate credit limit need a team-level control?
-

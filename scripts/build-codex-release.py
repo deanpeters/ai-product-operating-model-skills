@@ -47,6 +47,21 @@ def quoted(value: str) -> str:
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
+def derived_interface(name: str, description: str, body: str) -> dict[str, str]:
+    heading = re.search(r"^#\s+(.+)$", body, re.MULTILINE)
+    display_name = heading.group(1).removeprefix("AIPOM ") if heading else name.replace("-", " ").title()
+    first_sentence = description.split(".", 1)[0].strip()
+    short_description = first_sentence
+    if len(short_description) > 64:
+        short_description = short_description[:61].rsplit(" ", 1)[0] + "..."
+    default_prompt = f"Use ${name} to {first_sentence[:1].lower() + first_sentence[1:]}."
+    return {
+        "display_name": display_name,
+        "short_description": short_description,
+        "default_prompt": default_prompt,
+    }
+
+
 def adapt_skill(source: Path) -> None:
     data, body = split_skill((source / "SKILL.md").read_text())
     name = data["name"]
@@ -82,14 +97,13 @@ def adapt_skill(source: Path) -> None:
         ]:
             shutil.copy2(ROOT / "assessments" / filename, references / filename)
 
-    interface = INTERFACE.get(name)
-    if interface:
-        agents = target / "agents"
-        agents.mkdir()
-        content = ["interface:"]
-        for key in ["display_name", "short_description", "default_prompt"]:
-            content.append(f"  {key}: {quoted(interface[key])}")
-        (agents / "openai.yaml").write_text("\n".join(content) + "\n")
+    interface = INTERFACE.get(name) or derived_interface(name, data["description"], body)
+    agents = target / "agents"
+    agents.mkdir()
+    content = ["interface:"]
+    for key in ["display_name", "short_description", "default_prompt"]:
+        content.append(f"  {key}: {quoted(interface[key])}")
+    (agents / "openai.yaml").write_text("\n".join(content) + "\n")
 
 
 def main() -> int:
@@ -114,4 +128,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

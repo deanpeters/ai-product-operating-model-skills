@@ -84,4 +84,3 @@
 | Early review triggers | |
 | Pause or stop triggers | |
 | Unresolved questions | |
-

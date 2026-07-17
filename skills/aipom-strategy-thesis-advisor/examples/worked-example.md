@@ -60,4 +60,3 @@ The organization’s current strategic maturity remains `2 — Emerging`: eviden
 4. Interview instructors about whether review workload is sustainable.
 
 The product strategy leader owns the investment decision. The thesis will be reviewed after the pilot or immediately after a material evaluation, rights, or learner-safety issue.
-

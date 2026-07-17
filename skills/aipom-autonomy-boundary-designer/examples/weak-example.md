@@ -19,4 +19,3 @@
 ## Minimum Repair
 
 Split the workflow into atomic actions, classify each boundary, name the decision and accountability owners, define escalation and stop conditions, and run a bounded test showing that reviewers and controls work under representative conditions.
-

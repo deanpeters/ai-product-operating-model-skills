@@ -34,22 +34,24 @@ A skill is not `active` merely because `SKILL.md` exists. Its metadata, content,
 | Category | Skill | Type | Status |
 |---|---|---|---|
 | Cross-category | `aipom-operating-model-assessment` | workflow | active |
-| Cross-category | `aipom-operating-model-roadmap` | workflow | planned |
+| Cross-category | `aipom-operating-model-roadmap` | workflow | active |
 | Strategy | `aipom-strategy-thesis-advisor` | interactive | active |
-| Portfolio | `aipom-portfolio-posture-advisor` | interactive | planned |
-| Workflows | `aipom-workflow-opportunity-advisor` | interactive | planned |
-| Context | `aipom-context-readiness-advisor` | interactive | planned |
-| Evaluation | `aipom-evaluation-strategy-advisor` | interactive | planned |
-| Governance | `responsible-aipom-governance-advisor` | interactive | planned |
-| Capability | `aipom-capability-maturity-advisor` | interactive | planned |
-| Portfolio | `aipom-bet-charter` | component | planned |
-| Workflows | `human-aipom-work-contract` | component | planned |
-| Context | `aipom-context-package-builder` | component | planned |
-| Evaluation | `aipom-behavior-contract-builder` | component | planned |
+| Portfolio | `aipom-portfolio-posture-advisor` | interactive | active |
+| Workflows | `aipom-workflow-opportunity-advisor` | interactive | active |
+| Context | `aipom-context-readiness-advisor` | interactive | active |
+| Evaluation | `aipom-evaluation-strategy-advisor` | interactive | active |
+| Governance | `responsible-aipom-governance-advisor` | interactive | active |
+| Capability | `aipom-capability-maturity-advisor` | interactive | active |
+| Portfolio | `aipom-bet-charter` | component | active |
+| Workflows | `human-aipom-work-contract` | component | active |
+| Context | `aipom-context-package-builder` | component | active |
+| Evaluation | `aipom-behavior-contract-builder` | component | active |
 | Governance | `aipom-autonomy-boundary-designer` | component | active |
-| Capability | `workflow-to-skill-converter` | component | planned |
+| Capability | `workflow-to-skill-converter` | component | active |
 
 **Total:** 15 skills.
+
+**Phase status: complete.** All 15 Phase 1 skills are active and validated as a coherent assessment-to-action loop.
 
 **Pattern gate: complete.** The component, interactive-advisor, and workflow exemplars are active and validated. Review their behavior and artifact patterns before generating the remaining Phase 1 skills.
 

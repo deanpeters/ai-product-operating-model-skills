@@ -82,4 +82,3 @@ Boundary states: `independent within constraints`, `human approval required`, `h
 | Accountable owner | |
 | Conditions or exceptions | |
 | Next review trigger or date | |
-

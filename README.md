@@ -19,11 +19,13 @@ Repository-wide instructions for human and AI contributors live in [AGENTS.md](A
 
 ## Current State
 
-Phase 0 is complete. The Phase 1 pattern gate now provides three active, validated exemplars:
+Phase 0 and Phase 1 are complete. The library now provides 15 active, validated skills forming a complete assessment-to-action loop:
 
-- [`aipom-autonomy-boundary-designer`](skills/aipom-autonomy-boundary-designer/SKILL.md), the component pattern
-- [`aipom-strategy-thesis-advisor`](skills/aipom-strategy-thesis-advisor/SKILL.md), the interactive-advisor pattern
-- [`aipom-operating-model-assessment`](skills/aipom-operating-model-assessment/SKILL.md), the workflow pattern
+- Assess the operating model across 35 evidence-based questions
+- Diagnose the most consequential gap in each of seven categories
+- Establish foundational bets, behavior, authority, human-AI work, and context
+- Sequence owned 30-, 90-, 180-, and 365-day interventions
+- Convert proven workflows into reusable organizational skills
 
 Canonical packages preserve the full AIPOM organizational metadata. The release build also generates Codex-compatible packages with platform-specific metadata and bundled references.
 

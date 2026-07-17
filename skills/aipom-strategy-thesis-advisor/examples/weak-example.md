@@ -19,4 +19,3 @@
 ## Minimum Repair
 
 Choose one strategically meaningful arena, state the evidence-backed customer condition, connect AI behavior to customer and economic outcomes, define what will not be funded, and identify the smallest bets that test the most consequential assumptions.
-
