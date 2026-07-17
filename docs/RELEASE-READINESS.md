@@ -13,6 +13,7 @@
 - Release metadata and source traceability are validated automatically.
 - GitHub Actions validates and packages clean checkouts with read-only repository permissions and immutable action SHAs.
 - Three guided entry paths give users a practical front door.
+- A privacy-aware external field-validation kit covers all six representative skills and independent-facilitator calibration.
 
 ## Release Candidate Outputs
 

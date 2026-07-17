@@ -47,6 +47,8 @@ Capture time, unnecessary questions, missing context, terminology friction, arti
 
 The first isolated synthetic cycle exercised all six representative skills across executive, product-team, governance, and portfolio scenarios. Findings and changes are recorded in the [v0.5 forward-test report](validation/v0.5-forward-test-report.md). This does not close the external field-evidence gate.
 
+The [external validation hub](validation/README.md) is ready for three human pilots covering leadership and portfolio, product and initiative, and governance and operations. The sessions and independent-facilitator calibrations remain pending.
+
 **Gate:** Representative users complete useful work and the resulting evidence has been incorporated into the library.
 
 ## Stage 4: Example and Facilitation Hardening

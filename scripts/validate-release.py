@@ -24,6 +24,16 @@ REPRESENTATIVE_SKILLS = {
     "aipom-initiative-readiness-review",
     "aipom-portfolio-quarterly-review",
 }
+VALIDATION_KIT = {
+    "docs/validation/README.md",
+    "docs/validation/v0.5-field-validation-plan.md",
+    "docs/validation/v0.5-participant-brief.md",
+    "docs/validation/v0.5-facilitator-runbook.md",
+    "docs/validation/v0.5-session-capture.md",
+    "docs/validation/v0.5-calibration-scenarios.md",
+    "docs/validation/v0.5-findings-register.md",
+    "docs/validation/v0.5-forward-test-report.md",
+}
 REQUIRED_FILES = {
     "VERSION",
     "CHANGELOG.md",
@@ -33,8 +43,7 @@ REQUIRED_FILES = {
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
     "docs/STARTING-PATHS.md",
-    "docs/validation/v0.5-forward-test-report.md",
-}
+} | VALIDATION_KIT
 
 
 def split_skill(path: Path) -> tuple[dict, str]:

@@ -17,6 +17,7 @@ Private preview target. Do not create the `v0.5` tag or publish a GitHub Release
 - Representative synthetic forward-tests across executive, product-team, governance, and portfolio scenarios
 - Substantive worked and weak examples for triage, initiative readiness, and quarterly portfolio review
 - Clearer rules for unscored assessment conditions, unassigned owners, specialist decisions, autonomy execution, and portfolio exceptions
+- External validation kit with participant guidance, facilitator protocol, session capture, calibration scenarios, findings register, and release gate
 
 ### License
 
