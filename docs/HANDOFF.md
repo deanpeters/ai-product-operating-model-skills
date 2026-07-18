@@ -17,6 +17,7 @@ Read these files in order:
 Then run:
 
 ```bash
+git pull --ff-only
 git status --short
 git log -5 --oneline --decorate
 ./scripts/test-library.sh
@@ -24,11 +25,19 @@ git log -5 --oneline --decorate
 
 Do not begin by generating new skills. The planned 41-skill catalog is complete.
 
+### Copy/paste kickoff prompt for another coding agent
+
+```text
+Read AGENTS.md, README.md, docs/HANDOFF.md, and docs/POST-RELEASE-ROADMAP.md in full. Then inspect git status and the latest five commits, run ./scripts/test-library.sh, and report: (1) the current release and evidence boundary, (2) canonical versus generated sources, (3) the highest-priority unfinished work, and (4) any blocker. Do not create new skills, edit generated files directly, rebuild a published tag, or begin the deferred Streamlit workbench unless I explicitly authorize it.
+```
+
 ## Repository and Release State
 
 - Public repository: <https://github.com/deanpeters/ai-product-operating-model-skills>
 - Active branch: `main`
-- Current tagged release: `v0.6`, published as a role-led synthetic-data public preview
+- Current tagged release: [`v0.6`](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.6), published as a GitHub prerelease and role-led synthetic-data public preview
+- Release commit: `b5ef9752c7247ef4dc6a09d0e5b443dc7a2036af`
+- Published release assets: canonical library ZIP, Codex ZIP, five Starter Pack ZIPs, and combined `SHA256SUMS`
 - License: CC BY-NC-SA 4.0
 - Canonical library: 41 active skills across seven categories and four build phases
 - Assessment: 35 stable questions with evidence and maturity-scoring rules
@@ -37,13 +46,27 @@ Do not begin by generating new skills. The planned 41-skill catalog is complete.
 - Platform packaging: canonical platform-neutral archive, generated Codex-compatible archive, and five Starter Pack archives
 - Starter Packs: product contract, five manifests, generator, shared shell, native Codex and Claude Code adapters, cross-platform wrappers, deterministic archives, checksums, extraction verification, focused tests, and product phases 0–6 complete
 
-The tagged `v0.6` assets contain the current executive, practitioner, persona, journey, and Starter Pack experience. The tagged `v0.5` assets remain the immutable original launch snapshot.
+The tagged `v0.6` assets contain the executive, practitioner, persona, journey, and Starter Pack experience as it existed at the release commit. The long-form `INTRODUCTION.md`, README ASCII-and-badge header, dynamic-version CI repair, and release-builder inclusion of `INTRODUCTION.md` were added afterward on `main`. Do not rewrite the `v0.6` tag or replace its historical assets to pull those later changes backward. The tagged `v0.5` assets likewise remain the immutable original launch snapshot.
+
+## Pickup Snapshot
+
+The repository has crossed the “build the catalog and packaging” boundary. The immediate job is no longer to create more methods. It is to put the existing experience in front of representative people, observe where it fails, and make focused corrections.
+
+| Area | Current state | Do next |
+|---|---|---|
+| Canonical library | 41 of 41 planned skills active | Improve only from a documented gap or observed use |
+| Public release | v0.6 published with eight assets | Preserve the tag; prepare a later release only from accepted findings |
+| Personas and journeys | Five role flows and five end-to-end journeys complete | Cold-test with one representative person per role |
+| Starter Packs | Five distinct packs generate, package, and pass synthetic cold-start checks | Run observed human cold starts against real but safe decisions |
+| Evidence | Structural and synthetic evidence complete | Gather anonymized human facilitation and decision evidence |
+| Interface | Streamlit direction documented only | Do not implement until explicitly prioritized |
 
 ## What Exists Now
 
 ### Public front doors
 
-- [README](../README.md) welcomes people by role, working style, and problem.
+- [README](../README.md) uses badges and an ASCII banner, then welcomes people by role, working style, and problem.
+- [Introduction](../INTRODUCTION.md) is the world-facing narrative article and practical Starter Pack walkthrough.
 - [Target Personas](TARGET-PERSONAS.md) defines leadership and execution roles, their Starter Packs, and authority boundaries.
 - [Starting Paths](STARTING-PATHS.md) compares all five product-direction, technical-readiness, organization, initiative, and workflow journeys.
 - [Executive Field Guide](EXECUTIVE-FIELD-GUIDE.md) explains the leadership case.
@@ -86,6 +109,10 @@ The public experience was deliberately reorganized for the `v0.6` release:
 5. Relevant canonical skills identify those roles or their established equivalent titles in audience metadata and participation guidance.
 6. The generated catalog includes skills-by-persona and manifest-derived skills-by-Starter-Pack views.
 7. `scripts/test-library.sh` compares generated catalogs before and after generation, so uncommitted but correctly regenerated catalogs can validate.
+8. `INTRODUCTION.md` now provides a long-form public launch story, quick-start instructions, package anatomy, evidence boundaries, and a direct field-feedback invitation.
+9. The README now carries a sibling-repository-style ASCII identity and badges for CI, stars, license, version, skill count, Starter Packs, and the synthetic evidence label.
+10. `.github/workflows/validate-library.yml` reads the current version from `VERSION` rather than assuming v0.5 archive names.
+11. `scripts/build-release.sh` includes `INTRODUCTION.md` in future canonical release archives so the README link survives clean extraction.
 
 Current audience coverage is intentionally selective:
 
@@ -113,6 +140,8 @@ Build both release archives and checksums:
 
 This now builds the canonical library archive, Codex skill archive, all five Starter Pack archives, `dist/STARTER-PACK-SHA256SUMS`, the combined `dist/SHA256SUMS`, and `dist/STARTER-PACK-COLD-START.yaml`. It also verifies clean extraction, Starter Pack operation from the canonical archive, and the automated synthetic cold-start contract.
 
+The complete build is the release-integrity gate, not merely a packaging convenience. A prior GitHub Actions run exposed that `README.md` linked to `INTRODUCTION.md` while the canonical ZIP omitted that file. The builder now includes it, and the complete local build passes. If CI is red, inspect the current run before assuming the skill library itself failed.
+
 Useful focused checks:
 
 ```bash
@@ -135,9 +164,9 @@ The repository includes a complete [human-validation kit](validation/README.md),
 
 ## Recommended Next Work
 
-### 1. Test the new practitioner front door
+### 1. Run one observed Starter Pack cold start per persona
 
-Ask at least one person from each of the five target personas to begin cold from the README and their persona page. Observe whether each person can:
+Ask a Head of Product, CTO, Product Operations practitioner, Product Manager, and Team Lead to begin cold from either the README or the appropriate downloaded Starter Pack. Observe whether each person can:
 
 - Recognize what is in the library for them
 - Choose a starting journey without catalog knowledge
@@ -145,17 +174,21 @@ Ask at least one person from each of the five target personas to begin cold from
 - Identify their authority and the decisions that remain with others
 - State the first useful action in their own words
 
-Capture terminology friction and missing tactical steps. Update role flows and relevant skills rather than adding more top-level strategy material.
+Capture terminology friction, setup failures, missing tactical steps, inappropriate authority, and whether the person can reach the first meaningful decision point. Update manifests, templates, role flows, or relevant canonical skills rather than adding more top-level strategy material.
 
-### 2. Run the prepared human pilots
+### 2. Put one real but bounded decision through a pack
+
+Prefer a low-consequence decision with real disagreement and usable evidence. The strongest initial candidate is the Product Manager initiative pack because it exercises the broadest dependency chain and ends in a proceed, constrain, remediate, pause, or stop recommendation. Do not use confidential client material in the public repository.
+
+### 3. Run the prepared human pilots
 
 Use the [Validation Hub](validation/README.md) to run the executive/portfolio, product/initiative, and governance/operations sessions. Record only sanitized, non-confidential findings in the public findings register.
 
-### 3. Gather representative human evidence
+### 4. Triage findings before changing the catalog
 
-Use the five persona flows and Starter Packs with representative users. Capture terminology friction, missing tactical steps, unsafe recommendations, and whether the workflow clarifies or changes a real decision. Keep all public findings anonymized and non-confidential.
+Prioritize authority or safety failures, then decision failures, facilitation failures, and editorial friction. Correct the smallest canonical source that owns the problem, regenerate derived artifacts, and rerun the complete suite. Do not manufacture a new skill when a template, adapter, manifest, journey, or existing skill is the actual source of the failure.
 
-### 4. Continue the active post-release roadmap
+### 5. Continue the active post-release roadmap
 
 After field and persona findings, improve facilitation, examples, cross-platform behavior, adoption evidence, and stable contracts. Do not add skills merely to increase the catalog count.
 
@@ -176,6 +209,7 @@ The [Starter Packs product contract](STARTER-PACKS.md) and canonical manifests u
 - Audience metadata shows intended participation, not proven usability or adoption.
 - External URL availability is not checked in CI.
 - The tagged `v0.6` release is the first snapshot of the five-persona public experience.
+- The post-release `INTRODUCTION.md` and README visual header are on `main` but not inside the immutable published `v0.6` archives.
 - The scenario-guided Streamlit workbench is documented only as a deferred direction; no application code or implementation commitment exists.
 - Starter Packs require Python plus the development dependencies. The PowerShell wrapper is structurally covered but could not be executed on the macOS development host because PowerShell is not installed there.
 

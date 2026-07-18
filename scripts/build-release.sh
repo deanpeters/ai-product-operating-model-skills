@@ -30,6 +30,7 @@ release.mkdir(parents=True)
 for filename in [
     "AGENTS.md",
     "README.md",
+    "INTRODUCTION.md",
     "ROADMAP.md",
     "CONTRIBUTING.md",
     "CHANGELOG.md",

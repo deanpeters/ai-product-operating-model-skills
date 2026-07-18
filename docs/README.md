@@ -5,6 +5,7 @@ Use this page to find the right document without reading the repository from top
 ## Start Here
 
 - [README](../README.md) — plain-English public introduction, who the library serves, and where to begin
+- [Introduction](../INTRODUCTION.md) — long-form public launch article, Starter Pack walkthrough, and feedback invitation
 - [Current-State Handoff](HANDOFF.md) — what exists now, what changed, validation commands, known limitations, and recommended next work
 - [Target Personas](TARGET-PERSONAS.md) — Head of Product and CTO leadership roles plus Product Operations, Product Manager, and Team Lead execution roles
 - [Starting Paths](STARTING-PATHS.md) — choose product direction, technical readiness, organization assessment, initiative evaluation, or workflow redesign
