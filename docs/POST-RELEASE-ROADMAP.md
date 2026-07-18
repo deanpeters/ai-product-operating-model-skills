@@ -1,10 +1,10 @@
 # Active Post-Release Roadmap
 
-`v0.5` puts the complete planned 41-skill catalog into public use. “Public preview” describes the maturity of the evidence base, not an incomplete catalog.
+`v0.6` puts the complete planned 41-skill catalog, five persona-led journeys, and five downloadable Starter Packs into public use. “Public preview” describes the maturity of the evidence base, not an incomplete catalog.
 
 The operating principle is **release, observe, correct, and deepen**. Do not wait passively for perfect field evidence, and do not manufacture new skills merely to make the library look active.
 
-## v0.5.x: Rapid Public Corrections
+## v0.6.x: Rapid Public Corrections
 
 Ship patch releases when public use exposes a clear defect.
 
@@ -17,7 +17,7 @@ Priority order:
 
 Every patch should preserve the evidence label, update the changelog, rerun the complete suite, and publish reproducible archives and checksums.
 
-### Current v0.5.x public-experience work
+### Shipped in v0.6
 
 The first post-launch improvement reorganizes the public experience without changing the canonical 41-skill catalog:
 
@@ -28,14 +28,14 @@ The first post-launch improvement reorganizes the public experience without chan
 - Role-led flows for Heads of Product, CTOs, Product Operations, Product Managers, and Team Leads
 - A README that leads with the operating problem and bounded starting decisions
 
-This work is intended to make the preview easier to understand, try, and critique. It does not change the `v0.5` evidence label or claim field validation.
+This work makes the preview easier to understand, try, and critique. It does not claim field validation.
 
 ### Immediate next work
 
 1. Cold-test the README and persona flows with all five leadership and execution personas.
 2. Run the three prepared human-validation pilots and independent-facilitator calibration.
 3. Correct tactical gaps, terminology friction, unsafe recommendations, and material differences in facilitation.
-4. Decide whether the next tagged snapshot is `v0.6` or whether the repository will explicitly add patch-version support. Do not overwrite `v0.5`.
+4. Use the findings to choose a focused next release rather than expanding the catalog by default.
 
 See the [current-state handoff](HANDOFF.md) for restart instructions, source-of-truth boundaries, commands, and known limitations.
 

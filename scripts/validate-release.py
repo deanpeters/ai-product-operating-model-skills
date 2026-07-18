@@ -117,10 +117,12 @@ def main() -> int:
         errors.append("VERSION must use the pre-1.0 form 0.x")
     elif not re.search(rf"^## \[{re.escape(version)}\] - \d{{4}}-\d{{2}}-\d{{2}}$", (ROOT / "CHANGELOG.md").read_text(), re.MULTILINE):
         errors.append(f"CHANGELOG.md must contain a dated release section for {version}")
+    if version and not (ROOT / "docs" / "releases" / f"v{version}.md").exists():
+        errors.append(f"missing current release notes: docs/releases/v{version}.md")
 
     readme = (ROOT / "README.md").read_text() if (ROOT / "README.md").exists() else ""
-    if "v0.5 public preview" not in readme or "synthetically forward-tested" not in readme:
-        errors.append("README.md must display the v0.5 synthetic public-preview evidence label")
+    if f"v{version} public preview" not in readme or "synthetically forward-tested" not in readme:
+        errors.append(f"README.md must display the v{version} synthetic public-preview evidence label")
 
     evidence_status = ROOT / "docs" / "EVIDENCE-STATUS.md"
     if evidence_status.exists():

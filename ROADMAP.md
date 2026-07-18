@@ -2,7 +2,7 @@
 
 This file is the source of truth for phase membership, skill names, progress, and release gates.
 
-All build phases are complete, and the synthetic-data [`v0.5` public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5) is published. Post-release evidence, interoperability, adoption, and stabilization work is tracked in [docs/POST-RELEASE-ROADMAP.md](docs/POST-RELEASE-ROADMAP.md).
+All build phases are complete, and the role-led, synthetic-data [`v0.6` public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.6) is published. Post-release evidence, interoperability, adoption, and stabilization work is tracked in [docs/POST-RELEASE-ROADMAP.md](docs/POST-RELEASE-ROADMAP.md).
 
 For the current public experience, persona coverage, known limitations, validation commands, and recommended next work, read [docs/HANDOFF.md](docs/HANDOFF.md). This roadmap records completed phase membership; it is not the active task list.
 

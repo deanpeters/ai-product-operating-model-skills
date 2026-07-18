@@ -4,6 +4,10 @@ Notable changes to AI Product Operating Model Skills are recorded here.
 
 ## [Unreleased]
 
+## [0.6] - 2026-07-18
+
+This public-preview release makes the complete library easier to enter and use through five role-led journeys and five downloadable Starter Packs. It remains structurally validated and synthetically tested; representative human field validation and demonstrated organizational impact are not yet established.
+
 ### Added
 
 - Executive field guide with a decision-led explanation of AIPOM and a practical first 90-day adoption route

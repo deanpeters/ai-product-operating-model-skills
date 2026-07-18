@@ -8,11 +8,9 @@ That is what this repository is for.
 
 AI Product Operating Model Skills (AIPOM) is a collection of guided methods for people trying to make AI product work useful, responsible, and repeatable. You can use it with a human facilitator or an AI assistant. You do not need to be a programmer, an AI evangelist, or a framework collector.
 
-[Download the v0.5 public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5), [find your role](docs/TARGET-PERSONAS.md), or [start with the problem in front of you](docs/STARTING-PATHS.md).
+[Download the v0.6 public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.6), [find your role](docs/TARGET-PERSONAS.md), or [start with the problem in front of you](docs/STARTING-PATHS.md).
 
-> **Honest v0.5 label:** This is a `v0.5 public preview`. The library is structurally validated and synthetically forward-tested, but it has not yet proved its effectiveness through representative organizational use. The examples are synthetic. Kick the tires, question the recommendations, and keep consequential decisions with accountable people and qualified specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
->
-> The tagged `v0.5` download is the original launch snapshot. The five-persona experience and Starter Pack generator are newer work on `main`; release automation now produces all five pack archives for the next published snapshot, but they are not attached to the historical tag.
+> **Honest v0.6 label:** This is a `v0.6 public preview`. The library is structurally validated and synthetically forward-tested, including clean-room cold-start checks for all five Starter Packs, but it has not yet proved its effectiveness through representative organizational use. The examples are synthetic. Kick the tires, question the recommendations, and keep consequential decisions with accountable people and qualified specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
 
 ## Find Yourself Here
 

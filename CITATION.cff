@@ -2,11 +2,10 @@ cff-version: 1.2.0
 message: If you use or adapt this library, cite it using the metadata below and follow the license terms.
 title: AI Product Operating Model Skills
 type: software
-version: "0.5"
-date-released: 2026-07-17
+version: "0.6"
+date-released: 2026-07-18
 authors:
   - family-names: Peters
     given-names: Dean
 repository-code: https://github.com/deanpeters/ai-product-operating-model-skills
 license: CC-BY-NC-SA-4.0
-

@@ -1,10 +1,10 @@
-# v0.5 Public Preview Contract
+# v0.6 Public Preview Contract
 
 ## Release Position
 
-`v0.5` is an early public preview of the complete 41-skill AIPOM library. The pre-1.0 version signals that the structure, language, facilitation behavior, interoperability, and evidence base may change as people use and critique it.
+`v0.6` is an early public preview of the complete 41-skill AIPOM library and its five role-led Starter Packs. The pre-1.0 version signals that the structure, language, facilitation behavior, interoperability, and evidence base may change as people use and critique it.
 
-The release is built with synthetic examples and has passed structural validation, source-traceability checks, clean-checkout packaging, and isolated synthetic forward-tests. It has not completed representative organizational field validation.
+The release is built with synthetic examples and has passed structural validation, source-traceability checks, clean-checkout packaging, isolated synthetic forward-tests, and synthetic cold-start checks for all five Starter Packs. It has not completed representative organizational field validation.
 
 ## How to Enter the Preview
 
@@ -12,6 +12,7 @@ The public repository now separates three reader needs:
 
 - Leaders can use the [Executive Field Guide](EXECUTIVE-FIELD-GUIDE.md) and [Executive Adoption Packages](adoption-packages/README.md) to select a consequential decision and bounded engagement.
 - Practitioners can start with the [Target Personas](TARGET-PERSONAS.md) for role-led flows or the [Starting Paths](STARTING-PATHS.md) for decision-led journeys, then prepare participants, evidence, authority, timing, and follow-through before running a workflow.
+- Heads of Product, CTOs, Product Operations practitioners, Product Managers, and Team Leads can download a focused [Starter Pack](../starter-packs/README.md) instead of navigating the full library first.
 - Contributors can use the [Contribution Guide](../CONTRIBUTING.md), skill specification, and repository operating contract without making contributor mechanics the main public entry experience.
 
 These navigation and engagement layers organize existing canonical methods. They do not add evidence of field effectiveness, adoption, impact, certification, or compliance.
@@ -23,6 +24,7 @@ These navigation and engagement layers organize existing canonical methods. They
 - Six representative skills produced bounded, evidence-aware decisions in isolated synthetic scenarios.
 - Known synthetic-test findings were incorporated and retested.
 - The release packages can be reproduced from a clean checkout.
+- Five distinct Starter Pack shapes pass automated clean-room packaging and start-readiness checks.
 
 ## What This Release Does Not Claim
 
@@ -47,6 +49,6 @@ The most valuable public feedback identifies:
 
 Use the repository issue forms and remove confidential, identifying, privileged, personal, contractual, or security-sensitive information before submitting.
 
-## Path to v0.6
+## Path Beyond v0.6
 
-The `v0.6` evidence cycle will use public feedback and the three planned human pilots to strengthen examples, decision logic, facilitation, interoperability, and field evidence. Catalog growth is not the priority.
+The next evidence cycle will use public feedback and the three planned human pilots to strengthen examples, decision logic, facilitation, interoperability, and field evidence. Catalog growth is not the priority.

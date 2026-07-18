@@ -1,6 +1,6 @@
-# v0.5 Evidence Status
+# v0.6 Evidence Status
 
-This page states what the `v0.5` public preview has and has not demonstrated.
+This page states what the `v0.6` public preview has and has not demonstrated.
 
 | Evidence layer | Status | What that means |
 |---|---|---|
@@ -16,7 +16,7 @@ This page states what the `v0.5` public preview has and has not demonstrated.
 | Demonstrated decision or business impact | Not established | No public claim is made that the library has improved outcomes, economics, safety, or risk posture in an organization |
 | Legal or regulatory compliance | Not established | The library is not legal advice, certification, approval, or proof of compliance |
 
-## Appropriate v0.5 Use
+## Appropriate v0.6 Use
 
 - Explore and critique the operating-model methods
 - Run synthetic or bounded internal exercises
@@ -28,5 +28,4 @@ This page states what the `v0.5` public preview has and has not demonstrated.
 
 For consequential decisions, involve the accountable business, product, technical, operational, legal, privacy, security, safety, risk, compliance, finance, or domain specialists appropriate to the context. Do not delegate their authority to the library or an AI facilitator.
 
-The evidence target for `v0.6` is representative human use, independent-facilitator repeatability, anonymized field findings, and evidence that the methods clarify or change real decisions.
-
+The next evidence target is representative human use, independent-facilitator repeatability, anonymized field findings, and evidence that the methods clarify or change real decisions.

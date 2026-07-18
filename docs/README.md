@@ -31,7 +31,8 @@ Use this page to find the right document without reading the repository from top
 
 ## Current Release and Evidence
 
-- [Evidence Status](EVIDENCE-STATUS.md) — what `v0.5` has and has not demonstrated
+- [v0.6 Release Notes](releases/v0.6.md) — the five-persona and Starter Pack release
+- [Evidence Status](EVIDENCE-STATUS.md) — what `v0.6` has and has not demonstrated
 - [Public Preview Contract](PUBLIC-PREVIEW.md) — appropriate use, limitations, and feedback priorities
 - [Active Post-Release Roadmap](POST-RELEASE-ROADMAP.md) — current path toward stronger evidence and stable public contracts
 - [Validation Hub](validation/README.md) — prepared human-pilot materials and the completed synthetic forward-test report

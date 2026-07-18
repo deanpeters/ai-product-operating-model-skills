@@ -1,6 +1,6 @@
-# v0.5 Validation Hub
+# Human Validation Hub
 
-Start here to run and record the external human-validation program that follows the synthetic-data `v0.5` public preview and informs `v0.6`.
+Start here to run and record the external human-validation program that follows the synthetic-data `v0.6` public preview and informs the next evidence release. The filenames retain `v0.5` because the kit was prepared for the original launch and remains the canonical field protocol until findings require a revision.
 
 ## Run the Validation Cycle
 

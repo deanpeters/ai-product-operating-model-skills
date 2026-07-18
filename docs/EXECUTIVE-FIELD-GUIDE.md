@@ -163,7 +163,7 @@ Leaders remain responsible for ensuring that:
 
 AIPOM is not a prompt library, vendor comparison, AI tool tutorial, machine-learning engineering handbook, legal opinion, or substitute for accountable domain review. A completed assessment, policy, workshop, or skill does not establish compliance, adoption, maturity, or impact.
 
-The `v0.5` public preview is structurally validated and synthetically forward-tested. It has not yet established representative field effectiveness or demonstrated organizational adoption and impact. See the [Public Preview Contract](PUBLIC-PREVIEW.md) and [Evidence Status](EVIDENCE-STATUS.md).
+The `v0.6` public preview is structurally validated and synthetically forward-tested, including clean-room cold-start checks for all five Starter Packs. It has not yet established representative field effectiveness or demonstrated organizational adoption and impact. See the [Public Preview Contract](PUBLIC-PREVIEW.md) and [Evidence Status](EVIDENCE-STATUS.md).
 
 ## The Executive Commitment
 

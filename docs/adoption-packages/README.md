@@ -40,4 +40,4 @@ The package guide explains the route. Canonical `SKILL.md` files remain the sour
 
 ## Evidence Status
 
-These packages organize the structurally validated, synthetically forward-tested `v0.5` library. They have not established representative field effectiveness, certification, compliance, adoption, or impact. See [Evidence Status](../EVIDENCE-STATUS.md) and the [Public Preview Contract](../PUBLIC-PREVIEW.md).
+These packages organize the structurally validated, synthetically forward-tested `v0.6` library. They have not established representative field effectiveness, certification, compliance, adoption, or impact. See [Evidence Status](../EVIDENCE-STATUS.md) and the [Public Preview Contract](../PUBLIC-PREVIEW.md).

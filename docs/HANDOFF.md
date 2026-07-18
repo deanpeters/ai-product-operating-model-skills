@@ -28,16 +28,16 @@ Do not begin by generating new skills. The planned 41-skill catalog is complete.
 
 - Public repository: <https://github.com/deanpeters/ai-product-operating-model-skills>
 - Active branch: `main`
-- Current tagged release: `v0.5`, published as a synthetic-data public preview
+- Current tagged release: `v0.6`, published as a role-led synthetic-data public preview
 - License: CC BY-NC-SA 4.0
 - Canonical library: 41 active skills across seven categories and four build phases
 - Assessment: 35 stable questions with evidence and maturity-scoring rules
 - Public entry routes: five leadership and practitioner journeys plus six executive adoption packages
 - Target personas: Head of Product and CTO leadership roles plus Product Operations, Product Manager, and Team Lead execution roles
-- Platform packaging: canonical platform-neutral archive plus a generated Codex-compatible archive
+- Platform packaging: canonical platform-neutral archive, generated Codex-compatible archive, and five Starter Pack archives
 - Starter Packs: product contract, five manifests, generator, shared shell, native Codex and Claude Code adapters, cross-platform wrappers, deterministic archives, checksums, extraction verification, focused tests, and product phases 0–6 complete
 
-The tagged `v0.5` assets are the original launch snapshot. Public `main` also contains the post-launch executive, practitioner, persona, and documentation experience layers. Do not assume the tagged archives contain every improvement now visible on `main`.
+The tagged `v0.6` assets contain the current executive, practitioner, persona, journey, and Starter Pack experience. The tagged `v0.5` assets remain the immutable original launch snapshot.
 
 ## What Exists Now
 
@@ -77,7 +77,7 @@ The [Executive Adoption Packages](adoption-packages/README.md) organize existing
 
 ## Recent Changes to Understand
 
-The public experience was deliberately reorganized after the original `v0.5` launch:
+The public experience was deliberately reorganized for the `v0.6` release:
 
 1. The README now begins with recognizable people, problems, and benefits rather than repository architecture.
 2. Leaders have an executive field guide and six adoption packages.
@@ -129,7 +129,7 @@ If skill metadata, dependencies, or Starter Pack manifests change, regenerate th
 
 ## Evidence Boundary
 
-`v0.5` is structurally validated and synthetically forward-tested. It is not field-proven, compliance-certified, or evidence of organizational adoption or impact.
+`v0.6` is structurally validated and synthetically forward-tested, including clean-room cold-start checks for all five Starter Packs. It is not field-proven, compliance-certified, or evidence of organizational adoption or impact.
 
 The repository includes a complete [human-validation kit](validation/README.md), but the planned external sessions are still pending. All public examples are synthetic. Consequential decisions require accountable business, product, technical, operational, legal, privacy, security, safety, risk, finance, governance, or domain specialists as appropriate.
 
@@ -151,14 +151,9 @@ Capture terminology friction and missing tactical steps. Update role flows and r
 
 Use the [Validation Hub](validation/README.md) to run the executive/portfolio, product/initiative, and governance/operations sessions. Record only sanitized, non-confidential findings in the public findings register.
 
-### 3. Decide the next tagged release contract
+### 3. Gather representative human evidence
 
-The current `VERSION` and release validator support `0.x` versions such as `0.5` and `0.6`, not patch forms such as `0.5.1`. Either:
-
-- Use `v0.6` for the next tagged evidence and usability release, or
-- Explicitly expand the versioning, changelog, packaging, and validation contract before creating a patch tag.
-
-Do not overwrite the existing `v0.5` tag or silently replace its historical assets.
+Use the five persona flows and Starter Packs with representative users. Capture terminology friction, missing tactical steps, unsafe recommendations, and whether the workflow clarifies or changes a real decision. Keep all public findings anonymized and non-confidential.
 
 ### 4. Continue the active post-release roadmap
 
@@ -177,10 +172,10 @@ The [Starter Packs product contract](STARTER-PACKS.md) and canonical manifests u
 - Human field validation remains pending.
 - The role flows and executive packages have not yet been tested with representative external users.
 - Examples are synthetic.
-- The tagged `v0.5` release includes only the original canonical and Codex library archives. Current release automation can build five Starter Pack archives, but they have not been attached to the historical tag.
+- The tagged `v0.5` release includes only the original canonical and Codex library archives; use `v0.6` for the five Starter Packs.
 - Audience metadata shows intended participation, not proven usability or adoption.
 - External URL availability is not checked in CI.
-- The tagged `v0.5` release assets predate the latest public-experience improvements on `main`.
+- The tagged `v0.6` release is the first snapshot of the five-persona public experience.
 - The scenario-guided Streamlit workbench is documented only as a deferred direction; no application code or implementation commitment exists.
 - Starter Packs require Python plus the development dependencies. The PowerShell wrapper is structurally covered but could not be executed on the macOS development host because PowerShell is not installed there.
 
