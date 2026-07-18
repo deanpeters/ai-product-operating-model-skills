@@ -1,8 +1,8 @@
-# Finally, the AI Product Operating Model Made Easy(ier)
+# Finally, an AI Product Operating Model You Can Actually Use
 
-*AI is easy. Running it well is hard. Here's the missing layer between AI activity and accountable product capability.*
+## AI is easy to start. Running it is hard. Here’s the missing layer between AI activity and accountable product capability.
 
-Your pilots, policies, prompt libraries, and maturity charts are not an operating model. You have pilots and agents everywhere and no shared way to decide what deserves to live, scale, or die.
+*Your pilots, policies, prompt libraries, agents, and maturity charts are not an operating model. Most organizations have AI activity everywhere and no shared way to decide what deserves to live, scale, or die.*
 
 ## The AI Portfolio Review With No Kill Switch
 
