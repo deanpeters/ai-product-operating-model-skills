@@ -1,4 +1,26 @@
+<a id="aipom"></a>
+
 # AI Product Operating Model Skills
+
+[![Validate library](https://github.com/deanpeters/ai-product-operating-model-skills/actions/workflows/validate-library.yml/badge.svg)](https://github.com/deanpeters/ai-product-operating-model-skills/actions/workflows/validate-library.yml) ![GitHub stars](https://img.shields.io/github/stars/deanpeters/ai-product-operating-model-skills?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](LICENSE) [![Version](https://img.shields.io/badge/version-v0.6-blue?style=flat-square)](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.6) ![Skills](https://img.shields.io/badge/skills-41-informational?style=flat-square) ![Starter Packs](https://img.shields.io/badge/Starter%20Packs-5-8A2BE2?style=flat-square) [![Evidence: synthetic preview](https://img.shields.io/badge/evidence-synthetic%20preview-orange?style=flat-square)](docs/EVIDENCE-STATUS.md)
+
+```text
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║      █████╗ ██╗██████╗  ██████╗ ███╗   ███╗                       ║
+║     ██╔══██╗██║██╔══██╗██╔═══██╗████╗ ████║                       ║
+║     ███████║██║██████╔╝██║   ██║██╔████╔██║                       ║
+║     ██╔══██║██║██╔═══╝ ██║   ██║██║╚██╔╝██║                       ║
+║     ██║  ██║██║██║     ╚██████╔╝██║ ╚═╝ ██║                       ║
+║     ╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝     ╚═╝                       ║
+║                                                                    ║
+║     AI PRODUCT OPERATING MODEL SKILLS                              ║
+║     41 guided methods • 5 role-led Starter Packs                   ║
+║     Human facilitators • Codex • Claude Code • platform-neutral    ║
+║                                                                    ║
+║     v0.6 Public Preview • July 18, 2026 • CC BY-NC-SA 4.0          ║
+╚════════════════════════════════════════════════════════════════════╝
+```
 
 AI is easy to start. It is much harder to run well.
 
