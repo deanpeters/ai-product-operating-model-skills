@@ -56,6 +56,14 @@ Use the [workflow playbook builder](../../skills/aipom-workflow-playbook-builder
 - If one recurring motion is broken: [Redesign a Product-Team Workflow](../journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md)
 - If one consequential initiative is pending: [Evaluate an AI Initiative](../journeys/EVALUATE-AN-AI-INITIATIVE.md)
 
+To generate the bounded Product Operations working project from the repository root:
+
+```bash
+./create-starter-pack.sh --pack product-operations-assessment
+```
+
+The generated project starts with `$aipom-start` in Codex or `/aipom-start` in Claude Code.
+
 ## You Are Done When
 
 The relevant decision or practice has evidence, accountable ownership, an explicit next motion, and a review trigger. A completed workshop, roadmap, or playbook is not sufficient by itself.

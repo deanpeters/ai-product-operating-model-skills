@@ -11,6 +11,6 @@ The library contains all 41 active skills across the completed four-phase roadma
 - Phase 3 adds economics, dependency, context lifecycle, evaluation, incident control, readiness, and operating-model design infrastructure.
 - Phase 4 establishes recurring strategy, production evidence, trust assurance, learning, adoption, portfolio, and operating-model improvement loops.
 
-Start with the generated [skill catalog](../catalog/INDEX.md) to browse by category, type, or phase. Use [ROADMAP.md](../ROADMAP.md) for canonical phase status and release gates.
+Start with the generated [skill catalog](../catalog/INDEX.md) to browse by category, type, phase, target persona, or [Starter Pack membership](../catalog/skills-by-starter-pack.md). Use [ROADMAP.md](../ROADMAP.md) for canonical library-phase status and release gates.
 
 Every active skill includes a canonical `SKILL.md`, a reusable template, a synthetic worked example, and a weak example. Generated platform packages belong in `dist/`; do not add platform-specific instructions to the canonical skills.

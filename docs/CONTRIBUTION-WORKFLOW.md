@@ -80,3 +80,16 @@ Confirm that the skill:
 Update `ROADMAP.md` only when the definition of done is met. Regenerate catalogs and run the full test suite again.
 
 Do not mark a skill active based on prose alone.
+
+## Starter Pack Changes
+
+A Starter Pack change begins with a persona-and-job decision, not a desire to expose more skills.
+
+1. Update the canonical manifest under `starter-packs/manifests/`.
+2. Change shared templates or adapters only when the generated working-project contract changes for more than one pack.
+3. Keep package membership out of skill frontmatter.
+4. Run `python3 scripts/validate-starter-packs.py` to resolve recursive dependencies and validate repository paths.
+5. Regenerate the catalog and inspect `catalog/skills-by-starter-pack.md` for unintended primary or dependency changes.
+6. Generate the affected pack into a clean temporary directory and run the complete repository suite.
+
+Do not edit generated pack folders, `PACK-LOCK.yaml`, catalog files, or files under `dist/` as canonical sources.

@@ -34,5 +34,8 @@ jobs:
         run: |
           unzip -t dist/aipom-skills-v0.5.zip
           unzip -t dist/aipom-codex-skills-v0.5.zip
+          for archive in dist/aipom-starter-pack-*-v0.5.zip; do unzip -t "$archive"; done
+          test "$(find dist -maxdepth 1 -name 'aipom-starter-pack-*-v0.5.zip' | wc -l | tr -d ' ')" = "5"
+          test -f dist/STARTER-PACK-COLD-START.yaml
           cd dist
           shasum -a 256 -c SHA256SUMS

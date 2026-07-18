@@ -6,7 +6,7 @@ category: context-knowledge-and-data
 phase: 2
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Manager, Team Lead, Data, Engineering, Research, Privacy, Security, AI Governance]
+audience: [CTO, Product Manager, Team Lead, Data, Engineering, Research, Privacy, Security, AI Governance]
 best_for: [Deciding whether an AI use case may proceed, Finding consequential data gaps before build, Defining bounded remediation rather than generic cleanup]
 evidence_required: [Named use and behavior requirements, Data samples lineage and owners, Quality and coverage evidence, Consent privacy access and operational controls]
 produces: [Purpose-specific data readiness profile, Critical gaps and constrained decisions, Remediation and evidence plan]

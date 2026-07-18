@@ -6,17 +6,20 @@ Use this page to find the right document without reading the repository from top
 
 - [README](../README.md) — plain-English public introduction, who the library serves, and where to begin
 - [Current-State Handoff](HANDOFF.md) — what exists now, what changed, validation commands, known limitations, and recommended next work
-- [Target Personas](TARGET-PERSONAS.md) — Product Operations, Product Manager, and Team Lead execution roles
-- [Starting Paths](STARTING-PATHS.md) — choose an organization, initiative, or product-team workflow journey
+- [Target Personas](TARGET-PERSONAS.md) — Head of Product and CTO leadership roles plus Product Operations, Product Manager, and Team Lead execution roles
+- [Starting Paths](STARTING-PATHS.md) — choose product direction, technical readiness, organization assessment, initiative evaluation, or workflow redesign
 - [Executive Field Guide](EXECUTIVE-FIELD-GUIDE.md) — leadership case and a practical first 90 days
 
 ## Use the Library
 
-- [Persona guides](personas/) — plain-English role flows for Product Operations, Product Managers, and Team Leads
-- [Practitioner journeys](journeys/) — prepare and run the three end-to-end starting paths
+- [Persona guides](personas/) — plain-English role flows for all five leadership and execution personas
+- [Leadership and practitioner journeys](journeys/) — prepare and run the five end-to-end starting paths
 - [Executive adoption packages](adoption-packages/) — six sponsor-ready engagements assembled from existing skills
+- [Starter Packs](../starter-packs/README.md) — generate a persona-and-job-led working project for Codex or Claude Code
+- [Skills by Starter Pack](../catalog/skills-by-starter-pack.md) — compare primary and dependency membership across the five generated projects
+- [Starter Packs Product Contract](STARTER-PACKS.md) — source, safety, dependency, and phase boundaries
 - [Operating Model](OPERATING-MODEL.md) — the seven connected areas, four operating levels, and intended system
-- [Skill Catalog](../catalog/INDEX.md) — generated navigation by category, type, phase, and target persona
+- [Skill Catalog](../catalog/INDEX.md) — generated navigation by category, type, phase, target persona, and Starter Pack membership
 
 ## Canonical Standards
 

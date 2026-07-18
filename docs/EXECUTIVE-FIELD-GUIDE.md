@@ -54,6 +54,18 @@ The categories are diagnostic lenses, not seven separate transformation programs
 
 Do not begin by deploying all 41 skills or commissioning an enterprise-wide maturity exercise by default. Begin with one consequential decision whose outcome, evidence, ownership, and next action matter.
 
+### Start with product direction
+
+Choose [Set AI Product Direction](journeys/SET-AI-PRODUCT-DIRECTION.md) when the Head of Product, CPO, SVP of Product, or equivalent product leader needs to turn scattered AI activity into explicit strategic choices and a portfolio posture.
+
+**Leadership result:** a product strategy thesis, portfolio posture, stated non-goals, evidence gaps, decision rights, and the next bets or stops.
+
+### Start with the technical readiness bar
+
+Choose [Establish the AI Technical Readiness Bar](journeys/ESTABLISH-AI-TECHNICAL-READINESS-BAR.md) when the CTO or equivalent technology leader needs consistent standards for platform dependencies, context, data, evaluation, controls, and incident readiness.
+
+**Leadership result:** a reusable technical readiness standard with evidence thresholds, accountable owners, escalation conditions, and initiative-level exceptions made visible.
+
 ### Start with an organizational assessment
 
 Choose [Assess an Organization](journeys/ASSESS-AN-ORGANIZATION.md) when disconnected initiatives, inconsistent practices, or unclear ownership span multiple teams or categories.
@@ -72,7 +84,7 @@ Choose [Redesign a Product-Team Workflow](journeys/REDESIGN-A-PRODUCT-TEAM-WORKF
 
 **Leadership result:** an observed baseline, explicit human-AI responsibilities, a bounded pilot, measures and countermeasures, and a reusable playbook only when representative evidence supports one.
 
-If the issue is unclear, use the organization path when it spans several teams, the initiative path when a material bet is pending, and the workflow path when the unit of change is recurring product-team work.
+If the issue is unclear, use the product-direction path when strategic choices are unsettled, the technical-readiness path when teams lack a shared engineering bar, the organization path when the issue spans several teams, the initiative path when a material bet is pending, and the workflow path when the unit of change is recurring product-team work.
 
 ## Executive Adoption Packages
 

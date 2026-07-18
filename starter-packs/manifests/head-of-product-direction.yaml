@@ -1,0 +1,55 @@
+schema_version: 1
+id: head-of-product-direction
+version: 0.1.0
+title: Head of Product — Set AI Product Direction
+persona: Head of Product
+description: Turn broad or fragmented AI ambition into evidence-aware product choices, non-goals, portfolio implications, and owned first commitments.
+scenario:
+  id: product-direction
+  trigger: AI ambition, initiatives, vendors, and leadership expectations are multiplying without clear product choices, non-goals, or portfolio implications.
+  operating_level: organization
+  decision: Where should AI contribute to product strategy now, what will the organization avoid, and which learning, investment, containment, or stop motions happen next?
+entrypoint:
+  persona_guide: docs/personas/HEAD-OF-PRODUCT.md
+  journey: docs/journeys/SET-AI-PRODUCT-DIRECTION.md
+  command: commands/aipom-set-product-direction.md
+skills:
+  include:
+    - aipom-strategy-thesis-advisor
+    - aipom-portfolio-posture-advisor
+dependency_policy:
+  include_depends_on: true
+  include_combine_with: false
+supporting_content:
+  - docs/adoption-packages/EXECUTIVE-ALIGNMENT.md
+  - docs/adoption-packages/AI-INVESTMENT-DECISION.md
+  - docs/adoption-packages/QUARTERLY-AI-PORTFOLIO-REVIEW.md
+  - assessments/evidence-rubric.md
+  - docs/ADAPTIVE-FACILITATION.md
+  - docs/EVIDENCE-STANDARD.md
+  - docs/PUBLIC-PREVIEW.md
+workspace:
+  input_directories:
+    - context
+    - evidence
+  output_directories:
+    - outputs
+  ledgers:
+    - CONTEXT-LEDGER.md
+    - DECISION-LOG.md
+platforms:
+  - codex
+  - claude-code
+completion:
+  result: An evidence-aware AI product thesis with explicit choices, non-goals, portfolio implications, first commitments and constraints, owners, and a dated review trigger.
+  required_outputs:
+    - Product and portfolio decision scope
+    - AI product strategy thesis
+    - Strategic choices, non-goals, boundaries, and assumptions
+    - Portfolio posture and contradiction diagnosis
+    - First learning, investment, containment, and stop motions
+    - Owners, unresolved authority decisions, evidence milestones, and review trigger
+  authority_boundary: The Head of Product owns product direction and product-portfolio commitments within the organization's authority model but does not absorb CTO, finance, investment, legal, privacy, security, safety, risk, or governance authority.
+license:
+  id: CC-BY-NC-SA-4.0
+  file: LICENSE

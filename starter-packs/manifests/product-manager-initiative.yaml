@@ -1,0 +1,54 @@
+schema_version: 1
+id: product-manager-initiative
+version: 0.1.0
+title: Product Manager — Evaluate an AI Initiative
+persona: Product Manager
+description: Move an AI opportunity from problem evidence through value, readiness, authority, and a bounded proceed, constrain, remediate, pause, or stop recommendation.
+scenario:
+  id: initiative-decision
+  trigger: A specific AI idea, pilot, product, launch, scale decision, sensitive-data use, or increase in autonomy needs an accountable decision.
+  operating_level: initiative
+  decision: Should this initiative proceed at the proposed scope and consequence, and under what evidence conditions, constraints, ownership, expiry, and review trigger?
+entrypoint:
+  persona_guide: docs/personas/PRODUCT-MANAGER.md
+  journey: docs/journeys/EVALUATE-AN-AI-INITIATIVE.md
+  command: commands/aipom-evaluate-initiative.md
+skills:
+  include:
+    - aipom-opportunity-framing
+    - aipom-outcome-value-map
+    - aipom-bet-charter
+    - aipom-initiative-readiness-review
+dependency_policy:
+  include_depends_on: true
+  include_combine_with: false
+supporting_content:
+  - assessments/evidence-rubric.md
+  - docs/ADAPTIVE-FACILITATION.md
+  - docs/EVIDENCE-STANDARD.md
+  - docs/PUBLIC-PREVIEW.md
+workspace:
+  input_directories:
+    - context
+    - evidence
+  output_directories:
+    - outputs
+  ledgers:
+    - CONTEXT-LEDGER.md
+    - DECISION-LOG.md
+platforms:
+  - codex
+  - claude-code
+completion:
+  result: A scoped proceed, proceed-with-constraints, remediate-and-re-review, pause, or stop recommendation with evidence, owners, expiry, and the next review trigger.
+  required_outputs:
+    - Opportunity and scope definition
+    - Outcome and causal-value map
+    - Bet ownership, constraints, next test, and stop conditions
+    - Evidence, assumption, disagreement, and critical-gap ledger
+    - Readiness recommendation and permitted interim motion
+    - Required specialist decisions and accountable decision owner
+  authority_boundary: The Product Manager integrates evidence and leads product decisions but does not authorize investment, accept risk, approve data use, certify compliance, or replace accountable specialist judgment.
+license:
+  id: CC-BY-NC-SA-4.0
+  file: LICENSE

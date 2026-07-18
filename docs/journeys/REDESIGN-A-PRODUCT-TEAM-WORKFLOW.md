@@ -145,3 +145,5 @@ When a tested motion is stable enough to travel, use the workflow playbook and w
 ## Facilitation and Agent Handoff
 
 Use the [Redesign a Product-Team Workflow command](../../commands/aipom-redesign-workflow.md) for the canonical sequence, context handoff, stop rules, and completion requirements. The integrated redesign uses the [AIPOM Decision Cycle Redesign](../../skills/aipom-decision-cycle-redesign/SKILL.md) and should produce a [Workflow Playbook](../../skills/aipom-workflow-playbook-builder/SKILL.md) only after representative pilot evidence exists.
+
+From the repository root, `./create-starter-pack.sh --pack team-lead-workflow` generates the corresponding working project. Inside a generated project, begin with `$aipom-start` in Codex or `/aipom-start` in Claude Code.

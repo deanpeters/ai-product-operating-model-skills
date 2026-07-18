@@ -146,3 +146,5 @@ At the first review, ask what decision, behavior, evidence quality, or outcome c
 ## Facilitation and Agent Handoff
 
 Use the [Assess an Organization command](../../commands/aipom-assess-organization.md) for the canonical sequence, context handoff, stop rules, and completion requirements. The command orchestrates the [AIPOM Operating Model Assessment](../../skills/aipom-operating-model-assessment/SKILL.md) and [AIPOM Operating Model Roadmap](../../skills/aipom-operating-model-roadmap/SKILL.md).
+
+From the repository root, `./create-starter-pack.sh --pack product-operations-assessment` generates the corresponding working project. Inside a generated project, begin with `$aipom-start` in Codex or `/aipom-start` in Claude Code.

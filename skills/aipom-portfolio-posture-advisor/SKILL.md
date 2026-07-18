@@ -6,7 +6,7 @@ category: portfolio-and-investment-choices
 phase: 1
 status: active
 operating_level: [organization, portfolio]
-audience: [CPO, CTO, VP Product, Product Operations, Product Manager, Finance, AI Governance]
+audience: [Head of Product, CPO, CTO, VP Product, Product Operations, Product Manager, Finance, AI Governance]
 best_for: [Preparing an AI portfolio review, Addressing too many pilots or unclear funding, Rebalancing learning and scaling investments]
 evidence_required: [Initiative inventory and investment, Bet owners and outcomes, Evaluation and decision evidence, Dependencies and constraints]
 produces: [Portfolio posture diagnosis, Initiative decision recommendations, Evidence gaps and next review actions]

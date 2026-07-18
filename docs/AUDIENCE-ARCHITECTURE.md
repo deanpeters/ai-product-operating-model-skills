@@ -10,7 +10,7 @@ This document defines the public navigation model. It is an experience layer ove
 
 ### Lead Change
 
-**Primary readers:** CPOs, CTOs, product and technology executives, Product Operations leaders, governance leaders, and transformation sponsors.
+**Primary readers:** Heads of Product including CPOs and SVPs of Product, CTOs and equivalent senior technology executives, Product Operations leaders, governance leaders, and transformation sponsors.
 
 **Question:** Why does the organization need an AI product operating model, which decisions should improve, and where should leadership begin?
 
@@ -20,11 +20,11 @@ This door should emphasize organizational consequences, decision quality, owners
 
 ### Do the Work
 
-**Primary readers:** Product Operations, Product Managers, Team Leads, product teams, cross-functional partners, facilitators, consultants, trainers, and practitioners responsible for an initiative or recurring workflow.
+**Primary readers:** Heads of Product, CTOs, Product Operations, Product Managers, Team Leads, product teams, cross-functional partners, facilitators, consultants, trainers, and practitioners responsible for a direction, standard, initiative, or recurring workflow.
 
 **Question:** What decision or condition needs attention, what evidence should we bring, and what useful result will the work produce?
 
-**Primary route:** [Target Personas](TARGET-PERSONAS.md) or [Starting Paths](STARTING-PATHS.md), then a persona flow or practitioner journey guide, guided command, and the skills it orchestrates.
+**Primary route:** [Target Personas](TARGET-PERSONAS.md) or [Starting Paths](STARTING-PATHS.md), then a persona flow or journey guide, a generated [Starter Pack](../starter-packs/README.md) when using a coding agent, a guided command, and the skills it orchestrates.
 
 This door should be situation-led and action-oriented. It should explain participants, preparation, effort, outputs, decision authority, and what happens next before exposing the full catalog.
 
@@ -54,7 +54,7 @@ Public documentation should move from purpose to action to implementation:
 
 1. **Recognize the problem.** Explain why disconnected AI activity is an operating-model issue.
 2. **Name the decision.** Help the reader identify the consequential decision or condition that needs to change.
-3. **Choose a bounded path.** Route the reader to an organizational assessment, initiative evaluation, or workflow redesign.
+3. **Choose a bounded path.** Route the reader to product direction, technical readiness, organizational assessment, initiative evaluation, or workflow redesign.
 4. **Do the work.** Use canonical commands and skills while preserving evidence, assumptions, decisions, and ownership.
 5. **Inspect the system.** Offer the complete catalog, standards, schemas, and repository mechanics when needed.
 
@@ -71,10 +71,11 @@ The seven categories remain the diagnostic architecture. They should not be the 
 | Product concept, categories, levels, and intended outcomes | `docs/OPERATING-MODEL.md` |
 | Situation-led entry routes | `docs/STARTING-PATHS.md`, `docs/journeys/`, and `commands/` |
 | Role-led practitioner routes | `docs/TARGET-PERSONAS.md` and `docs/personas/` |
+| Generated persona-and-job working projects | `starter-packs/manifests/`, `starter-packs/templates/`, and `starter-packs/adapters/` |
 | Assessment questions and scoring | `assessments/` |
 | Skill content and relationships | `skills/` |
 | Shared skill and facilitation requirements | `docs/SKILL-SPEC.md` and `docs/ADAPTIVE-FACILITATION.md` |
-| Generated skill navigation | `catalog/` |
+| Generated skill, persona, and Starter Pack navigation | `catalog/` |
 | Contributor operating contract | `AGENTS.md` and `CONTRIBUTING.md` |
 | Release evidence and limitations | `docs/EVIDENCE-STATUS.md` and `docs/PUBLIC-PREVIEW.md` |
 

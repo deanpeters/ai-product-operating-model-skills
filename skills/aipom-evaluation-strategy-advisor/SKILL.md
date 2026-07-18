@@ -6,7 +6,7 @@ category: evaluation-and-evidence
 phase: 1
 status: active
 operating_level: [product-team, initiative]
-audience: [Product Operations, Product Manager, Team Lead, Design, Engineering, Data, Research, AI Governance]
+audience: [CTO, Product Operations, Product Manager, Team Lead, Design, Engineering, Data, Research, AI Governance]
 best_for: [Designing evaluation before launch, Fixing metric-heavy but decision-light testing, Choosing the next evidence investment]
 evidence_required: [Product decision and behavior contract, Users and failure consequences, Existing evaluation results, Production and workflow evidence]
 produces: [Evaluation strategy, Coverage and evidence gaps, Decision rules and ownership]

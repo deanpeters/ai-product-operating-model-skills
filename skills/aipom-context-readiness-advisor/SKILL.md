@@ -6,7 +6,7 @@ category: context-knowledge-and-data
 phase: 1
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Operations, Product Manager, Team Lead, Engineering, Data, Knowledge Management, Privacy, Security]
+audience: [CTO, Product Operations, Product Manager, Team Lead, Engineering, Data, Knowledge Management, Privacy, Security]
 best_for: [Preparing a grounded AI workflow, Diagnosing unreliable or inconsistent outputs, Choosing the next context intervention]
 evidence_required: [Workflow purpose, Candidate sources and owners, Failure examples, Access and lifecycle constraints]
 produces: [Context readiness diagnosis, Consequential gap and recommendation, Evidence and remediation plan]

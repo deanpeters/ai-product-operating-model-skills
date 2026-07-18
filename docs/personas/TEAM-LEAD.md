@@ -68,6 +68,14 @@ Use the [workflow playbook builder](../../skills/aipom-workflow-playbook-builder
 - If a material initiative decision is pending: [Evaluate an AI Initiative](../journeys/EVALUATE-AN-AI-INITIATIVE.md)
 - If authority and escalation are unclear: [Governance and Accountability](../adoption-packages/GOVERNANCE-AND-ACCOUNTABILITY.md)
 
+To generate the bounded Team Lead working project from the repository root:
+
+```bash
+./create-starter-pack.sh --pack team-lead-workflow
+```
+
+The generated project starts with `$aipom-start` in Codex or `/aipom-start` in Claude Code.
+
 ## You Are Done When
 
 The team can perform the bounded work with trusted inputs, explicit responsibilities, usable review and fallback, measurable evidence, accountable decisions, and a clear path to improve, constrain, or stop.

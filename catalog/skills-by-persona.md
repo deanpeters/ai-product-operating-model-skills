@@ -4,9 +4,62 @@ Generated from canonical `SKILL.md` audience metadata. Do not edit directly.
 
 Audience inclusion means the role performs, coordinates, decides, facilitates, or acts on the skill. It does not transfer specialist or executive authority.
 
+## Head of Product
+
+21 of 41 skills identify this persona or an equivalent role in their audience metadata. This role family includes CPO, SVP of Product, and equivalent senior product authorities.
+
+| Skill | Description | Type |
+|---|---|---|
+| [`aipom-capability-maturity-advisor`](../skills/aipom-capability-maturity-advisor/SKILL.md) | Diagnose role capability, applied learning, workflow adoption, stewardship, and outcome evidence; recommend the next capability-building motion rather than more generic training. | interactive |
+| [`aipom-operating-model-assessment`](../skills/aipom-operating-model-assessment/SKILL.md) | Assess AI product operating-model maturity across seven categories using evidence, disagreement, and critical-gap logic. Use to identify consequential gaps and next interventions. | workflow |
+| [`aipom-operating-model-roadmap`](../skills/aipom-operating-model-roadmap/SKILL.md) | Convert evidence-based operating-model findings into an owned 30-, 90-, 180-, and 365-day sequence of interventions, learning milestones, dependencies, and decisions. | workflow |
+| [`responsible-aipom-governance-advisor`](../skills/responsible-aipom-governance-advisor/SKILL.md) | Diagnose the most consequential missing AI governance condition across ownership, authority, controls, escalation, oversight, and trust evidence; recommend the next motion. | interactive |
+| [`aipom-bet-charter`](../skills/aipom-bet-charter/SKILL.md) | Turn an AI idea into an owned investment hypothesis with outcomes, economics, constraints, evidence, and a next learning test. Use before funding or expanding an initiative. | component |
+| [`aipom-portfolio-posture-advisor`](../skills/aipom-portfolio-posture-advisor/SKILL.md) | Diagnose AI portfolio imbalance, premature scaling, weak evidence, vendor exposure, and zombie pilots; recommend where to explore, validate, scale, pause, or stop. | interactive |
+| [`aipom-strategy-thesis-advisor`](../skills/aipom-strategy-thesis-advisor/SKILL.md) | Turn scattered AI ambition into an evidence-aware product strategy thesis with choices, boundaries, outcomes, assumptions, and next bets. Use when direction or non-goals are unclear. | interactive |
+| [`role-based-aipom-competency-map`](../skills/role-based-aipom-competency-map/SKILL.md) | Define observable AI product competencies by role and proficiency level, tied to real decisions, evidence, practice, and progression rather than generic tool fluency. | component |
+| [`aipom-accountability-charter`](../skills/aipom-accountability-charter/SKILL.md) | Assign human decision rights, accountability, review, contribution, escalation, and evidence duties for a material AI product or recurring operating decision. | component |
+| [`aipom-investment-stage-gates`](../skills/aipom-investment-stage-gates/SKILL.md) | Define evidence-based entry, continuation, pivot, scale, pause, and stop decisions for AI investments without turning gates into document approval theater. | component |
+| [`aipom-use-case-triage`](../skills/aipom-use-case-triage/SKILL.md) | Compare AI opportunities across outcome value, evidence, feasibility, responsibility, readiness, and reversibility to recommend explore, validate, defer, or reject. | interactive |
+| [`aipom-outcome-value-map`](../skills/aipom-outcome-value-map/SKILL.md) | Map how AI behavior may change user behavior, product outcomes, economic value, and risk while exposing causal assumptions and countermeasures. | component |
+| [`aipom-initiative-readiness-review`](../skills/aipom-initiative-readiness-review/SKILL.md) | Review one AI initiative across value, economics, dependencies, workflow, context, evaluation, governance, controls, capability, and recovery before a material decision. | workflow |
+| [`aipom-operating-model-design-sprint`](../skills/aipom-operating-model-design-sprint/SKILL.md) | Design and test a bounded AI product operating-model change across decisions, workflows, context, evidence, governance, capability, ownership, and adoption. | workflow |
+| [`aipom-platform-dependency-audit`](../skills/aipom-platform-dependency-audit/SKILL.md) | Assess model, vendor, data, infrastructure, integration, talent, switching, and portability dependencies that can change an AI investment decision. | component |
+| [`aipom-economic-case-builder`](../skills/aipom-economic-case-builder/SKILL.md) | Build an evidence-aware economic case for an AI investment across value, full lifecycle cost, uncertainty, alternatives, risk, and decision thresholds. | component |
+| [`aipom-adoption-impact-scorecard`](../skills/aipom-adoption-impact-scorecard/SKILL.md) | Measure whether AI operating practices change behavior, decisions, workflows, reuse, outcomes, burden, and risk rather than merely increasing activity. | component |
+| [`aipom-learning-system-designer`](../skills/aipom-learning-system-designer/SKILL.md) | Design a role-based applied learning system with real work, practice, coaching, peer feedback, progression, reinforcement, stewardship, and outcome evidence. | workflow |
+| [`aipom-operating-model-retrospective`](../skills/aipom-operating-model-retrospective/SKILL.md) | Review whether the AI product operating model improves decisions and outcomes, identify systemic friction and performative activity, and choose the next changes. | workflow |
+| [`aipom-portfolio-quarterly-review`](../skills/aipom-portfolio-quarterly-review/SKILL.md) | Run a recurring AI portfolio review that reallocates capital and capacity using strategy, outcomes, economics, readiness, production evidence, dependencies, and learning. | workflow |
+| [`aipom-strategy-narrative-builder`](../skills/aipom-strategy-narrative-builder/SKILL.md) | Turn an evidence-based AI product thesis, portfolio choices, outcomes, boundaries, and learning into a clear narrative for aligned organizational action. | component |
+
+## CTO
+
+18 of 41 skills identify this persona or an equivalent role in their audience metadata. This role family includes equivalent accountable senior technology executives.
+
+| Skill | Description | Type |
+|---|---|---|
+| [`aipom-capability-maturity-advisor`](../skills/aipom-capability-maturity-advisor/SKILL.md) | Diagnose role capability, applied learning, workflow adoption, stewardship, and outcome evidence; recommend the next capability-building motion rather than more generic training. | interactive |
+| [`aipom-context-readiness-advisor`](../skills/aipom-context-readiness-advisor/SKILL.md) | Diagnose missing, stale, conflicting, inaccessible, excessive, sensitive, or untrusted context and recommend the next source, package, data, or lifecycle intervention. | interactive |
+| [`aipom-operating-model-assessment`](../skills/aipom-operating-model-assessment/SKILL.md) | Assess AI product operating-model maturity across seven categories using evidence, disagreement, and critical-gap logic. Use to identify consequential gaps and next interventions. | workflow |
+| [`aipom-operating-model-roadmap`](../skills/aipom-operating-model-roadmap/SKILL.md) | Convert evidence-based operating-model findings into an owned 30-, 90-, 180-, and 365-day sequence of interventions, learning milestones, dependencies, and decisions. | workflow |
+| [`aipom-evaluation-strategy-advisor`](../skills/aipom-evaluation-strategy-advisor/SKILL.md) | Recommend the product, model, workflow, human, and production evaluations needed for an AI decision, based on behavior, consequences, evidence gaps, and lifecycle stage. | interactive |
+| [`responsible-aipom-governance-advisor`](../skills/responsible-aipom-governance-advisor/SKILL.md) | Diagnose the most consequential missing AI governance condition across ownership, authority, controls, escalation, oversight, and trust evidence; recommend the next motion. | interactive |
+| [`aipom-portfolio-posture-advisor`](../skills/aipom-portfolio-posture-advisor/SKILL.md) | Diagnose AI portfolio imbalance, premature scaling, weak evidence, vendor exposure, and zombie pilots; recommend where to explore, validate, scale, pause, or stop. | interactive |
+| [`aipom-strategy-thesis-advisor`](../skills/aipom-strategy-thesis-advisor/SKILL.md) | Turn scattered AI ambition into an evidence-aware product strategy thesis with choices, boundaries, outcomes, assumptions, and next bets. Use when direction or non-goals are unclear. | interactive |
+| [`aipom-data-readiness-audit`](../skills/aipom-data-readiness-audit/SKILL.md) | Assess whether data is fit for a specific AI product decision across provenance, quality, access, representativeness, consent, privacy, freshness, and operations. | component |
+| [`aipom-accountability-charter`](../skills/aipom-accountability-charter/SKILL.md) | Assign human decision rights, accountability, review, contribution, escalation, and evidence duties for a material AI product or recurring operating decision. | component |
+| [`aipom-investment-stage-gates`](../skills/aipom-investment-stage-gates/SKILL.md) | Define evidence-based entry, continuation, pivot, scale, pause, and stop decisions for AI investments without turning gates into document approval theater. | component |
+| [`aipom-initiative-readiness-review`](../skills/aipom-initiative-readiness-review/SKILL.md) | Review one AI initiative across value, economics, dependencies, workflow, context, evaluation, governance, controls, capability, and recovery before a material decision. | workflow |
+| [`aipom-operating-model-design-sprint`](../skills/aipom-operating-model-design-sprint/SKILL.md) | Design and test a bounded AI product operating-model change across decisions, workflows, context, evidence, governance, capability, ownership, and adoption. | workflow |
+| [`aipom-risk-control-incident-playbook`](../skills/aipom-risk-control-incident-playbook/SKILL.md) | Design preventive controls, detection, triage, containment, rollback, communication, investigation, remediation, learning, and reporting for AI incidents. | component |
+| [`aipom-platform-dependency-audit`](../skills/aipom-platform-dependency-audit/SKILL.md) | Assess model, vendor, data, infrastructure, integration, talent, switching, and portability dependencies that can change an AI investment decision. | component |
+| [`aipom-operating-model-retrospective`](../skills/aipom-operating-model-retrospective/SKILL.md) | Review whether the AI product operating model improves decisions and outcomes, identify systemic friction and performative activity, and choose the next changes. | workflow |
+| [`aipom-portfolio-quarterly-review`](../skills/aipom-portfolio-quarterly-review/SKILL.md) | Run a recurring AI portfolio review that reallocates capital and capacity using strategy, outcomes, economics, readiness, production evidence, dependencies, and learning. | workflow |
+| [`aipom-strategy-narrative-builder`](../skills/aipom-strategy-narrative-builder/SKILL.md) | Turn an evidence-based AI product thesis, portfolio choices, outcomes, boundaries, and learning into a clear narrative for aligned organizational action. | component |
+
 ## Product Operations
 
-37 of 41 skills identify this persona in their audience metadata.
+37 of 41 skills identify this persona or an equivalent role in their audience metadata.
 
 | Skill | Description | Type |
 |---|---|---|
@@ -50,7 +103,7 @@ Audience inclusion means the role performs, coordinates, decides, facilitates, o
 
 ## Product Manager
 
-41 of 41 skills identify this persona in their audience metadata.
+41 of 41 skills identify this persona or an equivalent role in their audience metadata.
 
 | Skill | Description | Type |
 |---|---|---|
@@ -98,7 +151,7 @@ Audience inclusion means the role performs, coordinates, decides, facilitates, o
 
 ## Team Lead
 
-32 of 41 skills identify this persona in their audience metadata.
+32 of 41 skills identify this persona or an equivalent role in their audience metadata.
 
 | Skill | Description | Type |
 |---|---|---|

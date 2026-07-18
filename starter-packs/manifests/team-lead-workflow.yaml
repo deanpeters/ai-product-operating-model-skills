@@ -1,0 +1,54 @@
+schema_version: 1
+id: team-lead-workflow
+version: 0.1.0
+title: Team Lead — Redesign an AI-Assisted Workflow
+persona: Team Lead
+description: Observe one recurring product-team motion, redesign human and AI responsibilities, run a bounded pilot, and make an evidence-based adoption decision.
+scenario:
+  id: workflow-redesign
+  trigger: Recurring product-team work is slow, inconsistent, overloaded, context-poor, or being changed through AI assistance.
+  operating_level: product-team
+  decision: How should this recurring decision cycle change, what must remain human, and should the tested redesign be adopted, revised, contained, or stopped?
+entrypoint:
+  persona_guide: docs/personas/TEAM-LEAD.md
+  journey: docs/journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md
+  command: commands/aipom-redesign-workflow.md
+skills:
+  include:
+    - aipom-workflow-opportunity-advisor
+    - aipom-productive-motion-map
+    - human-aipom-work-contract
+    - aipom-decision-cycle-redesign
+    - aipom-workflow-playbook-builder
+dependency_policy:
+  include_depends_on: true
+  include_combine_with: false
+supporting_content:
+  - docs/ADAPTIVE-FACILITATION.md
+  - docs/EVIDENCE-STANDARD.md
+  - docs/PUBLIC-PREVIEW.md
+workspace:
+  input_directories:
+    - context
+    - evidence
+  output_directories:
+    - outputs
+  ledgers:
+    - CONTEXT-LEDGER.md
+    - DECISION-LOG.md
+platforms:
+  - codex
+  - claude-code
+completion:
+  result: An observed baseline, explicit human-AI work design, bounded pilot result, and adopt, revise, contain, or stop decision with ownership and review triggers.
+  required_outputs:
+    - Observed current-state productive-motion map
+    - Baseline measures and hidden-burden evidence
+    - Human-AI work contract
+    - Redesigned decision cycle and bounded pilot
+    - Adoption recommendation, countermeasures, owner, and next review
+    - Reusable playbook only when representative evidence supports it
+  authority_boundary: The Team Lead coordinates execution and operating health but does not automatically own product investment, accepted risk, data authorization, legal approval, or specialist decisions.
+license:
+  id: CC-BY-NC-SA-4.0
+  file: LICENSE

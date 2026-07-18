@@ -13,8 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SKILLS = 41
 EXPECTED_COMMANDS = {
     "aipom-assess-organization.md",
+    "aipom-establish-technical-readiness-bar.md",
     "aipom-evaluate-initiative.md",
     "aipom-redesign-workflow.md",
+    "aipom-set-product-direction.md",
 }
 REPRESENTATIVE_SKILLS = {
     "aipom-operating-model-assessment",
@@ -55,9 +57,13 @@ PUBLIC_EXPERIENCE_FILES = {
     "docs/personas/PRODUCT-OPERATIONS.md",
     "docs/personas/PRODUCT-MANAGER.md",
     "docs/personas/TEAM-LEAD.md",
+    "docs/personas/HEAD-OF-PRODUCT.md",
+    "docs/personas/CTO.md",
     "docs/journeys/ASSESS-AN-ORGANIZATION.md",
     "docs/journeys/EVALUATE-AN-AI-INITIATIVE.md",
     "docs/journeys/REDESIGN-A-PRODUCT-TEAM-WORKFLOW.md",
+    "docs/journeys/SET-AI-PRODUCT-DIRECTION.md",
+    "docs/journeys/ESTABLISH-AI-TECHNICAL-READINESS-BAR.md",
     "docs/adoption-packages/README.md",
     "docs/adoption-packages/EXECUTIVE-ALIGNMENT.md",
     "docs/adoption-packages/AI-INVESTMENT-DECISION.md",
@@ -66,6 +72,8 @@ PUBLIC_EXPERIENCE_FILES = {
     "docs/adoption-packages/GOVERNANCE-AND-ACCOUNTABILITY.md",
     "docs/adoption-packages/QUARTERLY-AI-PORTFOLIO-REVIEW.md",
     "catalog/skills-by-persona.md",
+    "catalog/skills-by-starter-pack.md",
+    "catalog/starter-packs-index.yaml",
 }
 REQUIRED_FILES = {
     "VERSION",
@@ -76,6 +84,15 @@ REQUIRED_FILES = {
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
     "docs/STARTING-PATHS.md",
+    "create-starter-pack.sh",
+    "create-starter-pack.ps1",
+    "scripts/build-starter-pack-release.py",
+    "scripts/create-starter-pack.py",
+    "scripts/test-starter-pack-cold-start.py",
+    "scripts/validate-starter-packs.py",
+    "starter-packs/README.md",
+    "starter-packs/schema/starter-pack.schema.yaml",
+    "docs/validation/starter-pack-cold-start-report.md",
 } | VALIDATION_KIT | PUBLIC_PREVIEW_FILES | PUBLIC_EXPERIENCE_FILES
 
 

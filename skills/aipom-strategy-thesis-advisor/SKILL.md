@@ -12,6 +12,7 @@ operating_level:
   - product-team
 
 audience:
+  - Head of Product
   - CPO
   - CTO
   - VP Product
@@ -314,4 +315,3 @@ Treat strategy as a coherent belief supported and revised by evidence, not as an
 ## Sources
 
 This skill is an original AIPOM synthesis of product-strategy, evidence, and portfolio-choice practices. It does not claim a named external methodology.
-

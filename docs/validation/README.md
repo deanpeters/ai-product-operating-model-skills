@@ -14,6 +14,8 @@ Start here to run and record the external human-validation program that follows 
 
 The [synthetic forward-test report](v0.5-forward-test-report.md) records the internal cycle already completed. It does not replace human field evidence.
 
+The [Starter Pack synthetic cold-start report](starter-pack-cold-start-report.md) records clean extraction and start-readiness checks for all five persona packages. It verifies packaging, instructions, dependency closure, and native agent discovery; it does not replace representative users or evaluate model responses.
+
 ## Data Rule
 
 Do not commit participant names, organization names, recordings, transcripts, proprietary artifacts, personal data, client material, security details, or raw session notes. Store raw research only in an approved private location. The repository receives sanitized findings, decision implications, and permitted example patterns.

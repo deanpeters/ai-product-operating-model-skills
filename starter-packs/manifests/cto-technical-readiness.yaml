@@ -1,0 +1,57 @@
+schema_version: 1
+id: cto-technical-readiness
+version: 0.1.0
+title: CTO — Establish the AI Technical Readiness Bar
+persona: CTO
+description: Define consequence-aware technical evidence and operating conditions for AI launch, scale, material change, data use, dependency, and autonomy decisions.
+scenario:
+  id: technical-readiness-bar
+  trigger: Teams use inconsistent production-readiness claims, technical review happens late, or launches and scaling decisions lack shared evidence and recovery expectations.
+  operating_level: organization
+  decision: What must be demonstrated about dependencies, context, data, evaluation, operation, and recovery before each class of AI product decision is technically supportable?
+entrypoint:
+  persona_guide: docs/personas/CTO.md
+  journey: docs/journeys/ESTABLISH-AI-TECHNICAL-READINESS-BAR.md
+  command: commands/aipom-establish-technical-readiness-bar.md
+skills:
+  include:
+    - aipom-platform-dependency-audit
+    - aipom-context-readiness-advisor
+    - aipom-data-readiness-audit
+    - aipom-evaluation-strategy-advisor
+    - aipom-risk-control-incident-playbook
+dependency_policy:
+  include_depends_on: true
+  include_combine_with: false
+supporting_content:
+  - docs/adoption-packages/INITIATIVE-READINESS.md
+  - docs/adoption-packages/GOVERNANCE-AND-ACCOUNTABILITY.md
+  - assessments/evidence-rubric.md
+  - docs/ADAPTIVE-FACILITATION.md
+  - docs/EVIDENCE-STANDARD.md
+  - docs/PUBLIC-PREVIEW.md
+workspace:
+  input_directories:
+    - context
+    - evidence
+  output_directories:
+    - outputs
+  ledgers:
+    - CONTEXT-LEDGER.md
+    - DECISION-LOG.md
+platforms:
+  - codex
+  - claude-code
+completion:
+  result: A consequence-aware technical readiness bar with required evidence, critical gaps, owners, reviewers, exception and expiry rules, permitted interim motions, and review triggers.
+  required_outputs:
+    - Technical decision and consequence classes
+    - Dependency, concentration, portability, and exit evidence requirements
+    - Context and data readiness expectations
+    - Behavior and evaluation coverage requirements
+    - Monitoring, control, fallback, rollback, incident, and recovery expectations
+    - Owners, reviewers, exceptions, expiry, critical gaps, and review triggers
+  authority_boundary: The CTO owns accountable technical decisions within the organization's governance model but does not independently decide product value, approve reserved investment, authorize regulated data use, accept legal or enterprise risk, or certify compliance.
+license:
+  id: CC-BY-NC-SA-4.0
+  file: LICENSE

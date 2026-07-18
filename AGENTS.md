@@ -24,7 +24,8 @@ These are organizational operating-model skills, not generic AI prompts, softwar
 
 The intended users include:
 
--   CPOs and CTOs
+-   Heads of Product, including CPOs and SVPs of Product
+-   CTOs and equivalent senior technology executives
 -   Product and technology executives
 -   Product Operations leaders
 -   Product Managers
@@ -300,7 +301,21 @@ Use the following repository structure:
 │   ├── skills-by-category.md
 │   ├── skills-by-type.md
 │   ├── skills-by-phase.md
-│   └── skills-by-persona.md
+│   ├── skills-by-persona.md
+│   ├── skills-by-starter-pack.md
+│   └── starter-packs-index.yaml
+├── starter-packs/
+│   ├── README.md
+│   ├── adapters/
+│   │   └── <platform-adapter>.tmpl
+│   ├── manifests/
+│   │   └── <starter-pack-id>.yaml
+│   ├── schema/
+│   │   └── starter-pack.schema.yaml
+│   └── templates/
+│       └── <working-project-file>.tmpl
+├── create-starter-pack.sh
+├── create-starter-pack.ps1
 ├── docs/
 │   ├── SKILL-SPEC.md
 │   ├── ADAPTIVE-FACILITATION.md
@@ -318,6 +333,8 @@ Use the following repository structure:
 │   └── research/
 ├── scripts/
 │   ├── validate-skills.py
+│   ├── validate-starter-packs.py
+│   ├── create-starter-pack.py
 │   ├── check-links.py
 │   ├── generate-catalog.py
 │   ├── build-release.sh
@@ -330,6 +347,10 @@ Use the following repository structure:
 -   `skills/` is the source of truth for skill content.
 -   `assessments/` is the source of truth for assessment questions and maturity scoring.
 -   `docs/` is the source of truth for shared behavioral and structural standards.
+-   `starter-packs/manifests/` is the source of truth for Starter Pack composition; manifests reference canonical skills and never duplicate them.
+-   `starter-packs/schema/` is the source of truth for the Starter Pack manifest contract.
+-   `starter-packs/templates/` is the source of truth for the shared generated working-project shell.
+-   `starter-packs/adapters/` is the source of truth for generated Codex and Claude Code project-skill adapters.
 -   `catalog/` contains generated navigation files.
 -   `dist/` contains generated release artifacts.
 
@@ -761,6 +782,36 @@ python3 scripts/check-links.py
 Check internal links and cross-skill references.
 
 ```
+python3 scripts/validate-starter-packs.py
+```
+
+Validate Starter Pack manifests, canonical file references, and recursive skill dependencies.
+
+```
+python3 scripts/create-starter-pack.py --help
+```
+
+List, describe, dry-run, or generate a Starter Pack working project from canonical manifests and skills.
+
+```
+./create-starter-pack.sh --help
+```
+
+Use the macOS/Linux wrapper. On Windows PowerShell, run `.\create-starter-pack.ps1 --help`. Both wrappers forward arguments to the canonical Python generator.
+
+```
+python3 scripts/build-starter-pack-release.py
+```
+
+Build deterministic archives for all five Starter Packs, generate checksums, and verify reproducibility, clean extraction, internal links, lockfiles, and native Codex and Claude Code discovery.
+
+```
+python3 scripts/test-starter-pack-cold-start.py
+```
+
+Run the automated synthetic cold-start contract against all five extracted release archives. This verifies packaging and start-instruction readiness; it does not replace representative human use.
+
+```
 python3 scripts/generate-catalog.py
 ```
 
@@ -846,6 +897,8 @@ Do not edit these directly:
 -   `catalog/skills-by-type.md`
 -   `catalog/skills-by-phase.md`
 -   `catalog/skills-by-persona.md`
+-   `catalog/skills-by-starter-pack.md`
+-   `catalog/starter-packs-index.yaml`
 -   Files under `dist/`
 
 Update canonical sources and regenerate them through repository scripts.
@@ -894,6 +947,8 @@ When asked to perform work in this repository:
 -   Report tests not run and why.
 -   Do not claim a script passed unless it was actually executed.
 -   Do not modify generated artifacts by hand.
+-   Do not hand-copy canonical skills into Starter Pack source folders. Starter Packs are defined by manifests and generated through repository tooling.
+-   Treat generated Starter Pack `library/` content and `PACK-LOCK.yaml` as build output; update canonical sources or manifests and regenerate instead of maintaining generated copies.
 -   Do not publish, commit, push, or open a pull request unless explicitly instructed.
 
 This repository contains organizational methods and documentation, not conventional application code. Review for conceptual correctness, evidence quality, facilitation behavior, and cross-skill coherence, not merely syntax.
@@ -938,6 +993,8 @@ Before preparing a release:
 -   Run `./scripts/test-library.sh`.
 -   Regenerate catalogs.
 -   Rebuild release artifacts.
+-   Confirm all five Starter Pack ZIPs and their checksums were produced.
+-   Confirm clean extraction and both native agent layouts validate for every Starter Pack.
 -   Verify skill counts in `README.md`.
 -   Verify phase counts in `ROADMAP.md`.
 -   Spot-check category, type, and phase indexes.

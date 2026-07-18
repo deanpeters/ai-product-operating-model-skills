@@ -1,0 +1,71 @@
+# {{TITLE}}
+
+This Starter Pack is a working project for **{{PERSONA}}**.
+
+{{DESCRIPTION}}
+
+## The Decision
+
+{{DECISION}}
+
+Use this pack when:
+
+> {{TRIGGER}}
+
+## Start Here
+
+1. Put the material you already have in `context/` and supporting proof in `evidence/`. Partial evidence is acceptable.
+{{PLATFORM_START}}
+4. Keep final working artifacts in `outputs/`. The agent should maintain `CONTEXT-LEDGER.md` and `DECISION-LOG.md` as the work progresses.
+
+## What Completion Looks Like
+
+{{COMPLETION_RESULT}}
+
+The working project should produce:
+
+{{REQUIRED_OUTPUTS}}
+
+## Human Authority
+
+{{AUTHORITY_BOUNDARY}}
+
+AI may organize evidence, expose gaps, facilitate the method, draft artifacts, and recommend next motions. Accountable people make the consequential decisions.
+
+## Project Map
+
+| Path | Purpose |
+|---|---|
+| `AGENTS.md` | Primary working contract for the coding agent |
+| `CLAUDE.md` | Claude Code pointer to the same contract |
+| `.agents/skills/aipom-start/` | Codex project skill when Codex support was selected |
+| `.claude/skills/aipom-start/` | Claude Code `/aipom-start` skill when Claude Code support was selected |
+| `context/` | Background, constraints, notes, and existing artifacts |
+| `evidence/` | Examples of actual use, measures, research, evaluations, and decision records |
+| `outputs/` | Artifacts and recommendations produced through this work |
+| `CONTEXT-LEDGER.md` | Facts, evidence, assumptions, disagreements, gaps, and unresolved questions |
+| `DECISION-LOG.md` | Decisions, owners, rationale, conditions, and review triggers |
+| `library/` | Generated AIPOM methods and standards; do not edit these as canonical sources |
+| `PACK-LOCK.yaml` | Exact source revision, manifest, files, and skill dependency record |
+
+## Canonical Entry Points
+
+- Persona guide: [`{{PERSONA_GUIDE}}`]({{PERSONA_GUIDE}})
+- Journey guide: [`{{JOURNEY}}`]({{JOURNEY}})
+- Execution command: [`{{COMMAND}}`]({{COMMAND}})
+
+## Included Skills
+
+{{SKILL_LIST}}
+
+## Evidence Boundary
+
+No evidence does not mean no progress. It means assumptions and missing evidence must remain visible, and maturity cannot be claimed above `2 - Emerging`. Policies, templates, workshops, licenses, and executive statements are not proof of consistent use or improved outcomes by themselves.
+
+Do not place API keys, passwords, access tokens, regulated personal data, confidential client material, or information you are not authorized to share in this project.
+
+## Generated Dependency Notice
+
+This project was generated from AIPOM Starter Pack `{{PACK_ID}}` version `{{PACK_VERSION}}` and library version `{{LIBRARY_VERSION}}`. Edit your working files, not `library/`. To adopt library changes, regenerate the pack from a newer canonical source and compare `PACK-LOCK.yaml`.
+
+Licensed under [CC BY-NC-SA 4.0](LICENSE).

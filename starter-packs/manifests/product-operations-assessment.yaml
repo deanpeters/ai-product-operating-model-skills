@@ -1,0 +1,60 @@
+schema_version: 1
+id: product-operations-assessment
+version: 0.1.0
+title: Product Operations — Establish an Operating-Model Baseline
+persona: Product Operations
+description: Assess how the organization chooses, builds, evaluates, governs, and learns from AI product work, then turn the most consequential conditions into an owned roadmap.
+scenario:
+  id: operating-model-baseline
+  trigger: AI initiatives, policies, team practices, evidence, and ownership are scattered or inconsistent across the organization.
+  operating_level: organization
+  decision: Which operating-model conditions need attention first, who owns the next motion, and what evidence should change the roadmap?
+entrypoint:
+  persona_guide: docs/personas/PRODUCT-OPERATIONS.md
+  journey: docs/journeys/ASSESS-AN-ORGANIZATION.md
+  command: commands/aipom-assess-organization.md
+skills:
+  include:
+    - aipom-operating-model-assessment
+    - aipom-operating-model-roadmap
+    - aipom-strategy-thesis-advisor
+    - aipom-portfolio-posture-advisor
+    - aipom-workflow-opportunity-advisor
+    - aipom-context-readiness-advisor
+    - aipom-evaluation-strategy-advisor
+    - responsible-aipom-governance-advisor
+    - aipom-capability-maturity-advisor
+dependency_policy:
+  include_depends_on: true
+  include_combine_with: false
+supporting_content:
+  - assessments/aipom-operating-model-assessment.md
+  - assessments/evidence-rubric.md
+  - assessments/scoring-model.md
+  - docs/ADAPTIVE-FACILITATION.md
+  - docs/EVIDENCE-STANDARD.md
+  - docs/PUBLIC-PREVIEW.md
+workspace:
+  input_directories:
+    - context
+    - evidence
+  output_directories:
+    - outputs
+  ledgers:
+    - CONTEXT-LEDGER.md
+    - DECISION-LOG.md
+platforms:
+  - codex
+  - claude-code
+completion:
+  result: An evidence-based operating-model profile and sequenced improvement roadmap with critical gaps, owners, evidence milestones, and review triggers.
+  required_outputs:
+    - Scope and evidence ledger
+    - Seven-category profile or visibly bounded partial assessment
+    - Priority operating-model conditions
+    - Owned 30-, 90-, 180-, and 365-day roadmap
+    - Unresolved authority and specialist decisions
+  authority_boundary: Product Operations may facilitate and steward the system but does not absorb executive, product, technical, operational, legal, privacy, security, safety, risk, finance, governance, or domain authority.
+license:
+  id: CC-BY-NC-SA-4.0
+  file: LICENSE

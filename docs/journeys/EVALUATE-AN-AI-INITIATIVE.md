@@ -145,3 +145,5 @@ Repeat the review after material changes to model, data, vendor, workflow, popul
 ## Facilitation and Agent Handoff
 
 Use the [Evaluate an AI Initiative command](../../commands/aipom-evaluate-initiative.md) for the canonical sequence, context handoff, stop rules, and completion requirements. The full path culminates in the [AIPOM Initiative Readiness Review](../../skills/aipom-initiative-readiness-review/SKILL.md); earlier decisions should use only the proportionate components needed to support the decision.
+
+From the repository root, `./create-starter-pack.sh --pack product-manager-initiative` generates the corresponding working project. Inside a generated project, begin with `$aipom-start` in Codex or `/aipom-start` in Claude Code.

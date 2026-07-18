@@ -60,6 +60,14 @@ Use the [production evidence review](../../skills/aipom-production-evidence-revi
 - If launch or scale is pending: [Evaluate an AI Initiative](../journeys/EVALUATE-AN-AI-INITIATIVE.md)
 - If the product changes recurring team work: [Human-AI Workflow Pilot](../adoption-packages/HUMAN-AI-WORKFLOW-PILOT.md)
 
+To generate the bounded Product Manager working project from the repository root:
+
+```bash
+./create-starter-pack.sh --pack product-manager-initiative
+```
+
+The generated project starts with `$aipom-start` in Codex or `/aipom-start` in Claude Code.
+
 ## You Are Done When
 
 The accountable decision has been made at a defined scope, the evidence and assumptions are visible, specialist decisions are recorded, conditions have owners and expiry, and the next learning or review motion is explicit.

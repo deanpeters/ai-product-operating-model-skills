@@ -68,6 +68,16 @@ python3 scripts/generate-catalog.py
 
 Do not edit files in `catalog/` or `dist/` directly.
 
+For Starter Pack changes, update the canonical manifest, template, adapter, or generator rather than a generated working project. Then run:
+
+```bash
+python3 scripts/validate-starter-packs.py
+python3 scripts/generate-catalog.py
+./scripts/test-library.sh
+```
+
+Review the generated `catalog/skills-by-starter-pack.md` and `catalog/starter-packs-index.yaml` changes. Do not add package membership to canonical skill frontmatter.
+
 ## Change Discipline
 
 - Keep changes focused.

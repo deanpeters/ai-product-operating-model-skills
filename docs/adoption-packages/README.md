@@ -2,6 +2,8 @@
 
 These packages organize existing AIPOM skills around recognizable executive decisions and practitioner engagements. They are curated routes through the library, not new canonical skills, certifications, or fixed consulting recipes.
 
+They are different from [Starter Packs](../../starter-packs/README.md). Executive Adoption Packages describe sponsor-ready engagement shapes; Starter Packs generate self-contained coding-agent working projects for five bounded persona-and-job combinations.
+
 Use the smallest package capable of supporting the decision. Adjust depth to consequence, evidence, operating level, and organizational capacity. Do not run every linked skill merely because it appears in a package.
 
 ## Choose a Package

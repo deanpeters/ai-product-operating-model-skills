@@ -1,0 +1,189 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://github.com/deanpeters/ai-product-operating-model-skills/starter-packs/schema/starter-pack.schema.yaml
+title: AIPOM Starter Pack Manifest
+description: Defines one persona-and-job-led AIPOM Starter Pack without duplicating canonical skill content.
+type: object
+additionalProperties: false
+required:
+  - schema_version
+  - id
+  - version
+  - title
+  - persona
+  - description
+  - scenario
+  - entrypoint
+  - skills
+  - dependency_policy
+  - supporting_content
+  - workspace
+  - platforms
+  - completion
+  - license
+properties:
+  schema_version:
+    const: 1
+  id:
+    type: string
+    pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+  version:
+    type: string
+    pattern: ^[0-9]+\.[0-9]+\.[0-9]+$
+  title:
+    type: string
+    minLength: 1
+  persona:
+    enum:
+      - Product Operations
+      - Product Manager
+      - Team Lead
+      - Head of Product
+      - CTO
+  description:
+    type: string
+    minLength: 1
+  scenario:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - trigger
+      - operating_level
+      - decision
+    properties:
+      id:
+        type: string
+        pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+      trigger:
+        type: string
+        minLength: 1
+      operating_level:
+        enum:
+          - organization
+          - portfolio
+          - product-team
+          - initiative
+      decision:
+        type: string
+        minLength: 1
+  entrypoint:
+    type: object
+    additionalProperties: false
+    required:
+      - persona_guide
+      - journey
+      - command
+    properties:
+      persona_guide:
+        $ref: "#/$defs/repository_path"
+      journey:
+        $ref: "#/$defs/repository_path"
+      command:
+        $ref: "#/$defs/repository_path"
+  skills:
+    type: object
+    additionalProperties: false
+    required:
+      - include
+    properties:
+      include:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          $ref: "#/$defs/kebab_name"
+  dependency_policy:
+    type: object
+    additionalProperties: false
+    required:
+      - include_depends_on
+      - include_combine_with
+    properties:
+      include_depends_on:
+        const: true
+      include_combine_with:
+        const: false
+  supporting_content:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      $ref: "#/$defs/repository_path"
+  workspace:
+    type: object
+    additionalProperties: false
+    required:
+      - input_directories
+      - output_directories
+      - ledgers
+    properties:
+      input_directories:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          $ref: "#/$defs/relative_output_path"
+      output_directories:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          $ref: "#/$defs/relative_output_path"
+      ledgers:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          $ref: "#/$defs/relative_output_path"
+  platforms:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      enum:
+        - codex
+        - claude-code
+  completion:
+    type: object
+    additionalProperties: false
+    required:
+      - result
+      - required_outputs
+      - authority_boundary
+    properties:
+      result:
+        type: string
+        minLength: 1
+      required_outputs:
+        type: array
+        minItems: 1
+        uniqueItems: true
+        items:
+          type: string
+          minLength: 1
+      authority_boundary:
+        type: string
+        minLength: 1
+  license:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - file
+    properties:
+      id:
+        const: CC-BY-NC-SA-4.0
+      file:
+        const: LICENSE
+$defs:
+  kebab_name:
+    type: string
+    pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+  repository_path:
+    type: string
+    minLength: 1
+    pattern: ^(?!/)(?!.*(?:^|/)\.\.(?:/|$)).+$
+  relative_output_path:
+    type: string
+    minLength: 1
+    pattern: ^(?!/)(?!.*(?:^|/)\.\.(?:/|$)).+$

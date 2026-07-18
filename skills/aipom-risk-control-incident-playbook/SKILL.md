@@ -6,7 +6,7 @@ category: governance-and-accountability
 phase: 3
 status: active
 operating_level: [organization, product-team, initiative]
-audience: [Product Operations, Product Manager, Team Lead, Engineering, Operations, Security, Privacy, Legal, Risk, AI Governance]
+audience: [CTO, Product Operations, Product Manager, Team Lead, Engineering, Operations, Security, Privacy, Legal, Risk, AI Governance]
 best_for: [Preparing an AI product for operation, Repairing weak rollback or escalation, Coordinating product and governance incident duties]
 evidence_required: [Behavior and autonomy boundaries, Evaluation thresholds and production signals, Existing incident and escalation systems, Applicable reporting and preservation duties]
 produces: [AI risk-control map, Incident response playbook, Exercise and learning plan]

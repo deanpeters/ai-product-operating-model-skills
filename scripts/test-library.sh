@@ -7,6 +7,8 @@ cd "$repo_dir"
 python3 scripts/validate-skills.py
 python3 scripts/check-links.py
 python3 scripts/validate-release.py
+python3 scripts/validate-starter-packs.py
+python3 -m unittest discover -s tests -p 'test_*.py'
 
 catalog_snapshot="$(mktemp -d)"
 trap 'rm -rf "$catalog_snapshot"' EXIT

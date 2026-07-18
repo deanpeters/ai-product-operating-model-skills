@@ -1,0 +1,175 @@
+starter_packs:
+- id: head-of-product-direction
+  version: 0.1.0
+  title: Head of Product — Set AI Product Direction
+  persona: Head of Product
+  description: Turn broad or fragmented AI ambition into evidence-aware product choices,
+    non-goals, portfolio implications, and owned first commitments.
+  decision: Where should AI contribute to product strategy now, what will the organization
+    avoid, and which learning, investment, containment, or stop motions happen next?
+  result: An evidence-aware AI product thesis with explicit choices, non-goals, portfolio
+    implications, first commitments and constraints, owners, and a dated review trigger.
+  manifest: starter-packs/manifests/head-of-product-direction.yaml
+  primary_skills:
+  - aipom-portfolio-posture-advisor
+  - aipom-strategy-thesis-advisor
+  dependency_skills: []
+  resolved_skills:
+  - aipom-portfolio-posture-advisor
+  - aipom-strategy-thesis-advisor
+- id: cto-technical-readiness
+  version: 0.1.0
+  title: CTO — Establish the AI Technical Readiness Bar
+  persona: CTO
+  description: Define consequence-aware technical evidence and operating conditions
+    for AI launch, scale, material change, data use, dependency, and autonomy decisions.
+  decision: What must be demonstrated about dependencies, context, data, evaluation,
+    operation, and recovery before each class of AI product decision is technically
+    supportable?
+  result: A consequence-aware technical readiness bar with required evidence, critical
+    gaps, owners, reviewers, exception and expiry rules, permitted interim motions,
+    and review triggers.
+  manifest: starter-packs/manifests/cto-technical-readiness.yaml
+  primary_skills:
+  - aipom-context-readiness-advisor
+  - aipom-data-readiness-audit
+  - aipom-evaluation-strategy-advisor
+  - aipom-platform-dependency-audit
+  - aipom-risk-control-incident-playbook
+  dependency_skills:
+  - aipom-accountability-charter
+  - aipom-autonomy-boundary-designer
+  - aipom-behavior-contract-builder
+  - aipom-bet-charter
+  - aipom-eval-scorecard-builder
+  - aipom-golden-dataset-builder
+  - aipom-strategy-thesis-advisor
+  - authoritative-source-map
+  - responsible-aipom-governance-advisor
+  resolved_skills:
+  - aipom-accountability-charter
+  - aipom-autonomy-boundary-designer
+  - aipom-behavior-contract-builder
+  - aipom-bet-charter
+  - aipom-context-readiness-advisor
+  - aipom-data-readiness-audit
+  - aipom-eval-scorecard-builder
+  - aipom-evaluation-strategy-advisor
+  - aipom-golden-dataset-builder
+  - aipom-platform-dependency-audit
+  - aipom-risk-control-incident-playbook
+  - aipom-strategy-thesis-advisor
+  - authoritative-source-map
+  - responsible-aipom-governance-advisor
+- id: product-operations-assessment
+  version: 0.1.0
+  title: Product Operations — Establish an Operating-Model Baseline
+  persona: Product Operations
+  description: Assess how the organization chooses, builds, evaluates, governs, and
+    learns from AI product work, then turn the most consequential conditions into
+    an owned roadmap.
+  decision: Which operating-model conditions need attention first, who owns the next
+    motion, and what evidence should change the roadmap?
+  result: An evidence-based operating-model profile and sequenced improvement roadmap
+    with critical gaps, owners, evidence milestones, and review triggers.
+  manifest: starter-packs/manifests/product-operations-assessment.yaml
+  primary_skills:
+  - aipom-capability-maturity-advisor
+  - aipom-context-readiness-advisor
+  - aipom-evaluation-strategy-advisor
+  - aipom-operating-model-assessment
+  - aipom-operating-model-roadmap
+  - aipom-portfolio-posture-advisor
+  - aipom-strategy-thesis-advisor
+  - aipom-workflow-opportunity-advisor
+  - responsible-aipom-governance-advisor
+  dependency_skills:
+  - aipom-behavior-contract-builder
+  resolved_skills:
+  - aipom-behavior-contract-builder
+  - aipom-capability-maturity-advisor
+  - aipom-context-readiness-advisor
+  - aipom-evaluation-strategy-advisor
+  - aipom-operating-model-assessment
+  - aipom-operating-model-roadmap
+  - aipom-portfolio-posture-advisor
+  - aipom-strategy-thesis-advisor
+  - aipom-workflow-opportunity-advisor
+  - responsible-aipom-governance-advisor
+- id: product-manager-initiative
+  version: 0.1.0
+  title: Product Manager — Evaluate an AI Initiative
+  persona: Product Manager
+  description: Move an AI opportunity from problem evidence through value, readiness,
+    authority, and a bounded proceed, constrain, remediate, pause, or stop recommendation.
+  decision: Should this initiative proceed at the proposed scope and consequence,
+    and under what evidence conditions, constraints, ownership, expiry, and review
+    trigger?
+  result: A scoped proceed, proceed-with-constraints, remediate-and-re-review, pause,
+    or stop recommendation with evidence, owners, expiry, and the next review trigger.
+  manifest: starter-packs/manifests/product-manager-initiative.yaml
+  primary_skills:
+  - aipom-bet-charter
+  - aipom-initiative-readiness-review
+  - aipom-opportunity-framing
+  - aipom-outcome-value-map
+  dependency_skills:
+  - aipom-accountability-charter
+  - aipom-autonomy-boundary-designer
+  - aipom-behavior-contract-builder
+  - aipom-context-readiness-advisor
+  - aipom-data-readiness-audit
+  - aipom-economic-case-builder
+  - aipom-eval-scorecard-builder
+  - aipom-evaluation-strategy-advisor
+  - aipom-golden-dataset-builder
+  - aipom-platform-dependency-audit
+  - aipom-risk-control-incident-playbook
+  - aipom-strategy-thesis-advisor
+  - authoritative-source-map
+  - responsible-aipom-governance-advisor
+  resolved_skills:
+  - aipom-accountability-charter
+  - aipom-autonomy-boundary-designer
+  - aipom-behavior-contract-builder
+  - aipom-bet-charter
+  - aipom-context-readiness-advisor
+  - aipom-data-readiness-audit
+  - aipom-economic-case-builder
+  - aipom-eval-scorecard-builder
+  - aipom-evaluation-strategy-advisor
+  - aipom-golden-dataset-builder
+  - aipom-initiative-readiness-review
+  - aipom-opportunity-framing
+  - aipom-outcome-value-map
+  - aipom-platform-dependency-audit
+  - aipom-risk-control-incident-playbook
+  - aipom-strategy-thesis-advisor
+  - authoritative-source-map
+  - responsible-aipom-governance-advisor
+- id: team-lead-workflow
+  version: 0.1.0
+  title: Team Lead — Redesign an AI-Assisted Workflow
+  persona: Team Lead
+  description: Observe one recurring product-team motion, redesign human and AI responsibilities,
+    run a bounded pilot, and make an evidence-based adoption decision.
+  decision: How should this recurring decision cycle change, what must remain human,
+    and should the tested redesign be adopted, revised, contained, or stopped?
+  result: An observed baseline, explicit human-AI work design, bounded pilot result,
+    and adopt, revise, contain, or stop decision with ownership and review triggers.
+  manifest: starter-packs/manifests/team-lead-workflow.yaml
+  primary_skills:
+  - aipom-decision-cycle-redesign
+  - aipom-productive-motion-map
+  - aipom-workflow-opportunity-advisor
+  - aipom-workflow-playbook-builder
+  - human-aipom-work-contract
+  dependency_skills:
+  - aipom-behavior-contract-builder
+  resolved_skills:
+  - aipom-behavior-contract-builder
+  - aipom-decision-cycle-redesign
+  - aipom-productive-motion-map
+  - aipom-workflow-opportunity-advisor
+  - aipom-workflow-playbook-builder
+  - human-aipom-work-contract

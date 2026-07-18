@@ -113,13 +113,22 @@ Allowed maturity labels are `absent`, `emerging`, `repeatable`, `operationalized
 
 Use audience values to identify roles that perform, coordinate, decide, facilitate, or act on the skill. Inclusion does not transfer decision authority or imply that every listed role performs the same work.
 
-The primary execution personas are:
+The leadership personas are:
+
+- `Head of Product` — includes CPO, SVP of Product, and equivalent senior product authorities; existing `CPO` and `VP Product` metadata contributes to this role family.
+- `CTO` — includes equivalent accountable senior technology executives.
+
+The execution personas are:
 
 - `Product Operations` — stewards operating-model coherence, cross-skill context, cadence, and reuse.
 - `Product Manager` — integrates product evidence and leads opportunity, outcome, readiness, and lifecycle decisions.
 - `Team Lead` — coordinates day-to-day execution, responsibilities, operating evidence, escalation, and improvement for a product or specialist team.
 
 Add these roles selectively where the skill supports work they perform or coordinate. Do not add every persona to every skill merely to increase coverage. See [TARGET-PERSONAS.md](TARGET-PERSONAS.md) for the canonical persona model and plain-English role flows.
+
+### Starter Pack Membership
+
+Do not add Starter Pack membership to skill frontmatter. `starter-packs/manifests/` owns deliberate package selection, while `depends_on` owns required method dependencies. A skill may be primary in one pack, a dependency in another, and absent from the rest. The generated [Skills by Starter Pack](../catalog/skills-by-starter-pack.md) view resolves those relationships without creating a second source of truth.
 
 ## Required Sections
 

@@ -11,6 +11,8 @@ AI Product Operating Model Skills (AIPOM) is a collection of guided methods for 
 [Download the v0.5 public preview](https://github.com/deanpeters/ai-product-operating-model-skills/releases/tag/v0.5), [find your role](docs/TARGET-PERSONAS.md), or [start with the problem in front of you](docs/STARTING-PATHS.md).
 
 > **Honest v0.5 label:** This is a `v0.5 public preview`. The library is structurally validated and synthetically forward-tested, but it has not yet proved its effectiveness through representative organizational use. The examples are synthetic. Kick the tires, question the recommendations, and keep consequential decisions with accountable people and qualified specialists. See [Evidence Status](docs/EVIDENCE-STATUS.md).
+>
+> The tagged `v0.5` download is the original launch snapshot. The five-persona experience and Starter Pack generator are newer work on `main`; release automation now produces all five pack archives for the next published snapshot, but they are not attached to the historical tag.
 
 ## Find Yourself Here
 
@@ -19,6 +21,8 @@ You may come to this library with a title, a problem, or simply the sinking feel
 | If this sounds like you… | What is in it for you | Start here |
 |---|---|---|
 | **You set direction or fund the work.** | Make clearer choices about where AI belongs, what deserves investment, what must be true before scaling, and what should stop. | [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) |
+| **You are the Head of Product, CPO, or SVP of Product.** | Turn AI ambition into product choices, non-goals, portfolio implications, and commitments that teams can actually use. | [Head of Product flow](docs/personas/HEAD-OF-PRODUCT.md) |
+| **You are the CTO or equivalent senior technology leader.** | Set consequence-aware expectations for dependencies, context, data, evaluation, reliability, recovery, and technical readiness. | [CTO flow](docs/personas/CTO.md) |
 | **You work in Product Operations.** | Turn scattered initiatives and one-off team habits into owned, repeatable practices without creating process theater. | [Product Operations flow](docs/personas/PRODUCT-OPERATIONS.md) |
 | **You are a Product Manager.** | Take an AI opportunity from problem evidence through value, behavior, evaluation, authority, launch decisions, and production learning. | [Product Manager flow](docs/personas/PRODUCT-MANAGER.md) |
 | **You lead a product, engineering, design, research, data, or operations team.** | Translate broad direction into work the team can perform, review, stop, recover, and improve. | [Team Lead flow](docs/personas/TEAM-LEAD.md) |
@@ -61,6 +65,18 @@ The point is not to complete a canvas. The point is to make a better decision an
 
 You do not need to study all 41 skills before doing useful work.
 
+### “We have AI ambition, but no usable product direction.”
+
+Use [Set AI Product Direction](docs/journeys/SET-AI-PRODUCT-DIRECTION.md) when leadership needs to choose where AI belongs, what the organization will avoid, how current investments fit, and what moves first.
+
+You will leave with explicit product choices and non-goals, portfolio implications, owned first commitments, evidence gaps, and a dated reason to revisit the direction.
+
+### “Every team has a different definition of technically ready.”
+
+Use [Establish the AI Technical Readiness Bar](docs/journeys/ESTABLISH-AI-TECHNICAL-READINESS-BAR.md) when launch, scale, dependency, data, evaluation, recovery, or autonomy decisions lack shared technical evidence expectations.
+
+You will leave with consequence-aware readiness classes, required evidence, non-negotiable gaps, owners and reviewers, exception rules, and review triggers.
+
 ### “Our AI work is all over the place.”
 
 Use [Assess an Organization](docs/journeys/ASSESS-AN-ORGANIZATION.md) when initiatives, policies, team practices, and ownership do not line up across the organization.
@@ -81,13 +97,20 @@ You will leave with a picture of how the work really happens, clear human and AI
 
 Not sure? Use the [starting-path comparison](docs/STARTING-PATHS.md). Each path also has a smaller 60–90 minute version when you need to scope the problem before committing to the full journey.
 
+If you already use Codex or Claude Code, [Starter Packs](starter-packs/README.md) can generate a focused working project for one of these five jobs, including the relevant methods, context and evidence folders, working ledgers, and plain-language start instructions. Compare the deliberately different primary and dependency sets in [Skills by Starter Pack](catalog/skills-by-starter-pack.md).
+
+Run `./create-starter-pack.sh` on macOS or Linux, or `.\create-starter-pack.ps1` in Windows PowerShell, to open the guided pack builder. Generated projects provide `$aipom-start` in Codex and `/aipom-start` in Claude Code.
+
+All five generated pack shapes pass an automated [synthetic cold-start gate](docs/validation/starter-pack-cold-start-report.md). That verifies packaging and start readiness, not representative human usability or improved decisions.
+
 ## What Is in the Box?
 
 - **41 guided skills.** Each explains when to use it, who should participate, what to bring, how to run it, what it produces, what commonly goes wrong, and what should happen next.
 - **Templates and examples.** Every skill includes a reusable template, a synthetic worked example, and a synthetic weak example that shows failure modes.
-- **Three end-to-end journeys.** Assess the organization, evaluate an initiative, or redesign a team workflow.
+- **Five end-to-end journeys.** Set product direction, establish the technical readiness bar, assess the organization, evaluate an initiative, or redesign a team workflow.
 - **Six executive adoption packages.** Start with alignment, investment, readiness, workflow, governance, or a quarterly portfolio decision.
-- **Role-led guides.** Product Operations, Product Managers, and Team Leads each have a plain-English route through the library.
+- **Role-led guides.** Heads of Product, CTOs, Product Operations, Product Managers, and Team Leads each have a plain-English route through the library.
+- **Starter Packs.** Generate a bounded working project for product direction, technical readiness, an organization baseline, an initiative decision, or workflow redesign without navigating the full catalog first.
 - **A 35-question organization assessment.** Use evidence and disagreement to find the most important conditions—not to manufacture one flattering score.
 - **Human and AI facilitation guidance.** The methods work as readable facilitation guides and as instructions an AI assistant can follow.
 - **Automated checks.** The repository checks skill structure, links, packages, and release integrity so contributors can change it without quietly breaking it.

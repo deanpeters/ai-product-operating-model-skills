@@ -9,11 +9,14 @@ For the current public experience, persona coverage, known limitations, validati
 ## Current Post-Release State
 
 - The public front door now routes people by role, working style, and problem.
-- Product Operations, Product Managers, and Team Leads have plain-English execution flows.
-- Relevant skills expose those execution personas in audience metadata and participation guidance.
+- Heads of Product, CTOs, Product Operations, Product Managers, and Team Leads have plain-English role flows.
+- Relevant skills expose those leadership and execution personas in audience metadata and participation guidance.
 - Leaders have an executive field guide and six adoption packages assembled from existing skills.
-- Three practitioner journeys sit above the compact command layer.
+- Five leadership and practitioner journeys sit above the compact command layer.
+- Five job-specific Starter Packs can generate working projects for Codex and Claude Code from canonical manifests and skills, and release automation builds deterministic verified archives for each.
 - The next evidence priority is representative practitioner and human-facilitator use, not additional catalog growth.
+
+The numbered phases below are **library build phases**. Starter Pack product phases are tracked separately in [docs/STARTER-PACKS.md](docs/STARTER-PACKS.md); do not treat the two phase systems as one sequence.
 
 ## Status Vocabulary
 

@@ -1,0 +1,17 @@
+---
+name: aipom-start
+description: Begin and facilitate this generated AIPOM Starter Pack. Use when the user asks to start, continue, resume, or work through the {{TITLE}} project.
+---
+
+# Begin This Starter Pack
+
+1. Read the root `AGENTS.md` as the primary working contract.
+2. Read the root `README.md`, `CONTEXT-LEDGER.md`, and `DECISION-LOG.md`.
+3. Inspect `context/` and `evidence/` before asking the user for information.
+4. Read `library/{{JOURNEY_SOURCE}}`, then `library/{{COMMAND_SOURCE}}`.
+5. Read each relevant `library/skills/<skill-name>/SKILL.md` before facilitating it.
+6. Use the entry mode requested by the user. If none was requested, use context-dump mode when the workspace contains substantive material; otherwise begin in guided mode.
+7. State the selected mode and the first consequential step in one short paragraph, then begin the work.
+8. Maintain the root ledgers throughout the session and place working artifacts in `outputs/`.
+
+Do not ask for context already supplied. Keep evidence, assumptions, disagreement, missing information, human authority, owners, stop conditions, and review triggers visible. Treat `library/` and `PACK-LOCK.yaml` as generated, read-only dependencies.
