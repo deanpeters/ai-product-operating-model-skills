@@ -157,6 +157,7 @@ Read the [Evidence Standard](docs/EVIDENCE-STANDARD.md), [scoring model](assessm
 
 ### Understand and use AIPOM
 
+- [Introduction](INTRODUCTION.md) — the story behind AIPOM and an invitation to kick the tires
 - [Documentation Guide](docs/README.md) — find current guidance, canonical standards, release records, and validation materials
 - [Current-State Handoff](docs/HANDOFF.md) — restart information for a coworker or coding agent
 - [Executive Field Guide](docs/EXECUTIVE-FIELD-GUIDE.md) — the leadership case and a practical first 90 days
