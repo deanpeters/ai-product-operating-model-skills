@@ -17,6 +17,7 @@ Use this page to find the right document without reading the repository from top
 - [Leadership and practitioner journeys](journeys/) — prepare and run the five end-to-end starting paths
 - [Executive adoption packages](adoption-packages/) — six sponsor-ready engagements assembled from existing skills
 - [Starter Packs](../starter-packs/README.md) — generate a persona-and-job-led working project for Codex or Claude Code
+- [Claude Code Plugin](INSTALL-CLAUDE-CODE.md) — install the complete canonical library in an existing Claude Code environment
 - [Skills by Starter Pack](../catalog/skills-by-starter-pack.md) — compare primary and dependency membership across the five generated projects
 - [Starter Packs Product Contract](STARTER-PACKS.md) — source, safety, dependency, and phase boundaries
 - [Operating Model](OPERATING-MODEL.md) — the seven connected areas, four operating levels, and intended system

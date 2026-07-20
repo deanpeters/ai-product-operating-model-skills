@@ -4,6 +4,11 @@ Notable changes to AI Product Operating Model Skills are recorded here.
 
 ## [Unreleased]
 
+### Added
+
+- Repository-root Claude Code plugin and marketplace for installing the complete canonical AIPOM library without duplicating skill sources
+- Claude Code installation guide and automated plugin/version drift validation
+
 ## [0.6] - 2026-07-18
 
 This public-preview release makes the complete library easier to enter and use through five role-led journeys and five downloadable Starter Packs. It remains structurally validated and synthetically tested; representative human field validation and demonstrated organizational impact are not yet established.

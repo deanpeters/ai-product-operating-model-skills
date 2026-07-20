@@ -97,6 +97,8 @@ The workbench should support several honest access paths rather than assume one 
 3. **Existing AI subscription:** Provider-native AIPOM packages let people use their ChatGPT, Claude, or Gemini subscription inside that provider's own interface. Likely forms include a Custom GPT, installable Claude Skills, and a Gemini Gem. Consumer subscriptions must not be presented as API credentials for an external Streamlit application.
 4. **Subscription bridge:** Streamlit may assemble a scenario-specific context packet or prompt for use in a provider-native experience and accept the resulting handoff back. This is less seamless than an API connection but avoids pretending the subscription can operate as an external model backend.
 
+The first provider-native distribution path is now implemented on `main`: Claude Code users can install the complete canonical library as the `aipom` plugin through the repository's `aipom-skills` marketplace. This is a reusable installation path for existing projects, not a replacement for Starter Pack working ledgers or evidence discipline. Claude Desktop/Web, ChatGPT, and Gemini packages remain future options rather than completed commitments.
+
 The AI may interpret supplied context, identify gaps, ask adaptive questions, synthesize evidence and disagreement, explain tradeoffs, and draft artifacts or recommendations. Application logic must still enforce evidence ceilings, critical-gap treatment, required output fields, explicit human authority, and the distinction between an AI recommendation and an accountable decision.
 
 ### Revisit before implementation

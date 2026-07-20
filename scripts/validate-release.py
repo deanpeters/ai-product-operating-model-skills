@@ -76,6 +76,8 @@ PUBLIC_EXPERIENCE_FILES = {
     "catalog/starter-packs-index.yaml",
 }
 REQUIRED_FILES = {
+    ".claude-plugin/marketplace.json",
+    ".claude-plugin/plugin.json",
     "VERSION",
     "CHANGELOG.md",
     "LICENSE",
@@ -83,12 +85,14 @@ REQUIRED_FILES = {
     "ROADMAP.md",
     "docs/RELEASE-PLAN.md",
     "docs/RELEASE-READINESS.md",
+    "docs/INSTALL-CLAUDE-CODE.md",
     "docs/STARTING-PATHS.md",
     "create-starter-pack.sh",
     "create-starter-pack.ps1",
     "scripts/build-starter-pack-release.py",
     "scripts/create-starter-pack.py",
     "scripts/test-starter-pack-cold-start.py",
+    "scripts/validate-claude-plugin.py",
     "scripts/validate-starter-packs.py",
     "starter-packs/README.md",
     "starter-packs/schema/starter-pack.schema.yaml",

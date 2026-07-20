@@ -7,12 +7,12 @@
 ```text
 ╔════════════════════════════════════════════════════════════════════╗
 ║                                                                    ║
-║      █████╗ ██╗██████╗  ██████╗ ███╗   ███╗                       ║
-║     ██╔══██╗██║██╔══██╗██╔═══██╗████╗ ████║                       ║
-║     ███████║██║██████╔╝██║   ██║██╔████╔██║                       ║
-║     ██╔══██║██║██╔═══╝ ██║   ██║██║╚██╔╝██║                       ║
-║     ██║  ██║██║██║     ╚██████╔╝██║ ╚═╝ ██║                       ║
-║     ╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝     ╚═╝                       ║
+║      █████╗ ██╗██████╗  ██████╗ ███╗   ███╗                        ║
+║     ██╔══██╗██║██╔══██╗██╔═══██╗████╗ ████║                        ║
+║     ███████║██║██████╔╝██║   ██║██╔████╔██║                        ║
+║     ██╔══██║██║██╔═══╝ ██║   ██║██║╚██╔╝██║                        ║
+║     ██║  ██║██║██║     ╚██████╔╝██║ ╚═╝ ██║                        ║
+║     ╚═╝  ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝     ╚═╝                        ║
 ║                                                                    ║
 ║     AI PRODUCT OPERATING MODEL SKILLS                              ║
 ║     41 guided methods • 5 role-led Starter Packs                   ║
@@ -123,6 +123,8 @@ Run `./create-starter-pack.sh` on macOS or Linux, or `.\create-starter-pack.ps1`
 
 All five generated pack shapes pass an automated [synthetic cold-start gate](docs/validation/starter-pack-cold-start-report.md). That verifies packaging and start readiness, not representative human usability or improved decisions.
 
+If you already have a project and want the complete library available inside Claude Code, install the [AIPOM Claude Code plugin](docs/INSTALL-CLAUDE-CODE.md). The plugin is the quick reusable installation path; Starter Packs remain the structured path for work that needs prepared context, evidence, decision, and output ledgers.
+
 ## What Is in the Box?
 
 - **41 guided skills.** Each explains when to use it, who should participate, what to bring, how to run it, what it produces, what commonly goes wrong, and what should happen next.
@@ -188,6 +190,7 @@ Read the [Evidence Standard](docs/EVIDENCE-STANDARD.md), [scoring model](assessm
 - [Starting Paths](docs/STARTING-PATHS.md) — choose a route based on the problem in front of you
 - [Operating Model](docs/OPERATING-MODEL.md) — the fuller explanation of the system
 - [Skill Catalog](catalog/INDEX.md) — browse all 41 skills
+- [Claude Code Plugin](docs/INSTALL-CLAUDE-CODE.md) — install the complete canonical library in an existing Claude Code environment
 
 ### Inspect the evidence and release
 

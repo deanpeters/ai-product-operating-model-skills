@@ -1,0 +1,32 @@
+{
+  "name": "aipom-skills",
+  "owner": {
+    "name": "Dean Peters"
+  },
+  "metadata": {
+    "description": "Evidence-led AI Product Operating Model skills for Claude Code.",
+    "version": "0.6.0"
+  },
+  "plugins": [
+    {
+      "name": "aipom",
+      "source": ".",
+      "description": "Assess, design, and improve organizational practices for AI-powered products and AI-assisted product work.",
+      "version": "0.6.0",
+      "author": {
+        "name": "Dean Peters"
+      },
+      "homepage": "https://github.com/deanpeters/ai-product-operating-model-skills",
+      "repository": "https://github.com/deanpeters/ai-product-operating-model-skills",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "productivity",
+      "tags": [
+        "ai-product-management",
+        "operating-model",
+        "governance",
+        "evaluation"
+      ],
+      "strict": false
+    }
+  ]
+}

@@ -44,7 +44,7 @@ for filename in [
 ]:
     shutil.copy2(root / filename, release / filename)
 
-for dirname in [".github", "assessments", "catalog", "commands", "docs", "scripts", "skills", "starter-packs", "tests"]:
+for dirname in [".claude-plugin", ".github", "assessments", "catalog", "commands", "docs", "scripts", "skills", "starter-packs", "tests"]:
     shutil.copytree(
         root / dirname,
         release / dirname,

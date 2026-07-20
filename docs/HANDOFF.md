@@ -2,7 +2,7 @@
 
 Use this document when a coworker or a new coding agent picks up the repository without the conversation that produced it.
 
-Last updated: 2026-07-18
+Last updated: 2026-07-20
 
 ## Cold Start
 
@@ -43,7 +43,7 @@ Read AGENTS.md, README.md, docs/HANDOFF.md, and docs/POST-RELEASE-ROADMAP.md in 
 - Assessment: 35 stable questions with evidence and maturity-scoring rules
 - Public entry routes: five leadership and practitioner journeys plus six executive adoption packages
 - Target personas: Head of Product and CTO leadership roles plus Product Operations, Product Manager, and Team Lead execution roles
-- Platform packaging: canonical platform-neutral archive, generated Codex-compatible archive, and five Starter Pack archives
+- Platform packaging: canonical platform-neutral archive, generated Codex-compatible archive, repository-root Claude Code plugin, and five Starter Pack archives
 - Starter Packs: product contract, five manifests, generator, shared shell, native Codex and Claude Code adapters, cross-platform wrappers, deterministic archives, checksums, extraction verification, focused tests, and product phases 0–6 complete
 
 The tagged `v0.6` assets contain the executive, practitioner, persona, journey, and Starter Pack experience as it existed at the release commit. The long-form `INTRODUCTION.md`, README ASCII-and-badge header, dynamic-version CI repair, and release-builder inclusion of `INTRODUCTION.md` were added afterward on `main`. Do not rewrite the `v0.6` tag or replace its historical assets to pull those later changes backward. The tagged `v0.5` assets likewise remain the immutable original launch snapshot.
@@ -111,8 +111,9 @@ The public experience was deliberately reorganized for the `v0.6` release:
 7. `scripts/test-library.sh` compares generated catalogs before and after generation, so uncommitted but correctly regenerated catalogs can validate.
 8. `INTRODUCTION.md` now provides a long-form public launch story, quick-start instructions, package anatomy, evidence boundaries, and a direct field-feedback invitation.
 9. The README now carries a sibling-repository-style ASCII identity and badges for CI, stars, license, version, skill count, Starter Packs, and the synthetic evidence label.
-10. `.github/workflows/validate-library.yml` reads the current version from `VERSION` rather than assuming v0.5 archive names.
-11. `scripts/build-release.sh` includes `INTRODUCTION.md` in future canonical release archives so the README link survives clean extraction.
+10. Claude Code users can install the complete canonical library through the `aipom-skills` marketplace as the `aipom` plugin. The repository root is the plugin source, so `skills/` and `commands/` remain canonical and are not copied into a second maintained tree.
+11. `.github/workflows/validate-library.yml` reads the current version from `VERSION` rather than assuming v0.5 archive names.
+12. `scripts/build-release.sh` includes `INTRODUCTION.md` in future canonical release archives so the README link survives clean extraction.
 
 Current audience coverage is intentionally selective:
 
@@ -200,6 +201,10 @@ The [post-release roadmap](POST-RELEASE-ROADMAP.md#deferred-product-direction-sc
 
 The [Starter Packs product contract](STARTER-PACKS.md) and canonical manifests under `starter-packs/` define the selected project-native direction. **Starter Pack product phases 0 through 6** are complete; these are separate from the completed library build phases in `ROADMAP.md`. `scripts/create-starter-pack.py` generates a safe working project from one manifest and the canonical library. Platform selection generates Codex `$aipom-start`, Claude Code `/aipom-start`, or both; root Bash and PowerShell wrappers forward the same interface. `scripts/build-starter-pack-release.py` builds deterministic archives and verifies reproducibility, extraction, internal links, lockfiles, and both native adapter layouts. Phase 7's [synthetic cold-start gate](validation/starter-pack-cold-start-report.md) passes all five packs; representative-persona use remains pending.
 
+### Claude Code plugin boundary
+
+The repository root is also a single Claude Code plugin named `aipom`, distributed through the `aipom-skills` marketplace. This provides low-friction access to all canonical skills and workflow commands inside an existing project. It does not generate context, evidence, decision, or output ledgers and does not replace Starter Packs for durable multi-session work. Keep `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, and `VERSION` synchronized through `scripts/validate-claude-plugin.py`; validate the native contract with `claude plugin validate .` before release.
+
 ## Known Limitations
 
 - Human field validation remains pending.
@@ -210,6 +215,7 @@ The [Starter Packs product contract](STARTER-PACKS.md) and canonical manifests u
 - External URL availability is not checked in CI.
 - The tagged `v0.6` release is the first snapshot of the five-persona public experience.
 - The post-release `INTRODUCTION.md` and README visual header are on `main` but not inside the immutable published `v0.6` archives.
+- The Claude Code plugin is implemented on `main` after the `v0.6` tag and has passed native manifest validation, but a representative clean-install usability session remains pending.
 - The scenario-guided Streamlit workbench is documented only as a deferred direction; no application code or implementation commitment exists.
 - Starter Packs require Python plus the development dependencies. The PowerShell wrapper is structurally covered but could not be executed on the macOS development host because PowerShell is not installed there.
 
